@@ -4,9 +4,10 @@
  **/
 
 .pleft{
-	width:712px;
+	width:45px;
 	float:left;
-	overflow:hidden;
+	height:100%;
+	background: url('../images/xt_bg_left.gif') no-repeat left bottom;
 }
 .pleft .place{
 	width:712px;
@@ -70,9 +71,17 @@
 	TEXT-DECORATION: underline;
 }
 .pright{
-	width:240px;
+	width:47px;
+	height:100%;
 	float:right;
-	overflow:hidden;
+	background: url('../images/xt_bg_right.gif') no-repeat left bottom;	
+}
+.pmiddle{
+	width:906px;
+	height:100%;
+	float:left;
+	background: url('../images/xt_bg_middle.gif') repeat-x left bottom;
+	position:relative;
 }
 .dede_pages{
 }

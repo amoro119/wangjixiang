@@ -17,7 +17,7 @@ html{
 	background:#FFF;
 }
 body{
-	font:12px Verdana,Arial,Tahoma;
+	font:12px Arial,Verdana,Tahoma;
 }
 img{
 	border:none;
@@ -42,15 +42,14 @@ input,select,button{
 .center{
 	margin:0px auto;
 }
-.w960{
-	width:960px;
+.w998{
+	width:998px;
 	/*position:relative;*/
 }
 .pright .infos_userinfo {
 	margin-bottom: 0px;
 }
 .mt1{/* ( margin-top * 1 ) */
-	margin-top:8px;
 }
 .pright .mt1{
 	margin-top:0px;
@@ -117,16 +116,25 @@ input,select,button{
 /*---------- frame : header ---------*/
 .header{
 	width:100%;
-	width:960px;
+	width:998px;
 	margin:auto;
 	overflow:hidden;
 }
 .header .header_top{
-	height:25px;
-	line-height:25px;
-	border-bottom:1px solid #DBDBDB;
-	color:#676767;
+	height:19px;
+	line-height:19px;
+	color:#fff;
+	background: url('../images/xt_top.jpg') no-repeat top left;	
 	}
+.header .header_top .language{
+	float:right;
+	padding-right:124px;
+	line-height:19px;
+}
+.header .header_top .language li{
+	display:inline;
+	padding:0 14px 0 14px;
+}
 .header .time{
 	float:left;
 	padding-left:10px;	
@@ -147,68 +155,21 @@ input,select,button{
 	overflow:hidden;
 }
 .header a{
-	color:#777;
+	color:#fff;
 }
 .header a:hover{
-	color:#ff3333;
-	text-decoration:none;
-}
-.header .top{
-	clear:both;
-	overflow:hidden;
-	margin-top:10px;
-}
-.header .title{
-	float:left;
-	padding-left:10px;
-
-}
-.header .title h1 a{
-	width:216px;
-	height:54px;
-	display:block;
-	overflow:hidden;
+	text-decoration:underline;
 }
 .header .banner{
-	width:500px;
-	height:60px;
-	float:left;
-	margin-left:20px;
+	clear:both;
 	overflow:hidden;
-}
-.header .banner img{
-	width:500px;
-	height:60px;
-	display:block;
-}
-.header .banner2{
-	width:200px;
-	height:60px;
-	float:left;
-	margin-left:10px;
-	overflow:hidden;
-}
-.header .banner2 img{
-	width:200px;
-	height:60px;
-	display:block;
-}
-
-.header .welcome{
-	float:right;
-	margin-top:20px;
-	padding-right:10px;
-	color:#999;
-}
-.header .welcome a{
-	margin:0px 3px;	
 }
 
 /*----- 新版导航菜单位置的样式 -------*/
 .header .nav { }
 /*-------- 圆角模型 ---------*/
 .module, .module .mid {
-	overflow:hidden;
+	overflow:visible;
 }
 .module .top .t_l, .module .bottom .b_l {
 	float:left;
@@ -249,14 +210,14 @@ input,select,button{
 	margin-left: 8px;
 	padding-top: 8px;/*padding-bottom: 10px;*/
 }
-.module .top, .module .top .t_l, .module .top .t_r, .module .bottom, .module .bottom .b_l, .module .bottom .b_r {
-	background-image: url("../images/green_skin.png");
+.module .top{
+	background: url('../images/xt_bg_nav.gif') no-repeat 0 0;
+	
 }
 /*------ 主色 -------*/
 .blue .top {
-	background-position: 0 -72px;
-	background-repeat: repeat-x;
-	height: 70px;
+	height: 61px;
+	position: relative;
 }
 .blue .top .t_l {
 	background-position: 0 0;
@@ -272,27 +233,28 @@ input,select,button{
 }
 /* --------- 导航 ----------------*/
 .w963 {
-	width:960px;
+	width:998px;
 }
 #navMenu {
 	width:915px;
-	overflow:hidden;
+	overflow:visible;
 	height: 28px;
-	padding:8px 0 0 15px;
+	position:absolute;
+	z-index:99;
+	top:-16px;
 }
 #navMenu ul {
 	float:left;
 	height: 22px;
+	padding-left:41px;
 }
 #navMenu ul li {
 	float:left;	
 	height: 22px;
-	margin-right: 10px;
-	margin-left: -3px;
-	padding-left: 10px;
+	padding-left: 43px;
 }
 #navMenu ul li a {
-	color: #FFF;
+	color: #000;
 	height: 22px;
 	text-decoration:none;
 	display: inline-block;
@@ -300,7 +262,7 @@ input,select,button{
 }
 #navMenu ul li span {
 	cursor:pointer;
-	display:inline-block;
+	display:none;
 	height:22px;
 	line-height:20px;
 	margin:0 0 0 5px;
@@ -308,43 +270,7 @@ input,select,button{
 	text-align:center;
 	vertical-align:middle;
 	font-weight:bold;
-	color:#ebf5e9;
-}
-#navMenu ul li.hover {
-	padding-top:0;
-}
-#navMenu ul li.hover a {
-	background:url(../images/green_skin.png) 0 -152px no-repeat;
-	display: inline-block;
-	position: relative;
-}
-#navMenu ul li.hover span {
-	background:url(../images/green_skin.png) no-repeat right top;
-	cursor:pointer;
-	display:inline-block;
-	height:22px;
-	line-height:20px;
-	margin:0 0 0 5px;
-	padding:0 5px 0 0;
-	text-align:center;
-	vertical-align:middle;
-}
-#navMenu ul li a.hover, #navMenu ul li a:hover {
-	background:url(../images/green_skin.png) 0 -152px no-repeat;
-	text-decoration:none;
-	display: inline-block;
-	position: relative;
-}
-#navMenu ul li a.hover span, #navMenu ul li a:hover span {
-	background:url(../images/green_skin.png) no-repeat right top;
-	cursor:pointer;
-	display:inline-block;
-	height:22px;
-	line-height:20px;
-	margin:0 0 0 5px;
-	padding:0 5px 0 0;
-	text-align:center;
-	vertical-align:middle;
+	color:#000;
 }
 /*-------- 下拉菜单 --------------*/
 .dropMenu {
@@ -592,14 +518,9 @@ input,select,button{
 }
 /*---------- frame : footer ---------*/
 .footer{
-	width:960px;
+	width:998px;
 	margin:auto;
-	color:#999;
 	text-align:center;
-	margin-top:8px;
-	padding-bottom:10px;
-	border-top:1px solid #E5EFD6;
-	padding-top:10px;
 }
 .footer .link{
 	text-align:center;
@@ -680,3 +601,89 @@ input,select,button{
 #dedecms_skins_5.selected{
 	background-position:95px 15px !important;
 }
+/*自定义
+------------------------------------*/
+.clear{
+   clear:both;
+}
+.pmiddle #ad1{
+	float:left;
+}
+.pmiddle #board{
+	float:left;
+	padding:0 0 0 10px;
+}
+.pmiddle #login{
+	float:right;
+}
+.pmiddle #hot{
+	float:left;
+	padding:5px 6px 0 0 ;
+}
+.pmiddle #hotright{
+	float:right;
+	width:277px;
+	padding:20px 0 0 0;
+}
+.pmiddle #hotright img{
+	float:left;
+	padding-top:12px;
+}
+.pmiddle #homelist{
+	margin-top:8px;
+}
+.pmiddle #homelist .list_l{
+	float:left;
+}
+.pmiddle #homelist .list_m{
+	float:left;
+	padding:0 0 0 12px;
+}
+.pmiddle #homelist .list_r{
+	float:right;
+}
+.pmiddle #homelist .list_box{
+	margin-top:6px;
+}
+.home{
+	height:1069px;
+}
+.contact{
+	height:429px;
+}
+.contact .pleft{
+	width:49px;
+	float:left;
+	height:100%;
+	background: url('../images/xt_bg_contact_left.gif') no-repeat left bottom;
+}
+.contact .pright{
+	width:50px;
+	height:100%;
+	float:right;
+	background: url('../images/xt_bg_contact_right.gif') no-repeat left bottom;	
+}
+.contact .pmiddle{
+	width:899px;
+	height:100%;
+	float:left;
+	background: url('../images/xt_bg_contact.gif') repeat-x left bottom;
+	position:relative;
+}
+#contact_bg{
+	background: url('../images/xt_contact.jpg') no-repeat 0 0;
+	width:899px;
+	height:408px;
+	margin-top:5px;
+	position:relative;
+}
+#contact_bg ul{
+	position:absolute;
+	top:48px;
+	left:52px;
+	color:#000000;
+}
+#contact_bg ul li{
+	line-height:20px;
+}
+	

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2010 年 12 月 01 日 05:38
+-- 生成日期: 2010 年 12 月 03 日 10:43
 -- 服务器版本: 5.1.41
 -- PHP 版本: 5.3.1
 
@@ -218,7 +218,7 @@ CREATE TABLE IF NOT EXISTS `dede_admin` (
 --
 
 INSERT INTO `dede_admin` (`id`, `usertype`, `userid`, `pwd`, `uname`, `tname`, `email`, `typeid`, `logintime`, `loginip`) VALUES
-(1, 10, 'admin', 'f297a57a5a743894a0e4', 'admin', '', '', '0', 1291181778, 'unknown');
+(1, 10, 'admin', 'f297a57a5a743894a0e4', 'admin', '', '', '0', 1291365726, 'unknown');
 
 -- --------------------------------------------------------
 
@@ -309,6 +309,37 @@ CREATE TABLE IF NOT EXISTS `dede_arccache` (
 -- 转存表中的数据 `dede_arccache`
 --
 
+INSERT INTO `dede_arccache` (`md5hash`, `uptime`, `cachedata`) VALUES
+('8e6b6b2fff65d61d659c8517d7aa98be', 1291354257, '0'),
+('0e29235b80b55945ee44ea098666126f', 1291354257, '0'),
+('40e63f4b67b9d7bf2eefa0649d1a0c20', 1291354257, '0'),
+('fa0b2e8c0cedc50c7d46cbe27c0710d0', 1291354257, '0'),
+('bbd71ece5086b78d8f4051effc7b822b', 1291354257, '0'),
+('f9a339194685a329087fed0ee3fd102c', 1291354257, '0'),
+('be743427d0b0366c54fdde403e2c4b5d', 1291354257, '0'),
+('1350e910c3c6c241fe5e5e95e7434589', 1291354258, '0'),
+('e7aeb553c6dd48b607ebfea699d59480', 1291354258, '0'),
+('7d5984e9de31f852926ff065552446be', 1291355024, '0'),
+('f214fc5460e29f1f671ffcc6b13bc728', 1291355024, '0'),
+('f23304e7d565ca341e5791e77d663f67', 1291355024, '0'),
+('495d7edbbe8b2ea212091e87a7a9ded9', 1291355024, '0'),
+('aafda63ac5ea45b1ab78ee60e2cb7dd3', 1291355024, '0'),
+('3501ead439e3f1e14d649182523a4640', 1291355024, '0'),
+('a9154a3dccc5de778a31d35cdfe99f81', 1291355024, '0'),
+('71421792c340bca0dd1f570a8601baeb', 1291355024, '0'),
+('580f8b4f693bbcb58c2c88df1eaab6cf', 1291355024, '0'),
+('98e88d0234243f2be38f6205f26d3415', 1291365882, '0'),
+('b6b1ae83cf6cce443dc0a9a9d1c99bb4', 1291365882, '0'),
+('b878e9bbf7c1be96e9545c6caf32aa31', 1291365882, '0'),
+('b7b90597d1fa6b81e003add5858639ad', 1291365882, '0'),
+('79078ba633252b9032178692bdd0b88b', 1291365882, '0'),
+('2b38cd2028923b8134ce685d65391597', 1291365882, '0'),
+('693b0317d636d0bd6d9e2495720cde99', 1291366278, '0'),
+('d26269d04c25f2590854f405214a3c2b', 1291366278, '0'),
+('f957460f3b65e3e29355873f74e5b13b', 1291366278, '0'),
+('f1fe2c352faaeea05e963038a41a6201', 1291366278, '0'),
+('8a298d5cedc37e44e8485cdbb3c29d41', 1291366278, '0'),
+('c0999a72d93e38052ac2d43d546adfa4', 1291366278, '0');
 
 -- --------------------------------------------------------
 
@@ -377,12 +408,14 @@ CREATE TABLE IF NOT EXISTS `dede_arcmulti` (
   `addfieldsSqlJoin` varchar(255) DEFAULT '',
   `attstr` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=gbk AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=2 ;
 
 --
 -- 转存表中的数据 `dede_arcmulti`
 --
 
+INSERT INTO `dede_arcmulti` (`id`, `tagid`, `uptime`, `innertext`, `pagesize`, `arcids`, `ordersql`, `addfieldsSql`, `addfieldsSqlJoin`, `attstr`) VALUES
+(1, 'dedecms', 1291359176, '<li class=''dotline''><a href="[field:arcurl/]">[field:title/]</a></li>', 8, '', ' order by arc.sortrank desc', '', '', 'a:16:{s:3:"row";s:2:"16";s:8:"titlelen";s:2:"42";s:7:"infolen";i:160;s:8:"imgwidth";i:120;s:9:"imgheight";i:120;s:8:"listtype";s:3:"all";s:5:"arcid";i:0;s:9:"channelid";i:0;s:7:"orderby";s:7:"default";s:8:"orderWay";s:4:"desc";s:6:"subday";i:0;s:8:"pagesize";s:1:"8";s:7:"keyword";s:0:"";s:10:"tablewidth";s:4:"100%";s:3:"col";i:1;s:8:"colWidth";s:4:"100%";}');
 
 -- --------------------------------------------------------
 
@@ -476,14 +509,28 @@ CREATE TABLE IF NOT EXISTS `dede_arctype` (
   PRIMARY KEY (`id`),
   KEY `reid` (`reid`,`isdefault`,`channeltype`,`ispart`,`corank`,`topid`,`ishidden`),
   KEY `sortrank` (`sortrank`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=2 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=16 ;
 
 --
 -- 转存表中的数据 `dede_arctype`
 --
 
 INSERT INTO `dede_arctype` (`id`, `reid`, `topid`, `sortrank`, `typename`, `typedir`, `isdefault`, `defaultname`, `issend`, `channeltype`, `maxpage`, `ispart`, `corank`, `tempindex`, `templist`, `temparticle`, `namerule`, `namerule2`, `modname`, `description`, `keywords`, `seotitle`, `moresite`, `sitepath`, `siteurl`, `ishidden`, `cross`, `crossid`, `content`, `smalltypes`) VALUES
-(1, 0, 0, 999, '在线留言', 'http://localhost/plus/guestbook.php', 1, 'guestbook.php', 0, 1, -1, 2, 0, '', '', '', '', '', 'default', '', '', '', 0, '', '', 0, 0, '0', '', NULL);
+(1, 0, 0, 999, '在线留言', 'http://localhost/plus/guestbook.php', 1, 'guestbook.php', 0, 1, -1, 2, 0, '', '', '', '', '', 'default', '', '', '', 0, 'http://localhost/plus/guestbook.php', '', 1, 0, '0', '', ''),
+(2, 0, 0, 50, '吉祥商城', '{cmspath}/a/jixiangshangcheng', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '', '', 0, 0, '', '', ''),
+(3, 0, 0, 50, '吉祥故事', '{cmspath}/a/jixianggushi', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '', '', 0, 0, '', '', ''),
+(4, 0, 0, 50, '吉祥家族', '{cmspath}/a/jixiangjiazu', 1, 'index.html', 0, 1, -1, 1, 0, '{style}/jiazu.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(5, 0, 0, 50, '联系我们', '{cmspath}/a/lianxiwomen', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/contact.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/lianxiwomen', '', 0, 0, '', '<ul>\r\n    <li>公司地址</li>\r\n    <li>地址：上海市零陵路585号爱邦大厦29楼C座</li>\r\n    <li>电话：86-21-64396277（总机）</li>\r\n    <li style="padding-left: 36px;">86-21-64399255（直线）</li>\r\n    <li>传真：86-21-64399255</li>\r\n    <li>邮箱：wenxindesign@126.com</li>\r\n</ul>', ''),
+(6, 4, 4, 50, '旺吉祥', '{cmspath}/a/jixiangjiazu/wangjixiang', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(7, 4, 4, 50, '木呆呆', '{cmspath}/a/jixiangjiazu/mudaidai', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(8, 4, 4, 50, '肥牛', '{cmspath}/a/jixiangjiazu/feiniu', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(9, 4, 4, 50, '啡啡', '{cmspath}/a/jixiangjiazu/feifei', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(10, 4, 4, 50, '鼻涕虫', '{cmspath}/a/jixiangjiazu/bitichong', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(11, 4, 4, 50, '玉如意', '{cmspath}/a/jixiangjiazu/yuruyi', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(12, 4, 4, 50, '顿牛', '{cmspath}/a/jixiangjiazu/dunniu', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(13, 4, 4, 50, '粘宝宝', '{cmspath}/a/jixiangjiazu/zhanbaobao', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(14, 4, 4, 50, '呗呗', '{cmspath}/a/jixiangjiazu/beibei', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(15, 4, 4, 50, '鼻涕弟弟', '{cmspath}/a/jixiangjiazu/bitididi', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', '');
 
 -- --------------------------------------------------------
 
@@ -1459,7 +1506,7 @@ CREATE TABLE IF NOT EXISTS `dede_member` (
 --
 
 INSERT INTO `dede_member` (`mid`, `mtype`, `userid`, `pwd`, `uname`, `sex`, `rank`, `uptime`, `exptime`, `money`, `email`, `scores`, `matt`, `spacesta`, `face`, `safequestion`, `safeanswer`, `jointime`, `joinip`, `logintime`, `loginip`) VALUES
-(1, '个人', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', '男', 100, 0, 0, 0, '', 10000, 10, 0, '', 0, '', 1291180264, '', 1291181778, 'unknown');
+(1, '个人', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', '男', 100, 0, 0, 0, '', 10000, 10, 0, '', 0, '', 1291180264, '', 1291370234, 'unknown');
 
 -- --------------------------------------------------------
 
@@ -2007,6 +2054,8 @@ CREATE TABLE IF NOT EXISTS `dede_multiserv_config` (
 -- 转存表中的数据 `dede_multiserv_config`
 --
 
+INSERT INTO `dede_multiserv_config` (`remoteuploads`, `remoteupUrl`, `rminfo`, `servinfo`) VALUES
+(0, 'http://img.dedecms.com', '', '');
 
 -- --------------------------------------------------------
 
@@ -2449,7 +2498,7 @@ INSERT INTO `dede_sysconfig` (`aid`, `varname`, `info`, `groupid`, `type`, `valu
 (4, 'cfg_indexurl', '网页主页链接', 1, 'string', '/'),
 (5, 'cfg_backup_dir', '数据备份目录（在data目录内）', 2, 'string', 'backupdata'),
 (6, 'cfg_indexname', '主页链接名', 1, 'string', '主页'),
-(7, 'cfg_webname', '网站名称', 1, 'string', '我的网站'),
+(7, 'cfg_webname', '网站名称', 1, 'string', '旺吉祥'),
 (8, 'cfg_adminemail', '网站发信EMAIL', 2, 'string', 'admin@ewbsite.com'),
 (9, 'cfg_html_editor', 'Html编辑器选项（仅支持 dede 和 fck）', 2, 'string', 'fck'),
 (10, 'cfg_arcdir', '文档HTML默认保存路径', 1, 'string', '/a'),
@@ -2465,12 +2514,12 @@ INSERT INTO `dede_sysconfig` (`aid`, `varname`, `info`, `groupid`, `type`, `valu
 (20, 'cfg_notallowstr', '禁用词语（系统将直接停止用户动作）<br/>用|分开，但不要在结尾加|', 5, 'bstring', '非典|艾滋病|阳痿'),
 (21, 'cfg_feedbackcheck', '评论及留言(是/否)需审核', 5, 'bool', 'N'),
 (22, 'cfg_keyword_replace', '关键字替换(是/否)使用本功能会影响HTML生成速度', 2, 'bool', 'Y'),
-(23, 'cfg_fck_xhtml', '编辑器(是/否)使用XHTML', 1, 'bool', 'N'),
+(23, 'cfg_fck_xhtml', '编辑器(是/否)使用XHTML', 1, 'bool', 'Y'),
 (24, 'cfg_df_style', '模板默认风格', 1, 'string', 'default'),
 (25, 'cfg_multi_site', '(是/否)支持多站点，开启此项后附件、栏目连接、arclist内容启用绝对网址', 2, 'bool', 'N'),
 (58, 'cfg_rm_remote', '远程图片本地化', 7, 'bool', 'Y'),
 (27, 'cfg_dede_log', '(是/否)开启管理日志', 2, 'bool', 'N'),
-(28, 'cfg_powerby', '网站版权信息', 1, 'bstring', 'Copyright &copy; 2002-2009 DEDECMS. 织梦科技 版权所有'),
+(28, 'cfg_powerby', '网站版权信息', 1, 'bstring', ''),
 (722, 'cfg_jump_once', '跳转网址是否直接跳转？（否则显示中转页）', 7, 'bool', 'Y'),
 (723, 'cfg_task_pwd', '系统计划任务客户端许可密码<br/>(需要客户端，通常不会太重要)', 7, 'string', ''),
 (29, 'cfg_arcsptitle', '(是/否)开启分页标题，开启会影响HTML生成速度', 6, 'bool', 'N'),
