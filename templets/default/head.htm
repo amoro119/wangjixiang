@@ -23,14 +23,35 @@
 	</script>   
 	<![endif]-->
 
+<link href="{dede:global.cfg_templets_skin/}/style/nivo-slider.css" rel="stylesheet" media="screen" type="text/css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.nivo.slider.pack.js" ></script>   
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect:'random', //Specify sets like: 'fold,fade,sliceDown'
+        slices:15,
+        animSpeed:500, //Slide transition speed
+        pauseTime:3000,
+        startSlide:0, //Set starting Slide (0 index)
+        directionNav:false, //Next & Prev
+        directionNavHide:true, //Only show on hover
+        controlNav:false, //1,2,3...
+        keyboardNav:false, //Use left & right arrows
+        pauseOnHover:true, //Stop animation while hovering
+        manualAdvance:false, //Force manual transitions
+        captionOpacity:0.8, //Universal caption opacity
+    });
+});
+</script>
     <div class="header_top w998">     
     <ul class="language">
        <li><a href="#">ÖÐÎÄ</a></li>|
        <li><a href="#">English</a></li>
     </ul>
     </div>
-	<div class="banner w998 center">
-		<img src="{dede:global.cfg_templets_skin/}/images/xt_banner.jpg" width="998" height="267" alt="Xt Banner">
+	<div class="banner w998 center" id="slider">
+		<img src="{dede:global.cfg_templets_skin/}/images/xt_banner.jpg" alt="Xt Banner">
+		<img src="{dede:global.cfg_templets_skin/}/images/xt_banner2.jpg" alt="Xt Banner">
 	</div><!-- //top -->
 	<!-- //²Ëµ¥ -->
 	<div class="module blue mT10 wrapper w998">

@@ -693,4 +693,19 @@ input,select,button{
 #nav3{background-image:url('../images/xt_nav3.png');}
 #nav4{background-image:url('../images/xt_nav4.png');}
 #navv{background-image:url('../images/xt_nav5.png');}
-#nav5{background-image:url('../images/xt_nav6.png');}	
+#nav5{background-image:url('../images/xt_nav6.png');}
+#slider {
+    position:relative;
+    background:url(../images/loading.gif) no-repeat 50% 50%;
+	height:267px;
+}
+#slider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+#slider a {
+    border:0;
+    display:block;
+}
