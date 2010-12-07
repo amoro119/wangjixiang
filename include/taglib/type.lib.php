@@ -17,7 +17,7 @@ function lib_type(&$ctag,&$refObj)
 
   if(empty($typeid)) return '';
 
-	$row = $dsql->GetOne("Select id,typename,typedir,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath 
+	$row = $dsql->GetOne("Select id,topid,typename,typedir,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath 
 	                      From `#@__arctype` where id='$typeid' ");
 	if(!is_array($row)) return '';
 	if(trim($innertext)=='') $innertext = GetSysTemplets("part_type_list.htm");

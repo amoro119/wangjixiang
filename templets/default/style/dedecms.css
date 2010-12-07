@@ -686,4 +686,11 @@ input,select,button{
 #contact_bg ul li{
 	line-height:20px;
 }
-	
+#navMenu ul li a{display:block; width:92px; height:72px;background-position: 0 0; background-repeat: no-repeat;}
+#navMenu ul li a.current,#navMenu ul li a:hover{width:106px;height:82px;background-position:-92px 0;position:relative;top:-10px;}
+#nav0{background-image:url('../images/xt_nav1.png');}
+#nav2{background-image:url('../images/xt_nav2.png');}
+#nav3{background-image:url('../images/xt_nav3.png');}
+#nav4{background-image:url('../images/xt_nav4.png');}
+#navv{background-image:url('../images/xt_nav5.png');}
+#nav5{background-image:url('../images/xt_nav6.png');}	

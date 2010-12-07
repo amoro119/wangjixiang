@@ -3,7 +3,26 @@
 	window.onload=function (){
 		setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
 	}
+	var topid=0{dede:type}[field:topid/]{/dede:type};
+	var typeid=0{dede:type}[field:id/]{/dede:type};
+	var navId=topid==0?typeid:topid;
+	$(document).ready(function($){
+		$('#nav'+navId).addClass('current');
+	});
+	
   </script>
+
+	<!--[if IE 6]>   
+	<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/DD_belatedPNG-min.js" ></script>   
+	<script type="text/javascript">   
+
+	$(document).ready(function($){
+		DD_belatedPNG.fix('#navMenu ul li a');
+	});
+	
+	</script>   
+	<![endif]-->
+
     <div class="header_top w998">     
     <ul class="language">
        <li><a href="#">中文</a></li>|
@@ -19,12 +38,12 @@
     	<!-- //如果不使用currentstyle，可以在channel标签加入 cacheid='channeltoplist' 属性提升性能 -->
     <div id="navMenu">
     	<ul>
-      	<li><a href='{dede:global.cfg_cmsurl/}/'><img src="{dede:global.cfg_templets_skin/}/images/xt_nav1.png" width="92" height="71"></a></li>
-      	<li><a href='#'><img src="{dede:global.cfg_templets_skin/}/images/xt_nav2.png" width="92" height="71"></a></li>
-      	<li><a href='#'><img src="{dede:global.cfg_templets_skin/}/images/xt_nav3.png" width="92" height="71"></a></li>
-      	<li><a href='#'><img src="{dede:global.cfg_templets_skin/}/images/xt_nav4.png" width="92" height="71"></a></li>
-      	<li><a href='#'><img src="{dede:global.cfg_templets_skin/}/images/xt_nav5.png" width="92" height="71"></a></li>
-      	<li><a href='#'><img src="{dede:global.cfg_templets_skin/}/images/xt_nav6.png" width="92" height="71"></a></li>
+      	<li><a id="nav0" href='{dede:global.cfg_cmsurl/}/'></a></li>
+      	<li><a id="nav2" href='{dede:type typeid="2"}[field:typelink /]{/dede:type}'></a></li>
+      	<li><a id="nav3" href='{dede:type typeid="3"}[field:typelink /]{/dede:type}'></a></li>
+      	<li><a id="nav4" href='{dede:type typeid="4"}[field:typelink /]{/dede:type}'></a></li>
+      	<li><a id="navv" href='#'></a></li>
+      	<li><a id="nav5" href='{dede:type typeid="5"}[field:typelink /]{/dede:type}'></a></li>
     	</ul>
     </div>	
 		</div>
