@@ -1,1 +1,0 @@
-<li> <a href="[field:arcurl/]">[field:title/]</a> <span><small>µã»÷:</small>[field:click/]</span> <span><small>ÆÀ¼Û:</small>[field:scores/]</span></li>

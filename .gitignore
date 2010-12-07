@@ -1,3 +1,5 @@
 /a/*
 /data/common.inc.php
+/data/tplcache/*
+/data/sessions/*
 /index.html
