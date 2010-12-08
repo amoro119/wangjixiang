@@ -709,3 +709,31 @@ input,select,button{
     border:0;
     display:block;
 }
+.jiazuarticle{
+	height:749px;
+}
+.jiazuarticle .pleft{
+	width:44px;
+	float:left;
+	height:100%;
+	background: url('../images/xt_bg_jiazu_left.gif') no-repeat left bottom;
+}
+.jiazuarticle .pright{
+	width:48px;
+	height:100%;
+	float:right;
+	background: url('../images/xt_bg_jiazu_right.gif') no-repeat left bottom;	
+}
+.jiazuarticle .pmiddle{
+	width:906px;
+	height:100%;
+	float:left;
+	background: url('../images/xt_bg_jiazu.gif') repeat-x left bottom;
+	position:relative;
+}
+.jiazucontent{
+	padding-left:12px;
+}
+.jiazubottom{
+	padding-top:12px;
+}

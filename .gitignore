@@ -2,4 +2,5 @@
 /data/common.inc.php
 /data/tplcache/*
 /data/sessions/*
+/data/cache/*
 /index.html
