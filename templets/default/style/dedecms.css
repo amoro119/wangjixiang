@@ -737,36 +737,36 @@ input,select,button{
 .jiazubottom{
 	padding-top:12px;
 }
-.jixianggushi{
+.jixianggushi2{
 	height:675px;
 }
-.jixianggushi .pleft{
+.jixianggushi2 .pleft{
 	width:47px;
 	float:left;
 	height:100%;
-	background: url('../images/xt_bg_gushi_left.gif') no-repeat left bottom;
+	background: url('../images/xt_bg_gushi2_left.gif') no-repeat left bottom;
 }
-.jixianggushi .pright{
+.jixianggushi2 .pright{
 	width:49px;
 	height:100%;
 	float:right;
-	background: url('../images/xt_bg_gushi_right.gif') no-repeat left bottom;	
+	background: url('../images/xt_bg_gushi2_right.gif') no-repeat left bottom;	
 }
-.jixianggushi .pmiddle{
+.jixianggushi2 .pmiddle{
 	width:902px;
 	height:100%;
 	float:left;
-	background: url('../images/xt_bg_jixianggushi.gif') repeat-x left bottom;
+	background: url('../images/xt_bg_gushi2.gif') repeat-x left bottom;
 	position:relative;
 }
-.jixianggushi .gushiblock1{
+.jixianggushi2 .gushiblock1{
 	background: url('../images/xt_bg_block1.jpg') no-repeat left top;
 	width:292px;
 	height:202px;
 	float:left;
 	position:relative;
 }
-.jixianggushi .gushiblock2{
+.jixianggushi2 .gushiblock2{
 	background: url('../images/xt_bg_block2.jpg') no-repeat left top;
 	width:292px;
 	height:202px;
@@ -774,7 +774,7 @@ input,select,button{
 	margin-left:13px;
 	display:inline;
 }
-.jixianggushi .gushiblock3{
+.jixianggushi2 .gushiblock3{
 	background: url('../images/xt_bg_block3.jpg') no-repeat left top;
 	width:292px;
 	height:202px;
@@ -798,4 +798,26 @@ input,select,button{
 	position:absolute;
 	bottom:22px;
 	right:48px;
+}
+.jixianggushi1{
+	height:376px;
+}
+.jixianggushi1 .pleft{
+	width:46px;
+	float:left;
+	height:100%;
+	background: url('../images/xt_bg_gushi1_left.gif') no-repeat left bottom;
+}
+.jixianggushi1 .pright{
+	width:48px;
+	height:100%;
+	float:right;
+	background: url('../images/xt_bg_gushi1_right.gif') no-repeat left bottom;	
+}
+.jixianggushi1 .pmiddle{
+	width:904px;
+	height:100%;
+	float:left;
+	background: url('../images/xt_bg_gushi1.gif') repeat-x left bottom;
+	position:relative;
 }
