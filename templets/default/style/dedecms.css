@@ -737,3 +737,65 @@ input,select,button{
 .jiazubottom{
 	padding-top:12px;
 }
+.jixianggushi{
+	height:675px;
+}
+.jixianggushi .pleft{
+	width:47px;
+	float:left;
+	height:100%;
+	background: url('../images/xt_bg_gushi_left.gif') no-repeat left bottom;
+}
+.jixianggushi .pright{
+	width:49px;
+	height:100%;
+	float:right;
+	background: url('../images/xt_bg_gushi_right.gif') no-repeat left bottom;	
+}
+.jixianggushi .pmiddle{
+	width:902px;
+	height:100%;
+	float:left;
+	background: url('../images/xt_bg_jixianggushi.gif') repeat-x left bottom;
+	position:relative;
+}
+.jixianggushi .gushiblock1{
+	background: url('../images/xt_bg_block1.jpg') no-repeat left top;
+	width:292px;
+	height:202px;
+	float:left;
+	position:relative;
+}
+.jixianggushi .gushiblock2{
+	background: url('../images/xt_bg_block2.jpg') no-repeat left top;
+	width:292px;
+	height:202px;
+	float:left;
+	margin-left:13px;
+	display:inline;
+}
+.jixianggushi .gushiblock3{
+	background: url('../images/xt_bg_block3.jpg') no-repeat left top;
+	width:292px;
+	height:202px;
+	float:right;
+	position:relative;
+}
+.gushiblock ul{
+	margin:52px 0 0 20px;
+	width:239px;
+}
+.gushiblock ul li{
+	line-height:21px;
+}
+.gushiblock ul li a{
+	color:#000;
+}
+.gushiblock ul li span{
+	float:right;
+}
+.gushiblock .more{
+	position:absolute;
+	bottom:22px;
+	right:48px;
+}
