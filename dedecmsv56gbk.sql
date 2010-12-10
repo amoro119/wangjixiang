@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2010 年 12 月 10 日 05:19
+-- 生成日期: 2010 年 12 月 10 日 09:17
 -- 服务器版本: 5.1.41
 -- PHP 版本: 5.3.1
 
@@ -512,7 +512,7 @@ CREATE TABLE IF NOT EXISTS `dede_arctype` (
   PRIMARY KEY (`id`),
   KEY `reid` (`reid`,`isdefault`,`channeltype`,`ispart`,`corank`,`topid`,`ishidden`),
   KEY `sortrank` (`sortrank`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=22 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=30 ;
 
 --
 -- 转存表中的数据 `dede_arctype`
@@ -520,7 +520,7 @@ CREATE TABLE IF NOT EXISTS `dede_arctype` (
 
 INSERT INTO `dede_arctype` (`id`, `reid`, `topid`, `sortrank`, `typename`, `typedir`, `isdefault`, `defaultname`, `issend`, `channeltype`, `maxpage`, `ispart`, `corank`, `tempindex`, `templist`, `temparticle`, `namerule`, `namerule2`, `modname`, `description`, `keywords`, `seotitle`, `moresite`, `sitepath`, `siteurl`, `ishidden`, `cross`, `crossid`, `content`, `smalltypes`) VALUES
 (1, 0, 0, 999, '在线留言', 'http://localhost/plus/guestbook.php', 1, 'guestbook.php', 0, 1, -1, 2, 0, '', '', '', '', '', 'default', '', '', '', 0, 'http://localhost/plus/guestbook.php', '', 1, 0, '0', '', ''),
-(2, 0, 0, 50, '吉祥商城', '{cmspath}/a/jixiangshangcheng', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(2, 0, 0, 50, '吉祥商城', '{cmspath}/a/jixiangshangcheng', -1, 'index.html', 1, 1, -1, 1, 0, '{style}/shangcheng1.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
 (3, 0, 0, 50, '吉祥故事', '{cmspath}/a/jixianggushi', -1, 'index.html', 1, 1, -1, 1, 0, '{style}/jixianggushi1.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
 (4, 0, 0, 50, '吉祥家族', '{cmspath}/a/jixiangjiazu', -1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
 (5, 0, 0, 50, '联系我们', '{cmspath}/a/lianxiwomen', -1, 'index.html', 1, 1, -1, 1, 0, '{style}/contact.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/lianxiwomen', '', 0, 0, '', '<ul>\r\n    <li>公司地址</li>\r\n    <li>地址：上海市零陵路585号爱邦大厦29楼C座</li>\r\n    <li>电话：86-21-64396277（总机）</li>\r\n    <li style="padding-left: 36px;">86-21-64399255（直线）</li>\r\n    <li>传真：86-21-64399255</li>\r\n    <li>邮箱：wenxindesign@126.com</li>\r\n</ul>', ''),
@@ -539,7 +539,15 @@ INSERT INTO `dede_arctype` (`id`, `reid`, `topid`, `sortrank`, `typename`, `type
 (18, 3, 3, 50, '旺旺三格半', '{cmspath}/a/jixianggushi/wangwangsangeban', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
 (19, 16, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/jixiangSHOW/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
 (20, 18, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/wangwangsangeban/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
-(21, 17, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/jixianglewen/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', '');
+(21, 17, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/jixianglewen/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
+(22, 2, 2, 50, '毛绒公仔', '{cmspath}/a/jixiangshangcheng/maoronggongzi', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(23, 2, 2, 50, '马克杯', '{cmspath}/a/jixiangshangcheng/makebei', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(24, 2, 2, 50, '一次性纸杯', '{cmspath}/a/jixiangshangcheng/yicixingzhibei', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(25, 2, 2, 50, '杯垫系列', '{cmspath}/a/jixiangshangcheng/beidianxilie', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(26, 2, 2, 50, '竹炭系列', '{cmspath}/a/jixiangshangcheng/zhutanxilie', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(27, 2, 2, 50, '包袋系列', '{cmspath}/a/jixiangshangcheng/baodaixilie', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(28, 2, 2, 50, '纸巾系列', '{cmspath}/a/jixiangshangcheng/zhijinxilie', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(29, 2, 2, 50, '特种订购', '{cmspath}/a/jixiangshangcheng/tezhongdinggou', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', '');
 
 -- --------------------------------------------------------
 

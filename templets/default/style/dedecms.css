@@ -891,3 +891,91 @@ input,select,button{
 	left:47px;
 	width:844px;
 }
+.shangcheng1{
+	height:1388px;
+}
+.shangcheng1 .pleft{
+	width:43px;
+	float:left;
+	height:100%;
+	background: url('../images/xt_bg_shangcheng1_left.gif') no-repeat left bottom;
+}
+.shangcheng1 .pright{
+	width:51px;
+	height:100%;
+	float:right;
+	background: url('../images/xt_bg_shangcheng1_right.gif') no-repeat left bottom;	
+}
+.shangcheng1 .pmiddle{
+	width:904px;
+	height:100%;
+	float:left;
+	background: url('../images/xt_bg_shangcheng1.gif') repeat-x left bottom;
+	position:relative;
+}
+.shangcheng1 .leftnav{
+	background: url('../images/xt_blue-bg.jpg') no-repeat left bottom;
+	width:174px;
+	height:590px;
+	border:1px solid #869eab;
+	float:left;
+}
+.shangcheng1 .leftnav ul li a{
+	display:block;
+	background: url('../images/xt_bg_leftnav_gray.gif') no-repeat 0 0;
+	width:174px;
+	height:39px;
+	line-height:39px;
+	color:#333;
+	font-size:14px;
+	text-align:center;
+	font-weight:bold;
+}
+
+.shangcheng1 .leftnav ul li a:hover{
+	background: url('../images/xt_bg_leftnav_blue.gif') no-repeat 0 0;
+	color:#fff;
+	text-decoration:none;
+}
+.shangcheng1 .rightpart{
+	width:724px;
+	float:right;
+}
+.shangcheng1 .rightpart .feature{
+	padding-top:5px;
+}
+.shangcheng1 .blocklist{
+	background:#8b9397;
+	height:284px;
+	width:100%;
+	margin-top:5px;
+	padding-top:13px;
+	position:relative;
+}
+.shangcheng1 .gongzai{
+	background: url('../images/xt_bg_block4.jpg') no-repeat 0 0;
+	width:276px;
+	height:275px;
+	display:block;
+	position:absolute;
+	top:13px;
+	left:7px;
+}
+.shangcheng1 .jiaju{
+	background: url('../images/xt_bg_block5.jpg') no-repeat 0 0;
+	width:276px;
+	height:275px;
+	display:block;
+	position:absolute;
+	top:13px;
+	left:313px;
+}
+.shangcheng1 .zhipin{
+	background: url('../images/xt_bg_block6.jpg') no-repeat 0 0;
+	width:276px;
+	height:275px;
+	display:block;
+	position:absolute;
+	top:13px;
+	right:7px;
+}

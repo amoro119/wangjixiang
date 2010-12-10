@@ -22,4 +22,12 @@ $cfg_Cs[18]=array(3,1,1);
 $cfg_Cs[19]=array(16,1,1);
 $cfg_Cs[20]=array(18,1,1);
 $cfg_Cs[21]=array(17,1,1);
+$cfg_Cs[22]=array(2,1,1);
+$cfg_Cs[23]=array(2,1,1);
+$cfg_Cs[24]=array(2,1,1);
+$cfg_Cs[25]=array(2,1,1);
+$cfg_Cs[26]=array(2,1,1);
+$cfg_Cs[27]=array(2,1,1);
+$cfg_Cs[28]=array(2,1,1);
+$cfg_Cs[29]=array(2,1,1);
 ?>
