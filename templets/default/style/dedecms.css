@@ -821,3 +821,73 @@ input,select,button{
 	background: url('../images/xt_bg_gushi1.gif') repeat-x left bottom;
 	position:relative;
 }
+.jixianggushi4{
+	height:1132px;
+}
+.jixianggushi4 .pleft{
+	width:41px;
+	float:left;
+	height:100%;
+	background: url('../images/xt_bg_gushi4_left.gif') no-repeat left bottom;
+}
+.jixianggushi4 .pright{
+	width:43px;
+	height:100%;
+	float:right;
+	background: url('../images/xt_bg_gushi4_right.gif') no-repeat left bottom;	
+}
+.jixianggushi4 .pmiddle{
+	width:914px;
+	height:100%;
+	float:left;
+	background: url('../images/xt_bg_gushi4.gif') repeat-x left bottom;
+	position:relative;
+}
+.jixianggushi4 .breadcrumb{
+	margin-top:46px;
+	border-bottom:2px solid #999999;
+	padding:9px 0;
+}
+.jixianggushi4 .breadcrumb a{
+	color:#000;
+}
+.jixianggushi4 .breadcrumb .positon{
+	padding-left:30px;
+}
+.jixianggushi4 .breadcrumb .pre{
+	float:right;
+	padding-right:28px;
+}
+.jixianggushi4 .breadcrumb .next{
+	float:right;
+	padding-right:110px;
+}
+.jixianggushi4 .gushipic{
+	text-align:center;
+	padding:17px 0 0 0;
+}
+.jixianggushi4 .btn_pre{
+	position:absolute;
+	left:79px;
+	top:361px;
+}
+.jixianggushi4 .btn_next{
+	position:absolute;
+	right:79px;
+	top:361px;
+}
+.jixianggushi4 .gushiwarp{
+	background: url('../images/xt_bg_gushi_content.gif') no-repeat 0 0;
+	width:900px;
+	height:338px;
+	margin:16px 0 0 7px;
+	position:relative;
+}
+.jixianggushi4 .gushiwarp .gushicontent{
+	position:absolute;
+	overflow-y:auto;
+	height:283px;
+	top:24px;
+	left:47px;
+	width:844px;
+}

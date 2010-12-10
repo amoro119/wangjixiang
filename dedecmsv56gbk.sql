@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2010 年 12 月 08 日 14:56
+-- 生成日期: 2010 年 12 月 10 日 05:19
 -- 服务器版本: 5.1.41
 -- PHP 版本: 5.3.1
 
@@ -40,6 +40,8 @@ CREATE TABLE IF NOT EXISTS `dede_addonarticle` (
 -- 转存表中的数据 `dede_addonarticle`
 --
 
+INSERT INTO `dede_addonarticle` (`aid`, `typeid`, `body`, `redirecturl`, `templet`, `userip`) VALUES
+(1, 21, '<p>旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。</p>\r\n<p>旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。</p>\r\n<p>旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。</p>\r\n<p>旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。</p>', '', '', '127.0.0.1');
 
 -- --------------------------------------------------------
 
@@ -218,7 +220,7 @@ CREATE TABLE IF NOT EXISTS `dede_admin` (
 --
 
 INSERT INTO `dede_admin` (`id`, `usertype`, `userid`, `pwd`, `uname`, `tname`, `email`, `typeid`, `logintime`, `loginip`) VALUES
-(1, 10, 'admin', 'f297a57a5a743894a0e4', 'admin', '', '', '0', 1291810547, '127.0.0.1');
+(1, 10, 'admin', 'f297a57a5a743894a0e4', 'admin', '', '', '0', 1291862778, '127.0.0.1');
 
 -- --------------------------------------------------------
 
@@ -328,7 +330,15 @@ INSERT INTO `dede_arccache` (`md5hash`, `uptime`, `cachedata`) VALUES
 ('a8198f36bb4532d2ece26bdfe9a9e7af', 1291819330, '0'),
 ('f8a9d31639b3a3a5acd7ca789b74e26d', 1291819330, '0'),
 ('f9dc1d2559853cca79b9474bd6b052b6', 1291819330, '0'),
-('2765522f7290f40414e0a179822a4721', 1291819330, '0');
+('2765522f7290f40414e0a179822a4721', 1291819330, '0'),
+('7832e944793e6614b32ce35d74afd305', 1291862876, '0'),
+('60561242807badc476d8b5a054d5b302', 1291862876, '1'),
+('3a04b640be0d12625c3651366a60fbec', 1291884082, '0'),
+('a3ca6ae04ebe011f52c9e8ebe144d659', 1291884082, '0'),
+('90d3f5528ec15a23776da398ca239aaa', 1291884096, '0'),
+('5144f1d1d078665b7d07d89d7d05fcef', 1291884096, '1'),
+('b09b828556f567dac4dc5ec46cd6b5cd', 1291949596, '0'),
+('6183c8125e40da8773cdd518637bedcb', 1291949596, '1');
 
 -- --------------------------------------------------------
 
@@ -378,6 +388,8 @@ CREATE TABLE IF NOT EXISTS `dede_archives` (
 -- 转存表中的数据 `dede_archives`
 --
 
+INSERT INTO `dede_archives` (`id`, `typeid`, `typeid2`, `sortrank`, `flag`, `ismake`, `channel`, `arcrank`, `click`, `money`, `title`, `shorttitle`, `color`, `writer`, `source`, `litpic`, `pubdate`, `senddate`, `mid`, `keywords`, `lastpost`, `scores`, `goodpost`, `badpost`, `notpost`, `description`, `filename`, `dutyadmin`, `tackid`, `mtype`, `weight`) VALUES
+(1, 21, '0', 1291862840, 'p', -1, 1, 0, 114, 0, '旺·吉祥美国行', '', '', 'admin', '未知', '/uploads/101210/1-101210115A11A.jpg', 1291862840, 1291862875, 1, '行,美国,吉祥,旺,', 0, 0, 0, 0, 0, '旺吉祥太贪玩啦在韩国和日本真的玩得流连忘返，都舍不得走了。 不过。我要环游世界九十天，所以要加快脚步啦！ 这回呀，吉祥还要去次美国。 关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的', '', 1, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -451,12 +463,14 @@ CREATE TABLE IF NOT EXISTS `dede_arctiny` (
   `mid` mediumint(8) unsigned NOT NULL,
   PRIMARY KEY (`id`),
   KEY `sortrank` (`sortrank`)
-) ENGINE=MyISAM DEFAULT CHARSET=gbk AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=2 ;
 
 --
 -- 转存表中的数据 `dede_arctiny`
 --
 
+INSERT INTO `dede_arctiny` (`id`, `typeid`, `typeid2`, `arcrank`, `channel`, `senddate`, `sortrank`, `mid`) VALUES
+(1, 21, '0', 0, 1, 1291862875, 1291862840, 1);
 
 -- --------------------------------------------------------
 
@@ -498,7 +512,7 @@ CREATE TABLE IF NOT EXISTS `dede_arctype` (
   PRIMARY KEY (`id`),
   KEY `reid` (`reid`,`isdefault`,`channeltype`,`ispart`,`corank`,`topid`,`ishidden`),
   KEY `sortrank` (`sortrank`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=19 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=22 ;
 
 --
 -- 转存表中的数据 `dede_arctype`
@@ -520,9 +534,12 @@ INSERT INTO `dede_arctype` (`id`, `reid`, `topid`, `sortrank`, `typename`, `type
 (13, 4, 4, 50, '粘宝宝', '{cmspath}/a/jixiangjiazu/zhanbaobao', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
 (14, 4, 4, 50, '呗呗', '{cmspath}/a/jixiangjiazu/beibei', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
 (15, 4, 4, 50, '鼻涕弟弟', '{cmspath}/a/jixiangjiazu/bitididi', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
-(16, 3, 3, 50, '吉祥SHOW', '{cmspath}/a/jixianggushi/jixiangSHOW', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
-(17, 3, 3, 50, '吉祥乐闻', '{cmspath}/a/jixianggushi/jixianglewen', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/jixianggushi2.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
-(18, 3, 3, 50, '旺旺三格半', '{cmspath}/a/jixianggushi/wangwangsangeban', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', '');
+(16, 3, 3, 50, '吉祥SHOW', '{cmspath}/a/jixianggushi/jixiangSHOW', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jixianggushi2.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
+(17, 3, 3, 50, '吉祥乐闻', '{cmspath}/a/jixianggushi/jixianglewen', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jixianggushi2.htm', '{style}/list_article.htm', '{style}/jixianggushi3.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
+(18, 3, 3, 50, '旺旺三格半', '{cmspath}/a/jixianggushi/wangwangsangeban', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
+(19, 16, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/jixiangSHOW/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
+(20, 18, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/wangwangsangeban/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
+(21, 17, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/jixianglewen/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', '');
 
 -- --------------------------------------------------------
 
@@ -1498,7 +1515,7 @@ CREATE TABLE IF NOT EXISTS `dede_member` (
 --
 
 INSERT INTO `dede_member` (`mid`, `mtype`, `userid`, `pwd`, `uname`, `sex`, `rank`, `uptime`, `exptime`, `money`, `email`, `scores`, `matt`, `spacesta`, `face`, `safequestion`, `safeanswer`, `jointime`, `joinip`, `logintime`, `loginip`) VALUES
-(1, '个人', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', '男', 100, 0, 0, 0, '', 10000, 10, 0, '', 0, '', 1291180264, '', 1291810547, '127.0.0.1');
+(1, '个人', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', '男', 100, 0, 0, 0, '', 10000, 10, 0, '', 0, '', 1291180264, '', 1291882037, '127.0.0.1');
 
 -- --------------------------------------------------------
 
@@ -1912,7 +1929,7 @@ CREATE TABLE IF NOT EXISTS `dede_member_tj` (
 --
 
 INSERT INTO `dede_member_tj` (`mid`, `article`, `album`, `archives`, `homecount`, `pagecount`, `feedback`, `friend`, `stow`, `soft`, `info`, `shop`) VALUES
-(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+(1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -2895,14 +2912,15 @@ CREATE TABLE IF NOT EXISTS `dede_uploads` (
   PRIMARY KEY (`aid`),
   KEY `memberid` (`mid`),
   KEY `arcid` (`arcid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=2 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=3 ;
 
 --
 -- 转存表中的数据 `dede_uploads`
 --
 
 INSERT INTO `dede_uploads` (`aid`, `arcid`, `title`, `url`, `mediatype`, `width`, `height`, `playtime`, `filesize`, `uptime`, `mid`) VALUES
-(1, 0, '1_101208170341_1.jpg', '/uploads/allimg/101208/1_101208170341_1.jpg', 1, '882', '560', '0', 100118, 1291799021, 1);
+(1, 0, '1_101208170341_1.jpg', '/uploads/allimg/101208/1_101208170341_1.jpg', 1, '882', '560', '0', 100118, 1291799021, 1),
+(2, 1, '旺·吉祥美国行', '/uploads/101210/1-101210115A11A.jpg', 1, '580', '645', '0', 78963, 1291953411, 1);
 
 -- --------------------------------------------------------
 

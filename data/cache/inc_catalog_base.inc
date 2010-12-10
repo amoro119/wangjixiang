@@ -19,4 +19,7 @@ $cfg_Cs[15]=array(4,1,1);
 $cfg_Cs[16]=array(3,1,1);
 $cfg_Cs[17]=array(3,1,1);
 $cfg_Cs[18]=array(3,1,1);
+$cfg_Cs[19]=array(16,1,1);
+$cfg_Cs[20]=array(18,1,1);
+$cfg_Cs[21]=array(17,1,1);
 ?>
