@@ -82,7 +82,7 @@ input,select,button{
 	margin-right:2px;
 }
 .nb{
-	line-height:20x;
+	line-height:20px;
 	padding:1px 2px;
 	border-width:1px;
 	border-style:solid;
@@ -611,7 +611,7 @@ input,select,button{
 }
 .pmiddle #board{
 	float:left;
-	padding:0 0 0 10px;
+	padding:5px 0 0 10px;
 }
 .pmiddle #login{
 	float:right;

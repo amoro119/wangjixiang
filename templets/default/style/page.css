@@ -66,9 +66,9 @@
 	margin:0px 2px;
 }
 .place a:hover{
-	color:#FF3366
+	color:#FF3366;
 	margin:0px 2px;
-	TEXT-DECORATION: underline;
+	text-decoration: underline;
 }
 .pright{
 	width:47px;
