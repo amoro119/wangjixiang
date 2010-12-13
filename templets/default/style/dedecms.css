@@ -913,14 +913,14 @@ input,select,button{
 	background: url('../images/xt_bg_shangcheng1.gif') repeat-x left bottom;
 	position:relative;
 }
-.shangcheng1 .leftnav{
+.leftnav{
 	background: url('../images/xt_blue-bg.jpg') no-repeat left bottom;
 	width:174px;
 	height:590px;
 	border:1px solid #869eab;
 	float:left;
 }
-.shangcheng1 .leftnav ul li a{
+.leftnav ul li a{
 	display:block;
 	background: url('../images/xt_bg_leftnav_gray.gif') no-repeat 0 0;
 	width:174px;
@@ -932,19 +932,19 @@ input,select,button{
 	font-weight:bold;
 }
 
-.shangcheng1 .leftnav ul li a:hover{
+.leftnav ul li a:hover{
 	background: url('../images/xt_bg_leftnav_blue.gif') no-repeat 0 0;
 	color:#fff;
 	text-decoration:none;
 }
-.shangcheng1 .rightpart{
+.rightpart{
 	width:724px;
 	float:right;
 }
-.shangcheng1 .rightpart .feature{
+.rightpart .feature{
 	padding-top:5px;
 }
-.shangcheng1 .blocklist{
+.blocklist{
 	background:#8b9397;
 	height:284px;
 	width:100%;
@@ -978,4 +978,80 @@ input,select,button{
 	position:absolute;
 	top:13px;
 	right:7px;
+}
+.shangcheng2{
+	height:1264px;
+}
+.shangcheng2 .pleft{
+	width:47px;
+	float:left;
+	height:100%;
+	background: url('../images/xt_bg_shangcheng2_left.gif') no-repeat left bottom;
+}
+.shangcheng2 .pright{
+	width:47px;
+	height:100%;
+	float:right;
+	background: url('../images/xt_bg_shangcheng2_right.gif') no-repeat left bottom;	
+}
+.shangcheng2 .pmiddle{
+	width:904px;
+	height:100%;
+	float:left;
+	background: url('../images/xt_bg_shangcheng2.gif') repeat-x left bottom;
+	position:relative;
+}
+.shangcheng2 .leftnav{
+	margin-top:8px;
+	display:inline;
+}
+.shangcheng2 .rightpart {
+		margin-top:8px;
+	display:inline;
+}
+.shangcheng2 .rightpart ul{
+	padding-top:10px;
+}
+.shangcheng2 .rightpart ul li{
+	width:127px;
+	float:left;
+	padding-left:37px;
+}
+.shangcheng2 .rightpart ul li a{
+	color:#231815;
+}
+.shangcheng2 .rightpart ul li p{
+	color:#036eb7;
+	text-align:center;
+	padding-top:5px;
+}
+.shangcheng2 .xinpindaohuo{
+	padding-top:10px;
+}
+.shangcheng2 .xinpindaohuo ul{
+	padding-top:10px;
+}
+.shangcheng2 .xinpindaohuo ul li{
+	width:127px;
+	float:left;
+	padding-left:37px;
+}
+.shangcheng2 .xinpindaohuo ul li a{
+	color:#231815;
+}
+.shangcheng2 .xinpindaohuo ul li p{
+	color:#036eb7;
+	text-align:center;
+	padding-top:5px;
+}
+.shangcheng2 .tejiashangpin{
+	padding-top:26px;
+}
+.onsale{
+	padding-top:26px;
+	float:left;
+}
+.shangcheng2 .tejiashangpin .feature{
+	padding:26px 0 0 9px;
+	float:left;
 }
