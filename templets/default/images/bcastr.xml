@@ -33,7 +33,7 @@
 		<changImageMode>click</changImageMode>
 		<isShowBtn>true</isShowBtn>
 		<isShowTitle>false</isShowTitle>
-		<scaleMode>noBorder</scaleMode>
+		<scaleMode>exactFil</scaleMode>
 		<transform>blur</transform>
 		<isShowAbout>true</isShowAbout>
 		<titleFont>微软雅黑</titleFont>
