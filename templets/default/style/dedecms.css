@@ -1068,3 +1068,8 @@ input,select,button{
 	padding:26px 0 0 9px;
 	float:left;
 }
+.leftnav .thisclass{
+		background: url('../images/xt_bg_leftnav_blue.gif') no-repeat 0 0;
+	color:#fff;
+	text-decoration:none;
+}
