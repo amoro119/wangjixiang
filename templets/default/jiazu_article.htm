@@ -20,6 +20,36 @@ function check(){
 	} 
 -->
 </script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.jcarousel.min.js" ></script> 
+<script type="text/javascript">
+function mycarousel_initCallback(carousel)
+{
+    // Disable autoscrolling if the user clicks the prev or next button.
+    carousel.buttonNext.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    carousel.buttonPrev.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    // Pause autoscrolling if the user moves with the cursor over the clip.
+    carousel.clip.hover(function() {
+        carousel.stopAuto();
+    }, function() {
+        carousel.startAuto();
+    });
+};
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+        auto: 5,
+        wrap: 'last',
+        initCallback: mycarousel_initCallback
+    });
+});
+</script>
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/jiazu.css" /> 
 </head>
 <body class="channel">
 {dede:include filename="head.htm"/}
@@ -36,7 +66,18 @@ function check(){
 			<a style="float:right;" href="/plus/list.php?tid=3"><img src="{dede:global.cfg_templets_skin/}/images/xt_btn_jiazugushi.gif" width="173" height="32" alt=""></a>
 			<div class="clear"></div>
 		</div>
-		<img style="padding-top:9px;" src="{dede:global.cfg_templets_skin/}/images/xt_jiazuliebiao.jpg" width="906" height="110" alt="Xt Jiazuliebiao">
+		<ul id="mycarousel" class="jcarousel-skin-tango">
+    		<li><a href="/plus/list.php?tid=7"><img src="{dede:global.cfg_templets_skin/}/images/01.png" /></a></li>
+    		<li><a href="/plus/list.php?tid=8"><img src="{dede:global.cfg_templets_skin/}/images/02.png" /></a></li>
+    		<li><a href="/plus/list.php?tid=9"><img src="{dede:global.cfg_templets_skin/}/images/03.png" /></a></li>
+    		<li><a href="/plus/list.php?tid=10"><img src="{dede:global.cfg_templets_skin/}/images/04.png" /> </a></li>
+    		<li><a href="/plus/list.php?tid=11"><img src="{dede:global.cfg_templets_skin/}/images/05.png" /></a></li>
+    		<li><a href="/plus/list.php?tid=12"><img src="{dede:global.cfg_templets_skin/}/images/06.png" /></a></li>
+    		<li><a href="/plus/list.php?tid=13"><img src="{dede:global.cfg_templets_skin/}/images/07.png" /></a></li>
+    		<li><a href="/plus/list.php?tid=14"><img src="{dede:global.cfg_templets_skin/}/images/08.png" /></a></li>
+    		<li><a href="/plus/list.php?tid=15"><img src="{dede:global.cfg_templets_skin/}/images/09.png" /></a></li>
+    		<li><a href="/plus/list.php?tid=16"><img src="{dede:global.cfg_templets_skin/}/images/10.png" /></a></li>
+  		</ul>
 	</div>
 	<div class="pright">
 	</div>
