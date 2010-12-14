@@ -619,6 +619,19 @@ input,select,button{
 .pmiddle #hot{
 	float:left;
 	padding:5px 6px 0 0 ;
+	background: url('../images/xt_index_hot.jpg') no-repeat left bottom;
+	width:623px;
+	height:232px;
+	position:relative;
+}
+.pmiddle #hot .hotpic{
+	position:absolute;
+	top:37px;
+}
+.pmiddle #hot .hotico{
+	position:absolute;
+	top:26px;
+	left:294px;
 }
 .pmiddle #hotright{
 	float:right;
