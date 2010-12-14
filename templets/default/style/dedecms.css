@@ -1032,6 +1032,8 @@ input,select,button{
 }
 .shangcheng2 .rightpart ul li a{
 	color:#231815;
+    display: block;
+    width: 132px;
 }
 .shangcheng2 .rightpart ul li p{
 	color:#036eb7;

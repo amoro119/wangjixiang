@@ -34,14 +34,9 @@ function check(){
 		<div class="leftnav">
 			<img src="{dede:global.cfg_templets_skin/}/images/xt_ico_shangcheng_nav.gif" width="174" height="41" alt="Xt Ico Shangcheng Nav">
 			<ul>
-			   <li><a href="#"><span>毛绒公仔</span></a></li>
-			   <li><a href="#"><span>马克杯</span></a></li>
-			   <li><a href="#"><span>一次性纸杯</span></a></li>
-			   <li><a href="#"><span>杯垫系列</span></a></li>
-			   <li><a href="#"><span>竹炭系列</span></a></li>
-			   <li><a href="#"><span>包袋系列</span></a></li>
-			   <li><a href="#"><span>纸巾系列</span></a></li>
-			   <li><a href="#"><span>特种订购</span></a></li>			   
+				{dede:channel type='son' currentstyle="<li><a href='~typelink~' class='thisclass'>~typename~</a> </li>"}
+				<li><a href="[field:typelink /]">[field:typename /]</a></li>
+				{/dede:channel}		   
 			</ul>
 		</div>
 		<div class="rightpart">
