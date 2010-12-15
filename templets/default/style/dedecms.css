@@ -861,17 +861,17 @@ input,select,button{
 	border-bottom:2px solid #999999;
 	padding:9px 0;
 }
-.jixianggushi4 .breadcrumb a{
+.breadcrumb a{
 	color:#000;
 }
-.jixianggushi4 .breadcrumb .positon{
+.breadcrumb .positon{
 	padding-left:30px;
 }
-.jixianggushi4 .breadcrumb .pre{
+.breadcrumb .pre{
 	float:right;
 	padding-right:28px;
 }
-.jixianggushi4 .breadcrumb .next{
+.breadcrumb .next{
 	float:right;
 	padding-right:110px;
 }
@@ -1074,4 +1074,84 @@ input,select,button{
 		background: url('../images/xt_bg_leftnav_blue.gif') no-repeat 0 0;
 	color:#fff;
 	text-decoration:none;
+}
+.jixianggushi3{
+	height:883px;
+}
+.jixianggushi3 .pleft{
+	width:41px;
+	float:left;
+	height:100%;
+	background: url('../images/xt_bg_gushi3_left.gif') no-repeat left bottom;
+}
+.jixianggushi3 .pright{
+	width:42px;
+	height:100%;
+	float:right;
+	background: url('../images/xt_bg_gushi3_right.gif') no-repeat left bottom;	
+}
+.jixianggushi3 .pmiddle{
+	width:915px;
+	height:100%;
+	float:left;
+	background: url('../images/xt_bg_gushi3.gif') repeat-x left bottom;
+	position:relative;
+}
+.jixianggushi3 .breadcrumb{
+	margin-top:10px;
+	border-bottom:2px solid #999999;
+	padding:16px 0;
+}
+.jixianggushi3 .newslist{
+	background: url('../images/xt_block_gushilist.jpg') no-repeat left top;
+	width:594px;
+	height:569px;
+	float:left;
+	margin:0 0 0 14px;
+	display:inline;
+}
+.jixianggushi3 .rightpart{
+	float:right;
+	width:282px;
+	padding:0 13px 0 0;
+}
+.jixianggushi3 .gushiblock10{
+	background: url('../images/xt_bg_block10.jpg') no-repeat left top;
+	width:282px;
+	height:280px;
+}
+.jixianggushi3 .gushiblock11{
+	background: url('../images/xt_bg_block11.jpg') no-repeat left top;
+	width:282px;
+	height:279px;
+	position:relative;
+	margin:10px 0 0 0;
+}
+.newslist ul{
+	margin:24px 0 0 54px;
+}
+.newslist ul li{
+	width:395px;
+	line-height:20px;
+}
+.newslist ul li a{
+	color:#000;
+}
+.newslist ul li a:hover{
+	background:#aeddf2;
+}
+.newslist ul li span{
+	float:right;
+}
+.gushiblock10 ul{
+	padding:52px 0 0 29px;
+}
+.gushiblock10 ul li{
+	width:205px;
+}
+.gushiblock10 ul li a{
+	color:#000;
+}
+.gushiblock10 ul li span{
+	float:right;
 }
