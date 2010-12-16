@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverflow 
+	imageWidth="251" 
+	imageHeight="281"
+    imagePadding="1"       
+	coverflowSpacing="40"
+	startIndex="0"
+	startIndexInCenter="yes" 
+	coverLabelPositionY="240"
+	coverSlidePositionY="270"
+    transitionTime="0.5"
+    centerCoverflowZPosition="-125"
+	target="_blank"
+    reflectionAlpha="35"
+    reflectionRatio="50"
+    reflectionDistance="0"
+    reflectionUpdateTime="-1"
+    reflectionDropoff="0.75"
+	>
+<cover 
+	img="/images/demo-images/album2.jpg" 
+	title="The White Stripes"
+	link="http://www.ilike.com/artist/The+White+Stripes?src=onebox" />
+<cover 
+	img="/images/demo-images/album2.jpg" 
+	title="The White Stripes"
+	link="http://www.ilike.com/artist/The+White+Stripes?src=onebox" />
+<cover 
+	img="/images/demo-images/album2.jpg" 
+	title="The White Stripes"
+	link="http://www.ilike.com/artist/The+White+Stripes?src=onebox" />
+<cover 
+	img="/images/demo-images/album2.jpg" 
+	title="The White Stripes"
+	link="http://www.ilike.com/artist/The+White+Stripes?src=onebox" />
+<cover 
+	img="/images/demo-images/album2.jpg" 
+	title="The White Stripes"
+	link="http://www.ilike.com/artist/The+White+Stripes?src=onebox" />
+
+</coverflow>
