@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<channel>
+		<item>
+			<link>http://www.ruochi.com</link>
+			<image>/images/scslide_pic1.jpg</image>
+			<title>最新资讯</title>
+		</item>
+		<item>
+			<link>http://www.ruochigroup.com</link>
+			<image>/images/scslide_pic1.jpg</image>
+			<title>Greater Wild Goose Pagoda,Xi'an,China</title>
+		</item>
+	</channel>
+	<config>	
+		<roundCorner>0</roundCorner>
+		<autoPlayTime>8</autoPlayTime>
+		<isHeightQuality>false</isHeightQuality>
+		<blendMode>normal</blendMode>
+		<transDuration>1</transDuration>
+		<windowOpen>_self</windowOpen>
+		<btnSetMargin>auto 5 5 auto</btnSetMargin>
+		<btnDistance>20</btnDistance>
+		<titleBgColor>0x36a1d6</titleBgColor>
+		<titleTextColor>0xffffff</titleTextColor>
+		<titleBgAlpha>.75</titleBgAlpha>
+		<titleMoveDuration>1</titleMoveDuration>
+		<btnAlpha>.7</btnAlpha>	
+		<btnTextColor>0xffffff</btnTextColor>	
+		<btnDefaultColor>0x1B3433</btnDefaultColor>
+		<btnHoverColor>0x36a1d6</btnHoverColor>
+		<btnFocusColor>0xe50012</btnFocusColor>
+		<changImageMode>click</changImageMode>
+		<isShowBtn>true</isShowBtn>
+		<isShowTitle>false</isShowTitle>
+		<scaleMode>noBorder</scaleMode>
+		<transform>blur</transform>
+		<isShowAbout>false</isShowAbout>
+		<titleFont>微软雅黑</titleFont>
+	</config>
+</data>
+        

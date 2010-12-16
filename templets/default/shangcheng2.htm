@@ -20,6 +20,36 @@ function check(){
 	} 
 -->
 </script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.jcarousel.min.js" ></script> 
+<script type="text/javascript">
+function mycarousel_initCallback(carousel)
+{
+    // Disable autoscrolling if the user clicks the prev or next button.
+    carousel.buttonNext.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    carousel.buttonPrev.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    // Pause autoscrolling if the user moves with the cursor over the clip.
+    carousel.clip.hover(function() {
+        carousel.stopAuto();
+    }, function() {
+        carousel.startAuto();
+    });
+};
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+        auto: 5,
+        wrap: 'last',
+        initCallback: mycarousel_initCallback
+    });
+});
+</script>
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/shangcheng.css" /> 
 </head>
 <body class="channel">
 {dede:include filename="head.htm"/}
@@ -38,7 +68,11 @@ function check(){
 		</div>
 		<div class="rightpart">
 			<img src="{dede:global.cfg_templets_skin/}/images/xt_shangchang_title.gif" width="724" height="41" alt="Xt Shangchang Title">
-			<img src="{dede:global.cfg_templets_skin/}/images/shangcheng_slide.jpg" width="724" height="309" alt="Shangcheng Slide">
+			<div style="border:2px solid #8e9ba3;border-top:0px;margin-left:1px">
+							<object id="bcastr4" data="{dede:global.cfg_templets_skin/}/images/bcastr4.swf?xml={dede:global.cfg_templets_skin/}/images/scslide.xml" type="application/x-shockwave-flash" width="719" height="305">
+            <param name="movie" value="{dede:global.cfg_templets_skin/}/images/bcastr4.swf?xml={dede:global.cfg_templets_skin/}/images/scslide.xml" />  
+        	</object>
+			</div>
 			<img style="padding-top:4px;" src="{dede:global.cfg_templets_skin/}/images/xt_title_jinrituijian.gif" width="724" height="41" alt="Xt Title Jinrituijian">
 			<ul>
 				{dede:arclist flag='c' imgwidth='127' imgheight='122' titlelen='60'}
@@ -49,12 +83,10 @@ function check(){
 		<div class="clear"></div>
 		<div class="xinpindaohuo">
 			<img src="{dede:global.cfg_templets_skin/}/images/xt_title_xinpindaohuo.gif" width="904" height="41" alt="Xt Title Xinpindaohuo">
-			<ul>
-			<ul>
-				{dede:arclist imgwidth='127' imgheight='122' titlelen='60'}
+			<ul id="mycarousel" class="jcarousel-skin-tango">
+				{dede:arclist imgwidth='127' imgheight='122' titlelen='60' noflag='a'}
 			   <li>[field:image /]<a href="[field:description/]">[field:title/]</a><p>[field:shorttitle/]</p></li>
 			   {/dede:arclist}
-			</ul>
 			</ul>
 		</div>
 		<div class="clear"></div>
@@ -64,9 +96,12 @@ function check(){
 				<img src="{dede:global.cfg_templets_skin/}/images/xt_onsale.jpg" width="171" height="239" alt="Xt Onsale">
 			</div>
 			<div class="feature">
-							<img src="{dede:global.cfg_templets_skin/}/images/featureproduct.jpg" width="723" height="236" alt="Featureproduct">
+				{dede:arclist imgwidth='361' imgheight='236' flag='a'}
+			   	<a href="[field:description/]">[field:image /]</a>
+			   	{/dede:arclist}	
 			</div>
 		</div>
+		<div class="clear"></div>
 	</div>
 	<div class="pright">
 	</div>
