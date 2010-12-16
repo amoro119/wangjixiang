@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2010 年 12 月 10 日 09:17
+-- 生成日期: 2010 年 12 月 16 日 03:50
 -- 服务器版本: 5.1.41
 -- PHP 版本: 5.3.1
 
@@ -41,7 +41,9 @@ CREATE TABLE IF NOT EXISTS `dede_addonarticle` (
 --
 
 INSERT INTO `dede_addonarticle` (`aid`, `typeid`, `body`, `redirecturl`, `templet`, `userip`) VALUES
-(1, 21, '<p>旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。</p>\r\n<p>旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。</p>\r\n<p>旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。</p>\r\n<p>旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。</p>', '', '', '127.0.0.1');
+(1, 21, '<p>旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。</p>\r\n<p>旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。</p>\r\n<p>旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。</p>\r\n<p>旺&middot;吉祥太贪玩啦&hellip;&hellip;在韩国和日本真的玩得流连忘返，都舍不得走了。<br />\r\n<br />\r\n不过。我要环游世界九十天，所以要加快脚步啦！<br />\r\n<br />\r\n这回呀，吉祥还要去次美国。<br />\r\n<br />\r\n关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的西部转转。<br />\r\n<br />\r\n西边的太阳快要落山了，美国的西部静悄悄。弹起我心爱的小吉他，唱着那动人的歌谣。好一幅古道西风瘦马，夕阳西下，旺&middot;吉祥在天涯。。。</p>', '', '', '127.0.0.1'),
+(2, 30, '', '', '', '127.0.0.1'),
+(3, 22, '', '', '', '127.0.0.1');
 
 -- --------------------------------------------------------
 
@@ -220,7 +222,7 @@ CREATE TABLE IF NOT EXISTS `dede_admin` (
 --
 
 INSERT INTO `dede_admin` (`id`, `usertype`, `userid`, `pwd`, `uname`, `tname`, `email`, `typeid`, `logintime`, `loginip`) VALUES
-(1, 10, 'admin', 'f297a57a5a743894a0e4', 'admin', '', '', '0', 1291862778, '127.0.0.1');
+(1, 10, 'admin', 'f297a57a5a743894a0e4', 'admin', '', '', '0', 1292381805, '127.0.0.1');
 
 -- --------------------------------------------------------
 
@@ -338,7 +340,51 @@ INSERT INTO `dede_arccache` (`md5hash`, `uptime`, `cachedata`) VALUES
 ('90d3f5528ec15a23776da398ca239aaa', 1291884096, '0'),
 ('5144f1d1d078665b7d07d89d7d05fcef', 1291884096, '1'),
 ('b09b828556f567dac4dc5ec46cd6b5cd', 1291949596, '0'),
-('6183c8125e40da8773cdd518637bedcb', 1291949596, '1');
+('6183c8125e40da8773cdd518637bedcb', 1291949596, '1'),
+('4a3296efcb8d9f061a0d1de1a7727454', 1292300342, '0'),
+('c50da2a75e7292bc3434e9fc864ec709', 1292300342, '2'),
+('82bea9537976ce961c39351ac50d9b83', 1292311722, '1'),
+('d141f47db6fbf9450e721fdb508b7491', 1292311765, '1'),
+('781d7f56317b1907c3f78c3d6f14bb50', 1292312046, '1'),
+('943dc35febac72021ecaef9f362f2864', 1292312129, '1'),
+('80d6d56dacf7193bfefe52e9107a49f2', 1292312132, '1'),
+('253ad131d36d0a72ff7a440249ac760d', 1292312289, '1'),
+('6b202d9095601cd23353fc5aaf12945b', 1292312289, '0'),
+('2f3f674ea3acb08c503d80c6d370b1b4', 1292312292, '1'),
+('7e46396cc1004d3bc19fb1666620f45a', 1292312292, '0'),
+('27351b572746d34ff037f747cce09f6f', 1292312324, '0'),
+('2e216260e34e1aceb08e73c29e7ed165', 1292312405, '0'),
+('f054c5e9171984e055e6123a7cc5409d', 1292312428, '1'),
+('0895ab0c3fad4e0c490880d9f53564e1', 1292312536, '1'),
+('03f102c333aa17c1431025d29fa7bb75', 1292312536, '1'),
+('18372a845ffadf14b47662b42c8a4ac2', 1292313387, '1'),
+('2a921119b4fa06c85a6bc78bfdd1dc9b', 1292313387, '1'),
+('7da0bab1c4ed49bb97608e42f6369161', 1292316650, '0'),
+('e3ad3af225e062bf35b0abdfadfc14f6', 1292316650, '3'),
+('ba911e2fb7d3e221023582304f21df72', 1292317224, '3'),
+('8e1d287fa7aaab3784e5b1bb91297da0', 1292317224, '3'),
+('24d720dd5ccd7ac5880d40e1c314c565', 1292317211, '0'),
+('217f88d5b6c9aca86450ecaa478cb347', 1292317230, '3'),
+('5d41ad290d49dc7b1b3d6d51906e4238', 1292317323, '3'),
+('4f1cbea89769b30709af1f99f661a28c', 1292317795, '3'),
+('0a402fdb07e0caa60efbf757b167a670', 1292317886, '3'),
+('abb5893d0ac580647ead070280204256', 1292317944, '3'),
+('8035773d69b500355cd71a540917513c', 1292317946, '3'),
+('4b445181f8873523e8cbe88f9f7b8124', 1292317955, '3'),
+('465f7c7edb5c0f8551927078086d6812', 1292318384, '3'),
+('e75cc8fe53d66e3baa95d5faa228903e', 1292383709, '1'),
+('a45346c6ed35d2ebdf7a700b69a8f6be', 1292383758, '1'),
+('83af142e4168bb615c9e753c97c1b6a4', 1292384000, '1'),
+('b70aeeca141da285603e90059f49fc4d', 1292384047, '1'),
+('36e4a08913313b1831080852f9ede3c1', 1292384103, '1'),
+('f207597d273309506f787af3484924f3', 1292384717, '1'),
+('ca1fb4d278349f50fa4f40faf53a2b9e', 1292384717, '1'),
+('aee594b3cbf08a7b786082f9268521be', 1292390297, '1'),
+('29133721bcb2009461a8eb2f5916b881', 1292390297, '1'),
+('bf96e46538c3fe03b2176ba7ad22f9b8', 1292391109, '1'),
+('6431937732418688af3e9be8942471d2', 1292391109, '1'),
+('355f690f858e689c608bc035f4645a2e', 1292466895, '3'),
+('0601cc15a908909f0e699a7fa62e810b', 1292466895, '3');
 
 -- --------------------------------------------------------
 
@@ -389,7 +435,9 @@ CREATE TABLE IF NOT EXISTS `dede_archives` (
 --
 
 INSERT INTO `dede_archives` (`id`, `typeid`, `typeid2`, `sortrank`, `flag`, `ismake`, `channel`, `arcrank`, `click`, `money`, `title`, `shorttitle`, `color`, `writer`, `source`, `litpic`, `pubdate`, `senddate`, `mid`, `keywords`, `lastpost`, `scores`, `goodpost`, `badpost`, `notpost`, `description`, `filename`, `dutyadmin`, `tackid`, `mtype`, `weight`) VALUES
-(1, 21, '0', 1291862840, 'p', -1, 1, 0, 114, 0, '旺·吉祥美国行', '', '', 'admin', '未知', '/uploads/101210/1-101210115A11A.jpg', 1291862840, 1291862875, 1, '行,美国,吉祥,旺,', 0, 0, 0, 0, 0, '旺吉祥太贪玩啦在韩国和日本真的玩得流连忘返，都舍不得走了。 不过。我要环游世界九十天，所以要加快脚步啦！ 这回呀，吉祥还要去次美国。 关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的', '', 1, 0, 0, 0);
+(1, 21, '0', 1291862840, 'p', -1, 1, 0, 114, 0, '旺·吉祥美国行', '', '', 'admin', '未知', '/uploads/101210/1-101210115A11A.jpg', 1291862840, 1291862875, 1, '行,美国,吉祥,旺,', 0, 0, 0, 0, 0, '旺吉祥太贪玩啦在韩国和日本真的玩得流连忘返，都舍不得走了。 不过。我要环游世界九十天，所以要加快脚步啦！ 这回呀，吉祥还要去次美国。 关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的', '', 1, 0, 0, 0),
+(2, 30, '0', 1292297824, 'p', -1, 1, 0, 145, 0, '最热商品', '', '', 'admin', '未知', '/uploads/101214/1-101214121U3F0.png', 1292297824, 1292297926, 1, '商品,最热,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 1),
+(3, 22, '0', 1292314665, 'c,p', 1, 1, 0, 145, 0, '旺吉祥公仔（吉祥款）：进口绒布制作，内含高性能竹炭。', '￥商城价：89.00元', '', 'admin', '未知', '/uploads/101214/1-101214163112312.jpg', 1292314665, 1292315334, 1, '吉祥,内含,高性能,竹炭,制作,进口,公仔,款,旺,绒布,', 0, 0, 0, 0, 0, 'http://www.taobao.com', '', 1, 0, 0, 2);
 
 -- --------------------------------------------------------
 
@@ -463,14 +511,16 @@ CREATE TABLE IF NOT EXISTS `dede_arctiny` (
   `mid` mediumint(8) unsigned NOT NULL,
   PRIMARY KEY (`id`),
   KEY `sortrank` (`sortrank`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=2 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=4 ;
 
 --
 -- 转存表中的数据 `dede_arctiny`
 --
 
 INSERT INTO `dede_arctiny` (`id`, `typeid`, `typeid2`, `arcrank`, `channel`, `senddate`, `sortrank`, `mid`) VALUES
-(1, 21, '0', 0, 1, 1291862875, 1291862840, 1);
+(1, 21, '0', 0, 1, 1291862875, 1291862840, 1),
+(2, 30, '0', 0, 1, 1292297926, 1292297824, 1),
+(3, 22, '0', 0, 1, 1292315334, 1292314665, 1);
 
 -- --------------------------------------------------------
 
@@ -512,7 +562,7 @@ CREATE TABLE IF NOT EXISTS `dede_arctype` (
   PRIMARY KEY (`id`),
   KEY `reid` (`reid`,`isdefault`,`channeltype`,`ispart`,`corank`,`topid`,`ishidden`),
   KEY `sortrank` (`sortrank`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=30 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=33 ;
 
 --
 -- 转存表中的数据 `dede_arctype`
@@ -529,9 +579,9 @@ INSERT INTO `dede_arctype` (`id`, `reid`, `topid`, `sortrank`, `typename`, `type
 (8, 4, 4, 50, '肥牛', '{cmspath}/a/jixiangjiazu/feiniu', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
 (9, 4, 4, 50, '啡啡', '{cmspath}/a/jixiangjiazu/feifei', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
 (10, 4, 4, 50, '鼻涕虫', '{cmspath}/a/jixiangjiazu/bitichong', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
-(11, 4, 4, 50, '玉如意', '{cmspath}/a/jixiangjiazu/yuruyi', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '<div><img width="882" height="560" border="0" src="/uploads/allimg/101208/1_101208170341_1.jpg" alt="" style="cursor: pointer;" onclick="window.open(''/uploads/allimg/101208/1_101208170341_1.jpg'')" /></div>', ''),
+(11, 4, 4, 50, '玉如意', '{cmspath}/a/jixiangjiazu/yuruyi', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
 (12, 4, 4, 50, '顿牛', '{cmspath}/a/jixiangjiazu/dunniu', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
-(13, 4, 4, 50, '粘宝宝', '{cmspath}/a/jixiangjiazu/zhanbaobao', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(13, 4, 4, 50, '粘宝宝', '{cmspath}/a/jixiangjiazu/zhanbaobao', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '<div><img width="882" height="560" border="0" alt="" src="/uploads/allimg/101208/1_101208170341_1.jpg" /></div>\r\n<p>&nbsp;</p>', ''),
 (14, 4, 4, 50, '呗呗', '{cmspath}/a/jixiangjiazu/beibei', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
 (15, 4, 4, 50, '鼻涕弟弟', '{cmspath}/a/jixiangjiazu/bitididi', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
 (16, 3, 3, 50, '吉祥SHOW', '{cmspath}/a/jixianggushi/jixiangSHOW', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jixianggushi2.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
@@ -540,14 +590,15 @@ INSERT INTO `dede_arctype` (`id`, `reid`, `topid`, `sortrank`, `typename`, `type
 (19, 16, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/jixiangSHOW/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
 (20, 18, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/wangwangsangeban/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
 (21, 17, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/jixianglewen/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
-(22, 2, 2, 50, '毛绒公仔', '{cmspath}/a/jixiangshangcheng/maoronggongzi', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
-(23, 2, 2, 50, '马克杯', '{cmspath}/a/jixiangshangcheng/makebei', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
-(24, 2, 2, 50, '一次性纸杯', '{cmspath}/a/jixiangshangcheng/yicixingzhibei', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
-(25, 2, 2, 50, '杯垫系列', '{cmspath}/a/jixiangshangcheng/beidianxilie', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(22, 2, 2, 50, '毛绒公仔', '{cmspath}/a/jixiangshangcheng/maoronggongzi', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(23, 2, 2, 50, '马克杯', '{cmspath}/a/jixiangshangcheng/makebei', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(24, 2, 2, 50, '一次性纸杯', '{cmspath}/a/jixiangshangcheng/yicixingzhibei', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(25, 2, 2, 50, '杯垫系列', '{cmspath}/a/jixiangshangcheng/beidianxilie', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
 (26, 2, 2, 50, '竹炭系列', '{cmspath}/a/jixiangshangcheng/zhutanxilie', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
-(27, 2, 2, 50, '包袋系列', '{cmspath}/a/jixiangshangcheng/baodaixilie', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
-(28, 2, 2, 50, '纸巾系列', '{cmspath}/a/jixiangshangcheng/zhijinxilie', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
-(29, 2, 2, 50, '特种订购', '{cmspath}/a/jixiangshangcheng/tezhongdinggou', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', '');
+(27, 2, 2, 50, '包袋系列', '{cmspath}/a/jixiangshangcheng/baodaixilie', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(28, 2, 2, 50, '纸巾系列', '{cmspath}/a/jixiangshangcheng/zhijinxilie', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(29, 2, 2, 50, '特种订购', '{cmspath}/a/jixiangshangcheng/tezhongdinggou', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(30, 0, 0, 50, '首页', '{cmspath}/a/shouye', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '', '', 0, 0, '', '', '');
 
 -- --------------------------------------------------------
 
@@ -1523,7 +1574,7 @@ CREATE TABLE IF NOT EXISTS `dede_member` (
 --
 
 INSERT INTO `dede_member` (`mid`, `mtype`, `userid`, `pwd`, `uname`, `sex`, `rank`, `uptime`, `exptime`, `money`, `email`, `scores`, `matt`, `spacesta`, `face`, `safequestion`, `safeanswer`, `jointime`, `joinip`, `logintime`, `loginip`) VALUES
-(1, '个人', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', '男', 100, 0, 0, 0, '', 10000, 10, 0, '', 0, '', 1291180264, '', 1291882037, '127.0.0.1');
+(1, '个人', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', '男', 100, 0, 0, 0, '', 10000, 10, 0, '', 0, '', 1291180264, '', 1292381805, '127.0.0.1');
 
 -- --------------------------------------------------------
 
@@ -1937,7 +1988,7 @@ CREATE TABLE IF NOT EXISTS `dede_member_tj` (
 --
 
 INSERT INTO `dede_member_tj` (`mid`, `article`, `album`, `archives`, `homecount`, `pagecount`, `feedback`, `friend`, `stow`, `soft`, `info`, `shop`) VALUES
-(1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0);
+(1, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -2920,7 +2971,7 @@ CREATE TABLE IF NOT EXISTS `dede_uploads` (
   PRIMARY KEY (`aid`),
   KEY `memberid` (`mid`),
   KEY `arcid` (`arcid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=3 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=7 ;
 
 --
 -- 转存表中的数据 `dede_uploads`
@@ -2928,7 +2979,11 @@ CREATE TABLE IF NOT EXISTS `dede_uploads` (
 
 INSERT INTO `dede_uploads` (`aid`, `arcid`, `title`, `url`, `mediatype`, `width`, `height`, `playtime`, `filesize`, `uptime`, `mid`) VALUES
 (1, 0, '1_101208170341_1.jpg', '/uploads/allimg/101208/1_101208170341_1.jpg', 1, '882', '560', '0', 100118, 1291799021, 1),
-(2, 1, '旺·吉祥美国行', '/uploads/101210/1-101210115A11A.jpg', 1, '580', '645', '0', 78963, 1291953411, 1);
+(2, 1, '旺·吉祥美国行', '/uploads/101210/1-101210115A11A.jpg', 1, '580', '645', '0', 78963, 1291953411, 1),
+(3, 2, '最热商品', '/uploads/101214/1-10121411553K44.jpg', 1, '576', '200', '0', 35424, 1292298937, 1),
+(4, 2, '最热商品', '/uploads/101214/1-101214120159160.jpg', 1, '362', '200', '0', 28025, 1292299319, 1),
+(5, 2, '最热商品', '/uploads/101214/1-101214121U3F0.png', 1, '362', '200', '0', 155272, 1292300333, 1),
+(6, 3, '旺吉祥公仔（吉祥款）：进口绒布制作，内含高性能竹炭。', '/uploads/101214/1-101214163112312.jpg', 1, '127', '122', '0', 10756, 1292315472, 1);
 
 -- --------------------------------------------------------
 
