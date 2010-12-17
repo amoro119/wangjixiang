@@ -1,103 +1,74 @@
-<?php
-//未登录显示的head
-if(!$cfg_ml->IsLogin()) {
-?>
-<div id="header">
-	<div id="siteNav">
-    <div class="innerWrap">
-      <div id="loginInfo">
-      <script type="text/javascript">
-           	var now=(new Date()).getHours();
-			if(now>0&&now<=6){
-				document.write("午夜好，");
-			}else if(now>6&&now<=11){
-				document.write("早上好，");
-			}else if(now>11&&now<=14){
-				document.write("中午好，");
-			}else if(now>14&&now<=18){
-				document.write("下午好，");
-			}else{
-				document.write("晚上好，");
-			}
-			</script>
-       游客
-       </div>
-      <ul id="quickMenu">
-        <li><a title="网站主页" href="../">网站主页</a> </li>
-        <li><a title="注册" href="../member/index_do.php?fmdo=user&dopost=regnew">注册</a> </li>
-        <li><a title="登录" href="../member/login.php">登录</a> </li>
-        <li class="help"> <a title="DEDECMS 帮助中心" href="http://help.dedecms.com" target="_blank">帮助</a> </li>
-      </ul>
-    </div>
-  </div>
-</div>
-<?php
-}
-//登录后显示的head
-else {
-?>
-<div id="header">
-  <div id="siteNav">
-    <div class="innerWrap">
-      <div id="loginInfo">
-      <script type="text/javascript">
-           	var now=(new Date()).getHours();
-			if(now>0&&now<=6){
-				document.write("午夜好，");
-			}else if(now>6&&now<=11){
-				document.write("早上好，");
-			}else if(now>11&&now<=14){
-				document.write("中午好，");
-			}else if(now>14&&now<=18){
-				document.write("下午好，");
-			}else{
-				document.write("晚上好，");
-			}
-			</script>
-       <a href="#" class="userName"><?php echo $cfg_ml->M_UserName?></a> <a href="../member/index_do.php?fmdo=login&dopost=exit#">[退出]</a> 
-       <?php
-       $pms = $dsql->GetOne("SELECT COUNT(*) AS nums FROM #@__member_pms WHERE toid='{$cfg_ml->M_ID}' AND `hasview`=0 AND folder = 'inbox'");
-		if($pms['nums'] > 0)
-		{
-			echo "<a href='/member/pm.php' target='_blank'>短消息 [<font color='#FF0000'>{$pms['nums']}</font>]</a>";
-		}
-		elseif($pms['nums']==0)
-		{
-			echo "<a href='/member/pm.php' target='_blank'>短消息</a>";
-		}
-       ?>
-       </div>
-      <ul id="quickMenu">
-        <li class="home"><a href="../" title="会员中心首页">主页</a></li>
-        <li><a href="#">内容中心</a></li>
-        <li><a href="<?php echo $myurl; ?>" title="会员空间">会员空间</a></li>
-        <li><a href="../member/mystow.php" title="收藏夹">收藏夹</a></li>
-        <li class="help"><a href="http://help.dedecms.com" title="DEDECMS 帮助中心">帮助</a></li>
-      </ul>
-    </div>
-  </div>
-  <!--顶部导航 -->
-  <div id="topPic"> <a href="../member/"><img alt="会员中心" src="../member/templets/images/m_logo.gif" class="topLogo"/></a> </div>
-  <div id="topNav">
-    <ul id="appIterm">
-      <li <?php echo ($menutype == 'content')? 'class="thisApp"' : "" ;?>><a href="../member/content_list.php?channelid=1">内容中心</a></li>
-      <li <?php echo ($menutype == 'mydede')? 'class="thisApp"' : "" ;?>><a href="../member/" title="我的织梦">我的织梦</a></li>
-      <li <?php echo ($menutype == 'config')? 'class="thisApp"' : "" ;?>><a href="../member/edit_space_info.php" title="系统设置">系统设置</a></li>
+<div class="header">
+  <script language="javascript" type="text/javascript">
+	window.onload=function (){
+		setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
+	}
+	var topid=0{dede:type}[field:topid/]{/dede:type};
+	var typeid=0{dede:type}[field:id/]{/dede:type};
+	var navId=topid==0?typeid:topid;
+	$(document).ready(function($){
+		$('#nav'+navId).addClass('current');
+	});
+	
+  </script>
+
+	<!--[if IE 6]>   
+	<script type="text/javascript" src="/templets/default/js/DD_belatedPNG-min.js" ></script>   
+	<script type="text/javascript">   
+
+	$(document).ready(function($){
+		DD_belatedPNG.fix('#navMenu ul li a');
+		DD_belatedPNG.fix('.pmiddle #hot');
+		DD_belatedPNG.fix('#mycarousel li a');
+	});
+	
+	</script>   
+	<![endif]-->
+
+<link href="/templets/default/style/nivo-slider.css" rel="stylesheet" media="screen" type="text/css" />
+<script type="text/javascript" src="/templets/default/js/jquery.nivo.slider.pack.js" ></script>   
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect:'random', //Specify sets like: 'fold,fade,sliceDown'
+        slices:15,
+        animSpeed:500, //Slide transition speed
+        pauseTime:3000,
+        startSlide:0, //Set starting Slide (0 index)
+        directionNav:false, //Next & Prev
+        directionNavHide:true, //Only show on hover
+        controlNav:false, //1,2,3...
+        keyboardNav:false, //Use left & right arrows
+        pauseOnHover:true, //Stop animation while hovering
+        manualAdvance:false, //Force manual transitions
+        captionOpacity:0.8, //Universal caption opacity
+    });
+});
+</script>
+    <div class="header_top w998">     
+    <ul class="language">
+       <li><a href="#">中文</a></li>|
+       <li><a href="#">English</a></li>
     </ul>
-    <!--程序导航列表 -->
-    <div id="channel">
-      <ul>
-        <li><a href="<?php echo $myurl; ?>" title="个人空间" target="_blank"><span>个人空间</span></a></li>
-        <li <?php echo ($menutype_son == 'mf')? 'class="thisApp"' : "" ;?>><a href="../member/myfriend.php" title="我的好友"><span>我的好友</span></a></li>
-        <li <?php echo ($menutype_son == 'pm')? 'class="thisApp"' : "" ;?>><a href="../member/pm.php" title="短消息"><span>短消息</span></a></li>
-        <li <?php echo ($menutype_son == 'gu')? 'class="thisApp"' : "" ;?>><a href="../member/guestbook_admin.php" title="留言板"><span>留言板</span></a></li>
-        <li <?php echo ($menutype_son == 'op')? 'class="thisApp"' : "" ;?>><a href="../member/operation.php" title="消费中心"><span>消费中心</span></a></li>
-        <li <?php echo ($menutype_son == 'cc')? 'class="thisApp"' : "" ;?>><a href="../member/caicai.php" title="随便踩踩"><span>随便踩踩</span></a></li>
-      </ul>
     </div>
-    <!--导航栏目项 -->
-  </div>
-</div>
-<?php
-}
-?>
+	<div class="banner w998 center" id="slider">
+		<img src="/templets/default/images/xt_banner.jpg" alt="Xt Banner">
+		<img src="/templets/default/images/xt_banner2.jpg" alt="Xt Banner">
+	</div><!-- //top -->
+	<!-- //菜单 -->
+	<div class="module blue mT10 wrapper w998">
+  	<div class="top">
+    	<!-- //如果不使用currentstyle，可以在channel标签加入 cacheid='channeltoplist' 属性提升性能 -->
+    <div id="navMenu">
+    	<ul>
+      	<li><a id="nav0" href='{dede:global.cfg_cmsurl/}/'></a></li>
+      	<li><a id="nav2" href='/plus/list.php?tid=2'></a></li>
+      	<li><a id="nav3" href='/plus/list.php?tid=3'></a></li>
+      	<li><a id="nav4" href='/plus/list.php?tid=4'></a></li>
+      	<li><a id="navv" href='#'></a></li>
+      	<li><a id="nav5" href='/plus/list.php?tid=5'></a></li>
+    	</ul>
+    </div>	
+		</div>
+	</div>
+</div><!-- //header -->

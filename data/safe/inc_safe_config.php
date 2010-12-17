@@ -1,5 +1,5 @@
 <?php
-$safe_gdopen = '1,2,3,4,5';
+$safe_gdopen = '3,4';
 $safe_codetype = '2';
 $safe_gdtype = '1';
 $safe_gdstyle = '3';
