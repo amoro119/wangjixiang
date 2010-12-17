@@ -56,21 +56,27 @@ function check(){
 		</div>
 		<div class="rightpart">
 			<img src="{dede:global.cfg_templets_skin/}/images/xt_shangchang_title.gif" width="724" height="41" alt="Xt Shangchang Title">
-			<img src="{dede:global.cfg_templets_skin/}/images/shangcheng_slide.jpg" width="724" height="309" alt="Shangcheng Slide">
+						<div style="border:2px solid #8e9ba3;border-top:0px;margin-left:1px">
+							<object id="bcastr4" data="{dede:global.cfg_templets_skin/}/images/bcastr4.swf?xml={dede:global.cfg_templets_skin/}/images/scslide.xml" type="application/x-shockwave-flash" width="719" height="305">
+            <param name="movie" value="{dede:global.cfg_templets_skin/}/images/bcastr4.swf?xml={dede:global.cfg_templets_skin/}/images/scslide.xml" />  
+        	</object>
+			</div>
 			<div class="feature">
-				<img src="{dede:global.cfg_templets_skin/}/images/featureproduct.jpg" width="723" height="236" alt="Featureproduct">
+				{dede:arclist imgwidth='361' imgheight='236' flag='h'}
+			   	<a href="[field:description/]">[field:image /]</a>
+			   	{/dede:arclist}	
 			</div>
 		</div>
 		<div class="clear"></div>
 		<div class="blocklist">
 			<a class="gongzai" href="#">
-				
+				<img src="/images/gongzai.jpg" width="265" height="158" alt="Gongzai">
 			</a>
 			<a class="jiaju" href="#">
-				
+				<img src="/images/jiaju.jpg" width="265" height="158" alt="Jiaju">
 			</a>
 			<a class="zhipin" href="#">
-				
+				<img src="/images/zhipin.jpg" width="266" height="158" alt="Zhipin">
 			</a >
 		</div>
 	</div>

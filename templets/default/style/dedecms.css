@@ -983,6 +983,7 @@ input,select,button{
 }
 .rightpart .feature{
 	padding-top:5px;
+	width:725px;
 }
 .blocklist{
 	background:#8b9397;
@@ -991,6 +992,9 @@ input,select,button{
 	margin-top:5px;
 	padding-top:13px;
 	position:relative;
+}
+.blocklist img{
+	margin:47px 0 0 5px;
 }
 .shangcheng1 .gongzai{
 	background: url('../images/xt_bg_block4.jpg') no-repeat 0 0;
