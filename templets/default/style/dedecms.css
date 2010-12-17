@@ -1259,3 +1259,5 @@ input,select,button{
 }
 #cover-flow{width:904px; height:405px; display:block;}
 
+.board-container{position:relative;}
+#board{position:absolute; top:14px; right:35px;}
