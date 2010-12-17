@@ -106,51 +106,33 @@ $(window).load(function() {
   	<div class="pleft">
 	</div>
 	<div class="pmiddle">
-<div class="login bor">
-  <div class="main fLeft">
-    <h3>请在这里登录<em><a href="index_do.php?fmdo=user&dopost=regnew">还没注册 点击这里</a></em></h3>
-    <form name='form1' method='POST' action='index_do.php'>
-      <input type="hidden" name="fmdo" value="login">
-      <input type="hidden" name="dopost" value="login">
-      <input type="hidden" name="gourl" value="<?php if(!empty($gourl)) echo $gourl;?>">
-      <ul>
-        <li> <span>用户名：</span>
-          <input id="txtUsername" class="text login_from" type="text" name="userid"/>
-        </li>
-        <li> <span>密&nbsp;&nbsp;&nbsp;码：</span>
-          <input id="txtPassword" class="text login_from2" type="password" name="pwd"/>
-        </li>
-        <li> <span>验证码：</span>
-          <input id="vdcode" class="text login_from3" type="text" style="width: 50px; text-transform: uppercase;" name="vdcode"/>
-          <img id="vdimgck" align="absmiddle" onclick="this.src=this.src+'?'" style="cursor: pointer;" alt="看不清？点击更换" src="../include/vdimgck.php"/>
-           看不清？ <a href="#" onclick="changeAuthCode();">点击更换</a> </li>
-        <li> <span>有效期：</span>
-          <input type="radio" value="2592000" name="keeptime" id="ra1"/>
-          <label for="ra1">一个月</label>
-          <input type="radio" checked="checked" value="604800" name="keeptime" id="ra2"/>
-          <label for="ra2">一周</label>
-          <input type="radio" value="86400" name="keeptime"  id="ra3"/>
-          <label for="ra3">一天</label>
-          <input type="radio" value="0" name="keeptime"  id="ra4"/>
-          <label for="ra4">即时</label></li>
-        <li>
-          <button id="btnSignCheck" class="button2" type="submit">登&nbsp;录</button>
-          <a href="resetpassword.php">忘记密码？</a> </li>
-      </ul>
-    </form>
+<div class="bor">
+  <div class="fLeft">
+					<form name='form1' method='post' action='../member/index_do.php' id="form1">
+						<input type="hidden" name="fmdo" value="login" /><input type="hidden" name="dopost" value="login" /><input type="hidden" name="gourl" value="<?php if(!empty($gourl)) echo $gourl;?>" />
+						<ul>
+							<li>
+								<input id="txtUsername" class="text login_from" type="text" name="userid" />
+							</li>
+							<li>
+								<input id="txtPassword" class="text login_from2" type="password" name="pwd" />
+							</li>
+						</ul>
+							<button id="btnSignCheck" class="button2" type="submit"></button>
+							<a href="/member/resetpassword.php">忘记密码？</a>|
+							<a title="注册" href="/member/index_do.php?fmdo=user&dopost=regnew">注册新会员</a>
+							<div class="clear"></div>
+							<input type="checkbox" value="2592000" name="keeptime" id="ra1"/>
+          					<label for="ra1">记住我的登录状态</label>
+					</form>
   </div>
-  <div class="login_sidebar fRight">
-    <p><span>还没有注册吗？</span><br />
-      本站的账号都没有？你也太落伍了<br />
-      赶紧去注册一个吧。</p>
-    <button class="signUp" onclick="javascript:location='index_do.php?fmdo=user&dopost=regnew'">注册</button>
-  </div>
-</div>
+ </div>
 <script language="javascript" type="text/javascript">
 	window.onload=function (){
 		setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
 	}
 </script>
+<img style="padding-top:8px" src="/templets/default/images/xt_fg_login.jpg" width="910" height="162" alt="Xt Fg Login">
 	</div>
 	<div class="pright">
 	</div>

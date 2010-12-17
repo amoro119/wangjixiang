@@ -1258,6 +1258,32 @@ input,select,button{
 	position:absolute;
 }
 #cover-flow{width:904px; height:405px; display:block;}
-
 .board-container{position:relative;}
-#board{position:absolute; top:14px; right:35px;}
+.board-container #board{position:absolute; top:14px; right:35px;}
+.bor{
+	background: url('../images/xt_bg_login.jpg') no-repeat 0 0;
+	width:910px;
+	height:367px;
+}
+.bor .fLeft{
+	margin:0 auto;
+	padding-top:118px;
+	width:192px;
+	position:relative;
+	line-height:20px;
+}
+.bor .fLeft a{
+	color:#000;
+}
+.bor .fLeft form .text{
+	width:123px;
+}
+.bor .fLeft form button {
+    background: url("../images/xt_btn_huyuan_login.gif") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    height: 74px;
+    width: 49px;
+    position:absolute;
+    top:118px;
+    right:0;
+}
