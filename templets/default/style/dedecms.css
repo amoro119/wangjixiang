@@ -38,6 +38,10 @@ input,select,button{
 	font:12px Verdana,Arial,Tahoma;
 	vertical-align:middle;
 }
+button{
+	line-height:21px;
+	text-align:center;
+}
 /*---------- stock ---------*/
 .center{
 	margin:0px auto;
@@ -1265,6 +1269,11 @@ input,select,button{
 	width:910px;
 	height:367px;
 }
+.editface{
+	background: url('../images/xt_bg_editface.jpg') no-repeat 0 0;
+	width:910px;
+	height:367px;
+}
 .bor .fLeft{
 	margin:0 auto;
 	padding-top:118px;
@@ -1287,3 +1296,11 @@ input,select,button{
     top:118px;
     right:0;
 }
+.editface .fLeft{
+	padding:89px 0 0 26px;
+	width:358px;
+}
+.button2{
+	width:48px;
+}
+.ifile {position:absolute;opacity:0;filter:alpha(opacity=0);}
