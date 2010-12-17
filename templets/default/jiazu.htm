@@ -27,7 +27,22 @@ function check(){
 <div class="w998 center clear mt1 contact">
   	<div class="pleft">
 	</div>
-	<div class="pmiddle">
+	<div class="pmiddle board-container">
+<div id="board"></div>
+<script type="text/javascript">
+	var flashvars = {};
+	flashvars.href="#"
+	flashvars.target="_blank"
+	var params = {};
+	params.loop = "false";
+	params.wmode = "transparent"
+	params.menu = "false";
+	params.quality = "best";
+	params.scale = "noscale";
+	params.salign = "tl";
+	var attributes = {};
+	swfobject.embedSWF("{dede:global.cfg_templets_skin/}/images/board.swf", "board", "210", "115", "10.0.0", "swf/expressInstall.swf", flashvars, params, attributes);
+</script>
 <table border="0" cellpadding="0" cellspacing="0" width="894">
 <!-- fwtable fwsrc="吉祥家族 1级 分切.png" fwpage="页面 1" fwbase="jiazu.gif" fwstyle="Generic" fwdocid = "332285014" fwnested="0" -->
   <tr>
