@@ -105,7 +105,7 @@ function GoGuestBook();
 ---------------------------*/
 else if($dopost=="guestbook")
 {
-	ShowMsg("正在跳转到留言本&gt;&gt;", "{$cfg_phpurl}/guestbook.php?gotopagerank=admin");
+	ShowMsg("正在跳转到留言本&gt;&gt;", "{$cfg_phpurl}/guestbook2.php?gotopagerank=admin");
 	exit();
 }
 
