@@ -138,7 +138,7 @@ $cfg_uplitpic_cut = 'Y';
 $cfg_album_mark = 'N';
 $cfg_mb_feedcheck = 'N';
 $cfg_mb_msgischeck = 'N';
-$cfg_mb_reginfo = 'Y';
+$cfg_mb_reginfo = 'N';
 $cfg_remote_site = 'N';
 $cfg_title_site = 'N';
 ?>

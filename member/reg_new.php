@@ -80,15 +80,15 @@ if($step == 1)
 		
 		$uname = HtmlReplace($uname, 1);
 		//用户笔名重复检测
-		if($cfg_mb_wnameone=='N')
-		{
-			$row = $dsql->GetOne("Select * From `#@__member` where uname like '$uname' ");
-			if(is_array($row))
-			{
-				ShowMsg('用户笔名或公司名称不能重复！', '-1');
-				exit();
-			}
-		}
+		//if($cfg_mb_wnameone=='N')
+		//{
+		//	$row = $dsql->GetOne("Select * From `#@__member` where uname like '$uname' ");
+		//	if(is_array($row))
+		//	{
+		//		ShowMsg('用户笔名或公司名称不能重复！', '-1');
+		//		exit();
+		//	}
+		//}
 		if(!CheckEmail($email))
 		{
 			ShowMsg('Email格式不正确！', '-1');

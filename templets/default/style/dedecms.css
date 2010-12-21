@@ -1332,3 +1332,36 @@ button{
 	right:0;
 	top:265px;
 }
+.reg .bor{
+	background: url("../images/xt_bg_reg.jpg") no-repeat scroll 0 0 transparent;
+}
+.reg .fLeft{
+	width:491px;
+}
+.contract {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #CCCCCC;
+    color: #000000;
+    font-size: 12px;
+    height: 90px;
+    line-height: 20px;
+    overflow: auto;
+    padding: 5px;
+    text-align: left;
+    width:393px;
+}
+.xieyi{
+	float:left;
+}
+.buttonGreen142{
+	background: url("../images/xt_btn_regnew.gif") no-repeat scroll 0 0 transparent;
+	width:78px;
+	height:33px;
+	border:0;
+	cursor:pointer
+}
+#_userpwdok{
+	position:absolute;
+	left:701px;
+    top: 140px;
+}
