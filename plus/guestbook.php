@@ -17,12 +17,12 @@ else if($action=='save')
 	else $GUEST_BOOK_POS = 'guestbook.php';
 	if(empty($validate)) $validate=='';
 	else $validate = strtolower($validate);
-	$svali = GetCkVdValue();
-	if($validate=='' || $validate!=$svali)
-	{
-	 	ShowMsg("验证码不正确!","");
-	 	exit();
-	}
+	//$svali = GetCkVdValue();
+	//if($validate=='' || $validate!=$svali)
+	//{
+	// 	ShowMsg("验证码不正确!","");
+	 //	exit();
+	//}
 	$ip = GetIP();
 	$dtime = time();
 	$uname = trimMsg($uname);

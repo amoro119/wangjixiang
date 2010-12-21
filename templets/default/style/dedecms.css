@@ -1316,3 +1316,19 @@ button{
     top:181px;
     left:85px;
 }
+.message .bor{
+	background: url("../images/xt_bg_message.jpg") no-repeat scroll 0 0 transparent;
+}
+.message .fLeft{
+	margin:0 0 0 20px;
+	width:391px;
+	padding-top:80px;
+}
+.message .btn-2{
+	background: url("../images/xt_btn_message.gif") no-repeat scroll 0 0 transparent;
+	width:94px;
+	height:32px;
+	position:absolute;
+	right:0;
+	top:265px;
+}
