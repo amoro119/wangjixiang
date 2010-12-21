@@ -1287,7 +1287,7 @@ button{
 .bor .fLeft form .text{
 	width:123px;
 }
-.bor .fLeft form button {
+.bor .fLeft form .button2 {
     background: url("../images/xt_btn_huyuan_login.gif") no-repeat scroll 0 0 transparent;
     border: 0 none;
     height: 74px;
@@ -1304,3 +1304,15 @@ button{
 	width:48px;
 }
 .ifile {position:absolute;opacity:0;filter:alpha(opacity=0);}
+.resetpw .bor{
+	background: url("../images/xt_bg_resetpw.jpg") no-repeat scroll 0 0 transparent;
+}
+.bor .fLeft form .button5 {
+    background: url("../images/xt_bg_xiayibu.gif") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    height: 24px;
+    width: 56px;
+    position:absolute;
+    top:181px;
+    left:85px;
+}

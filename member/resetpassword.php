@@ -17,13 +17,13 @@ elseif($dopost == "getpwd")
 	{
 		$vdcode = '';
 	}
-	$svali = GetCkVdValue();
-	if(strtolower($vdcode)!=$svali || $svali=='')
-	{
-		ResetVdValue();
-		ShowMsg("对不起，验证码输入错误！","-1");
-		exit();
-	}
+//	$svali = GetCkVdValue();
+//	if(strtolower($vdcode)!=$svali || $svali=='')
+//	{
+//		ResetVdValue();
+//		ShowMsg("对不起，验证码输入错误！","-1");
+//		exit();
+//	}
 
 	//验证邮箱，用户名
 	if(empty($mail) && empty($userid))
