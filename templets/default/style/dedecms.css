@@ -61,9 +61,6 @@ button{
 .mt2{/* ( margin-top * 2 ) */
 	margin-top:16px;
 }
-.clear{
-	overflow:hidden;
-}
 .fs-12{
 	font-size:12px;
 }
@@ -137,7 +134,7 @@ button{
 }
 .header .header_top .language li{
 	display:inline;
-	padding:0 14px 0 14px;
+	padding:0 7px;
 }
 .header .time{
 	float:left;
@@ -713,6 +710,7 @@ button{
 	float:left;
 	background: url('../images/xt_bg_contact.gif') repeat-x left bottom;
 	position:relative;
+	overflow:hidden;
 }
 #contact_bg{
 	background: url('../images/xt_contact.jpg') no-repeat 0 0;
@@ -802,6 +800,7 @@ button{
 	float:left;
 	background: url('../images/xt_bg_gushi2.gif') repeat-x left bottom;
 	position:relative;
+	overflow:hidden;
 }
 .jixianggushi2 .gushiblock1{
 	background: url('../images/xt_bg_block1.jpg') no-repeat left top;
@@ -834,6 +833,7 @@ button{
 }
 .gushiblock ul li a{
 	color:#000;
+	float:left;
 }
 .gushiblock ul li span{
 	float:right;
@@ -856,7 +856,7 @@ button{
 	width:48px;
 	height:100%;
 	float:right;
-	background: url('../images/xt_bg_gushi1_right.gif') no-repeat left bottom;	
+	background: url('../images/xt_bg_gushi1_right.gif') no-repeat right bottom;	
 }
 .jixianggushi1 .pmiddle{
 	width:904px;
@@ -864,6 +864,7 @@ button{
 	float:left;
 	background: url('../images/xt_bg_gushi1.gif') repeat-x left bottom;
 	position:relative;
+	overflow:hidden;
 }
 .jixianggushi4{
 	height:1132px;
@@ -897,6 +898,7 @@ button{
 }
 .breadcrumb .positon{
 	padding-left:30px;
+	float:left;
 }
 .breadcrumb .pre{
 	float:right;
@@ -1171,6 +1173,7 @@ button{
 }
 .newslist ul li a{
 	color:#000;
+	float:left;
 }
 .newslist ul li a:hover{
 	background:#aeddf2;
@@ -1186,6 +1189,7 @@ button{
 }
 .gushiblock10 ul li a{
 	color:#000;
+	float:left;
 }
 .gushiblock10 ul li span{
 	float:right;

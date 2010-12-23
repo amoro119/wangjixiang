@@ -1,5 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -22,42 +21,39 @@
 </script>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
-<!--
-	$(function(){
-		$("dl.tbox dt span.label a[_for]").mouseover(function(){
-			$(this).parents("span.label").children("a[_for]").removeClass("thisclass").parents("dl.tbox").children("dd").hide();
-			$(this).addClass("thisclass").blur();
-			$("#"+$(this).attr("_for")).show();
-		});
-		$("a[_for=uc_member]").mouseover();
-	});
-	
-	function CheckLogin(){
-	  var taget_obj = document.getElementById('_userlogin');
-	  myajax = new DedeAjax(taget_obj,false,false,'','','');
-	  myajax.SendGet2("{dede:global.cfg_cmspath/}/member/ajax_loginsta.php");
-	  DedeXHTTP = null;
-	}
-	
-	function multi(pagenum,tagid)
-	{
-	  var taget_obj = document.getElementById(tagid);
-	  var taget_obj_page = document.getElementById("page_"+tagid);
-	  myajax = new DedeAjax(taget_obj,false,false,'','','');
-	  myajax.SendGet2("/plus/arcmulti.php?mtype=0&pnum="+pagenum+'&tagid='+tagid);
-	  myajax = new DedeAjax(taget_obj_page,false,false,'','','');
-	  myajax.SendGet2("/plus/arcmulti.php?mtype=1&pnum="+pagenum+'&tagid='+tagid);
-	  DedeXHTTP = null;
-	}
-	
-	function check(){
-		if(document.formsearch.searchtype.value=="")
-		document.formsearch.action="http://www.google.cn/custom"
-		else
-		document.formsearch.action="{dede:field name='phpurl'/}/search.php"
-	} 
-
--->
+	// $(function(){
+	// 	$("dl.tbox dt span.label a[_for]").mouseover(function(){
+	// 		$(this).parents("span.label").children("a[_for]").removeClass("thisclass").parents("dl.tbox").children("dd").hide();
+	// 		$(this).addClass("thisclass").blur();
+	// 		$("#"+$(this).attr("_for")).show();
+	// 	});
+	// 	$("a[_for=uc_member]").mouseover();
+	// });
+	// 
+	// function CheckLogin(){
+	//   var taget_obj = document.getElementById('_userlogin');
+	//   myajax = new DedeAjax(taget_obj,false,false,'','','');
+	//   myajax.SendGet2("{dede:global.cfg_cmspath/}/member/ajax_loginsta.php");
+	//   DedeXHTTP = null;
+	// }
+	// 
+	// function multi(pagenum,tagid)
+	// {
+	//   var taget_obj = document.getElementById(tagid);
+	//   var taget_obj_page = document.getElementById("page_"+tagid);
+	//   myajax = new DedeAjax(taget_obj,false,false,'','','');
+	//   myajax.SendGet2("/plus/arcmulti.php?mtype=0&pnum="+pagenum+'&tagid='+tagid);
+	//   myajax = new DedeAjax(taget_obj_page,false,false,'','','');
+	//   myajax.SendGet2("/plus/arcmulti.php?mtype=1&pnum="+pagenum+'&tagid='+tagid);
+	//   DedeXHTTP = null;
+	// }
+	// 
+	// function check(){
+	// 	if(document.formsearch.searchtype.value=="")
+	// 	document.formsearch.action="http://www.google.cn/custom"
+	// 	else
+	// 	document.formsearch.action="{dede:field name='phpurl'/}/search.php"
+	// } 
 //]]>
 </script>
 	</head>
@@ -107,8 +103,8 @@
 				<div id="hotright">
 					<a href="http://blog.sina.com.cn/wenxinwangjixiang"><img src="{dede:global.cfg_templets_skin/}/images/xt_blog.jpg" width="275" height="96" alt="Xt Blog" /></a> <a href="http://www.wenxindesign.com/"><img src="{dede:global.cfg_templets_skin/}/images/xt_wenxin.jpg" width="275" height="96" alt="Xt Blog" /></a>
 				</div>
-				<div class="clear"></div><a href="#"><img src="{dede:global.cfg_templets_skin/}/images/xt_a2.gif" width="906" height="69" alt="" /></a> <img src="{dede:global.cfg_templets_skin/}/images/xt_a3.jpg" alt="" />
-				<div id="homelist">
+				<div class="clear"></div>
+				<a href="#"><img src="{dede:global.cfg_templets_skin/}/images/xt_a2.gif" width="906" height="69" alt="" /></a><img src="{dede:global.cfg_templets_skin/}/images/xt_a3.jpg" alt="" /><div id="homelist">
 					<div class="list_l">
 						<h1>
 							<img src="{dede:global.cfg_templets_skin/}/images/xt_index_title1.jpg" width="293" height="41" alt="Xt Index Title1" />

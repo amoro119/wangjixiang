@@ -1,8 +1,5 @@
 <div class="header">
   <script language="javascript" type="text/javascript">
-	window.onload=function (){
-		setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
-	}
 	var topid=0{dede:type}[field:topid/]{/dede:type};
 	var typeid=0{dede:type}[field:id/]{/dede:type};
 	var navId=topid==0?typeid:topid;
@@ -18,9 +15,7 @@
 	<script type="text/javascript">   
 
 	$(document).ready(function($){
-		DD_belatedPNG.fix('#navMenu ul li a');
-		DD_belatedPNG.fix('.pmiddle #hot');
-		DD_belatedPNG.fix('#mycarousel li a');
+		DD_belatedPNG.fix('#navMenu ul li a,.hotico img,#mycarousel li a img,.hotpic a img');
 	});
 	
 	</script>   
@@ -42,13 +37,14 @@ $(window).load(function() {
         keyboardNav:false, //Use left & right arrows
         pauseOnHover:true, //Stop animation while hovering
         manualAdvance:false, //Force manual transitions
-        captionOpacity:0.8, //Universal caption opacity
+        captionOpacity:0.8 //Universal caption opacity
     });
 });
 </script>
     <div class="header_top w998">     
     <ul class="language">
-       <li><a href="#">中文</a></li>|
+       <li><a href="#">中文</a></li>
+       <li>|</li>
        <li><a href="#">English</a></li>
     </ul>
     </div>
