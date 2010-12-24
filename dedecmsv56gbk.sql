@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2010 年 12 月 17 日 07:13
+-- 生成日期: 2010 年 12 月 24 日 07:28
 -- 服务器版本: 5.1.41
 -- PHP 版本: 5.3.1
 
@@ -47,7 +47,10 @@ INSERT INTO `dede_addonarticle` (`aid`, `typeid`, `body`, `redirecturl`, `temple
 (4, 22, '', '', '', '127.0.0.1'),
 (5, 22, '', '', '', '127.0.0.1'),
 (6, 22, '', '', '', '127.0.0.1'),
-(7, 22, '', '', '', '127.0.0.1');
+(7, 22, '', '', '', '127.0.0.1'),
+(8, 33, '', '', '', '127.0.0.1'),
+(9, 33, '', '', '', '127.0.0.1'),
+(10, 33, '', '', '', '127.0.0.1');
 
 -- --------------------------------------------------------
 
@@ -226,7 +229,7 @@ CREATE TABLE IF NOT EXISTS `dede_admin` (
 --
 
 INSERT INTO `dede_admin` (`id`, `usertype`, `userid`, `pwd`, `uname`, `tname`, `email`, `typeid`, `logintime`, `loginip`) VALUES
-(1, 10, 'admin', 'f297a57a5a743894a0e4', 'admin', '', '', '0', 1292567950, '127.0.0.1');
+(1, 10, 'admin', 'f297a57a5a743894a0e4', 'admin', '', '', '0', 1293164532, '127.0.0.1');
 
 -- --------------------------------------------------------
 
@@ -318,15 +321,23 @@ CREATE TABLE IF NOT EXISTS `dede_arccache` (
 --
 
 INSERT INTO `dede_arccache` (`md5hash`, `uptime`, `cachedata`) VALUES
-('4e86a14675da0e0b5a21714632ad32d0', 1292568190, '3'),
-('519474c979fdd949b6fa67c2fbd121b8', 1292568190, '3'),
-('91e5ae1724929944bf3717bfad5d7ff5', 1292568190, '5,4'),
-('5165f045f026c589a0e0b21ed5d6d3c0', 1292568321, '5,4'),
-('ba911e2fb7d3e221023582304f21df72', 1292568632, '3'),
-('8e1d287fa7aaab3784e5b1bb91297da0', 1292568632, '5,6,3,4,7'),
-('d452d0ef2c37b6e0ff565288232fcb1a', 1292568646, '7,6'),
-('df332ee419cf0b12e080c4a26469296b', 1292568651, '7,6'),
-('04e12af5a19d206af5fe3ced8165013d', 1292568683, '7,6');
+('bf96e46538c3fe03b2176ba7ad22f9b8', 1293097761, '1'),
+('6431937732418688af3e9be8942471d2', 1293097761, '1'),
+('78639b4f5716ba08a5ce328e0c92f314', 1293098128, '1'),
+('3b98fc29ab4d9e270e93e14581691806', 1293098128, '1'),
+('53d1e0d3463523d01d6171b766c84afc', 1293098137, '1'),
+('d8ae4913be47ca4b8f56258d90a2099a', 1293098137, '1'),
+('d1ac86dcd89420e26a15d99722ceee33', 1293098394, '1'),
+('1d53bb6b3bcdcfb2444ed937cd72826d', 1293098445, '1'),
+('f391e453ddc3b89855b552a3bd21a300', 1293098452, '1'),
+('f95eb401599f9c91b1bf6a8f7e5651d3', 1293165814, '7,6'),
+('2c8090ffa1365b2ea824496b12b17a37', 1293166152, '0'),
+('ce7ffb7d493d8402645275410b90fd2b', 1293166152, '10,9,8'),
+('54a3611fa2d1d03b56757b9140d6b97e', 1293166368, '7,6'),
+('e8470d9513c4fab5d3deb94bf62931dc', 1293166611, '1'),
+('cf74d4bf8c2d00b9b70417da80ebfac2', 1293166644, '1'),
+('9d83a489c4e0108b56ce2bc92fb98e80', 1293166668, '1'),
+('8a87130e345e9621e2b7ac468457232d', 1293166670, '1');
 
 -- --------------------------------------------------------
 
@@ -383,7 +394,10 @@ INSERT INTO `dede_archives` (`id`, `typeid`, `typeid2`, `sortrank`, `flag`, `ism
 (4, 22, '0', 1292567957, 'p,a', -1, 1, 0, 129, 0, '特价商品1', '', '', 'admin', '未知', '/uploads/allimg/101217/1-10121G439520-L.jpg', 1292567957, 1292568009, 1, '1,商品,特价,', 0, 0, 0, 0, 0, 'http://www.taobao.com', '', 1, 0, 0, 3),
 (5, 22, '0', 1292568015, 'p,a', -1, 1, 0, 190, 0, '特价商品2', '', '', 'admin', '未知', '/uploads/allimg/101217/1-10121G440240-L.jpg', 1292568015, 1292568034, 1, '2,商品,特价,', 0, 0, 0, 0, 0, 'http://www.taobao.com', '', 1, 0, 0, 4),
 (6, 22, '0', 1292568427, 'h,p', -1, 1, 0, 161, 0, '商城首页头条1', '', '', 'admin', '未知', '/uploads/allimg/101217/1-10121G44I70-L.jpg', 1292568427, 1292568470, 1, '1,头条,首页,商城,', 0, 0, 0, 0, 0, 'http://www.taobao.com', '', 1, 0, 0, 5),
-(7, 22, '0', 1292568609, 'h,p', -1, 1, 0, 74, 0, '商城头条2', '', '', 'admin', '未知', '/uploads/allimg/101217/1-10121G450180-L.jpg', 1292568609, 1292568632, 1, '2,头条,商城,', 0, 0, 0, 0, 0, 'http://www.taobao.com', '', 1, 0, 0, 6);
+(7, 22, '0', 1292568609, 'h,p', -1, 1, 0, 74, 0, '商城头条2', '', '', 'admin', '未知', '/uploads/allimg/101217/1-10121G450180-L.jpg', 1292568609, 1292568632, 1, '2,头条,商城,', 0, 0, 0, 0, 0, 'http://www.taobao.com', '', 1, 0, 0, 6),
+(8, 33, '0', 1293166050, 'p', 1, 1, 0, 69, 0, '人气商品', '', '', 'admin', '未知', '/uploads/allimg/101224/1-101224124P40-L.jpg', 1293166050, 1293166098, 1, '商品,人气,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 7),
+(9, 33, '0', 1293166102, 'p', 1, 1, 0, 107, 0, '家族成员', '', '', 'admin', '未知', '/uploads/allimg/101224/1-101224124T30-L.jpg', 1293166102, 1293166132, 1, '成员,家族,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 8),
+(10, 33, '0', 1293166134, 'p', 1, 1, 0, 188, 0, '精品造型', '', '', 'admin', '未知', '/uploads/allimg/101224/1-101224124Z60-L.jpg', 1293166134, 1293166151, 1, '造型,精品,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 9);
 
 -- --------------------------------------------------------
 
@@ -436,9 +450,7 @@ CREATE TABLE IF NOT EXISTS `dede_arcrank` (
 INSERT INTO `dede_arcrank` (`id`, `rank`, `membername`, `adminrank`, `money`, `scores`, `purviews`) VALUES
 (1, 0, '开放浏览', 5, 0, 0, ''),
 (2, -1, '待审核稿件', 0, 0, 0, ''),
-(3, 10, '注册会员', 5, 0, 100, ''),
-(4, 50, '中级会员', 5, 300, 200, ''),
-(5, 100, '高级会员', 5, 800, 500, '');
+(3, 10, '注册会员', 5, 0, 100, '');
 
 -- --------------------------------------------------------
 
@@ -457,7 +469,7 @@ CREATE TABLE IF NOT EXISTS `dede_arctiny` (
   `mid` mediumint(8) unsigned NOT NULL,
   PRIMARY KEY (`id`),
   KEY `sortrank` (`sortrank`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=8 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=11 ;
 
 --
 -- 转存表中的数据 `dede_arctiny`
@@ -470,7 +482,10 @@ INSERT INTO `dede_arctiny` (`id`, `typeid`, `typeid2`, `arcrank`, `channel`, `se
 (4, 22, '0', 0, 1, 1292568009, 1292567957, 1),
 (5, 22, '0', 0, 1, 1292568034, 1292568015, 1),
 (6, 22, '0', 0, 1, 1292568470, 1292568427, 1),
-(7, 22, '0', 0, 1, 1292568632, 1292568609, 1);
+(7, 22, '0', 0, 1, 1292568632, 1292568609, 1),
+(8, 33, '0', 0, 1, 1293166098, 1293166050, 1),
+(9, 33, '0', 0, 1, 1293166132, 1293166102, 1),
+(10, 33, '0', 0, 1, 1293166151, 1293166134, 1);
 
 -- --------------------------------------------------------
 
@@ -512,7 +527,7 @@ CREATE TABLE IF NOT EXISTS `dede_arctype` (
   PRIMARY KEY (`id`),
   KEY `reid` (`reid`,`isdefault`,`channeltype`,`ispart`,`corank`,`topid`,`ishidden`),
   KEY `sortrank` (`sortrank`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=33 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=34 ;
 
 --
 -- 转存表中的数据 `dede_arctype`
@@ -535,11 +550,11 @@ INSERT INTO `dede_arctype` (`id`, `reid`, `topid`, `sortrank`, `typename`, `type
 (14, 4, 4, 50, '呗呗', '{cmspath}/a/jixiangjiazu/beibei', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
 (15, 4, 4, 50, '鼻涕弟弟', '{cmspath}/a/jixiangjiazu/bitididi', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
 (16, 3, 3, 50, '吉祥SHOW', '{cmspath}/a/jixianggushi/jixiangSHOW', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jixianggushi2.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
-(17, 3, 3, 50, '吉祥乐闻', '{cmspath}/a/jixianggushi/jixianglewen', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jixianggushi2.htm', '{style}/list_article.htm', '{style}/jixianggushi3.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
-(18, 3, 3, 50, '旺旺三格半', '{cmspath}/a/jixianggushi/wangwangsangeban', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
-(19, 16, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/jixiangSHOW/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
-(20, 18, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/wangwangsangeban/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
-(21, 17, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/jixianglewen/gushiliebiao', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
+(17, 3, 3, 50, '吉祥乐闻', '{cmspath}/a/jixianggushi/jixianglewen', -1, 'index.html', 1, 1, -1, 1, 0, '{style}/jixianggushi2.htm', '{style}/list_article.htm', '{style}/jixianggushi3.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
+(18, 3, 3, 50, '旺旺三格半', '{cmspath}/a/jixianggushi/wangwangsangeban', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
+(19, 16, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/jixiangSHOW/gushiliebiao', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
+(20, 18, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/wangwangsangeban/gushiliebiao', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
+(21, 17, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/jixianglewen/gushiliebiao', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
 (22, 2, 2, 50, '毛绒公仔', '{cmspath}/a/jixiangshangcheng/maoronggongzi', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
 (23, 2, 2, 50, '马克杯', '{cmspath}/a/jixiangshangcheng/makebei', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
 (24, 2, 2, 50, '一次性纸杯', '{cmspath}/a/jixiangshangcheng/yicixingzhibei', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
@@ -548,7 +563,8 @@ INSERT INTO `dede_arctype` (`id`, `reid`, `topid`, `sortrank`, `typename`, `type
 (27, 2, 2, 50, '包袋系列', '{cmspath}/a/jixiangshangcheng/baodaixilie', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
 (28, 2, 2, 50, '纸巾系列', '{cmspath}/a/jixiangshangcheng/zhijinxilie', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
 (29, 2, 2, 50, '特种订购', '{cmspath}/a/jixiangshangcheng/tezhongdinggou', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
-(30, 0, 0, 50, '首页', '{cmspath}/a/shouye', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '', '', 0, 0, '', '', '');
+(30, 0, 0, 50, '首页', '{cmspath}/a/shouye', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '', '', 0, 0, '', '', ''),
+(33, 0, 0, 50, '首页图片', '{cmspath}/a/shouyetupian', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '', '', 1, 0, '', '', '');
 
 -- --------------------------------------------------------
 
@@ -1335,11 +1351,6 @@ CREATE TABLE IF NOT EXISTS `dede_flink` (
 -- 转存表中的数据 `dede_flink`
 --
 
-INSERT INTO `dede_flink` (`id`, `sortrank`, `url`, `webname`, `msg`, `email`, `logo`, `dtime`, `typeid`, `ischeck`) VALUES
-(2, 1, 'http://www.dedecms.com', '织梦CMS官方', '', '', '', 1226375403, 1, 2),
-(12, 4, 'http://www.dadou.com', '大豆网', '', '', '', 1270709522, 1, 2),
-(9, 1, 'http://docs.dedecms.com/', 'DedeCMS维基手册', '', '', '', 1227772717, 1, 2),
-(8, 1, 'http://bbs.dedecms.com', '织梦技术论坛', '', '', '', 1227772703, 1, 2);
 
 -- --------------------------------------------------------
 
@@ -1418,12 +1429,15 @@ CREATE TABLE IF NOT EXISTS `dede_guestbook` (
   `msg` text,
   PRIMARY KEY (`id`),
   KEY `ischeck` (`ischeck`)
-) ENGINE=MyISAM DEFAULT CHARSET=gbk AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=3 ;
 
 --
 -- 转存表中的数据 `dede_guestbook`
 --
 
+INSERT INTO `dede_guestbook` (`id`, `title`, `tid`, `mid`, `posttime`, `uname`, `email`, `homepage`, `qq`, `face`, `ip`, `dtime`, `ischeck`, `msg`) VALUES
+(1, '无标题', 0, 1, 0, 'admin', '', '', '', '', '127.0.0.1', 1292904884, 1, '222'),
+(2, '无标题', 0, 1, 0, 'admin', '', '', '', '', '127.0.0.1', 1292905507, 1, '222');
 
 -- --------------------------------------------------------
 
@@ -1517,15 +1531,14 @@ CREATE TABLE IF NOT EXISTS `dede_member` (
   PRIMARY KEY (`mid`),
   KEY `userid` (`userid`,`sex`),
   KEY `logintime` (`logintime`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=3 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=15 ;
 
 --
 -- 转存表中的数据 `dede_member`
 --
 
 INSERT INTO `dede_member` (`mid`, `mtype`, `userid`, `pwd`, `uname`, `sex`, `rank`, `uptime`, `exptime`, `money`, `email`, `scores`, `matt`, `spacesta`, `face`, `safequestion`, `safeanswer`, `jointime`, `joinip`, `logintime`, `loginip`) VALUES
-(1, '个人', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', '男', 100, 0, 0, 0, '', 10000, 10, 2, '', 0, '', 1291180264, '', 1292567950, '127.0.0.1'),
-(2, '个人', 'test', '098f6bcd4621d373cade4e832627b4f6', 'test', '', 10, 0, 0, 0, 'test@test.com', 100, 0, 2, '', 0, '', 1292491282, '127.0.0.1', 1292565795, '127.0.0.1');
+(1, '个人', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', '男', 100, 0, 0, 0, '', 10000, 10, 2, '', 0, '', 1291180264, '', 1293170523, '127.0.0.1');
 
 -- --------------------------------------------------------
 
@@ -1596,14 +1609,26 @@ CREATE TABLE IF NOT EXISTS `dede_member_flink` (
   `title` varchar(30) NOT NULL DEFAULT '',
   `url` varchar(100) NOT NULL DEFAULT '',
   PRIMARY KEY (`aid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=2 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=14 ;
 
 --
 -- 转存表中的数据 `dede_member_flink`
 --
 
 INSERT INTO `dede_member_flink` (`aid`, `mid`, `title`, `url`) VALUES
-(1, 2, '织梦内容管理系统', 'http://www.dedecms.com');
+(1, 2, '织梦内容管理系统', 'http://www.dedecms.com'),
+(2, 3, '织梦内容管理系统', 'http://www.dedecms.com'),
+(3, 4, '织梦内容管理系统', 'http://www.dedecms.com'),
+(4, 5, '织梦内容管理系统', 'http://www.dedecms.com'),
+(5, 6, '织梦内容管理系统', 'http://www.dedecms.com'),
+(6, 7, '织梦内容管理系统', 'http://www.dedecms.com'),
+(7, 8, '织梦内容管理系统', 'http://www.dedecms.com'),
+(8, 9, '织梦内容管理系统', 'http://www.dedecms.com'),
+(9, 10, '织梦内容管理系统', 'http://www.dedecms.com'),
+(10, 11, '织梦内容管理系统', 'http://www.dedecms.com'),
+(11, 12, '织梦内容管理系统', 'http://www.dedecms.com'),
+(12, 13, '织梦内容管理系统', 'http://www.dedecms.com'),
+(13, 14, '织梦内容管理系统', 'http://www.dedecms.com');
 
 -- --------------------------------------------------------
 
@@ -1797,7 +1822,19 @@ CREATE TABLE IF NOT EXISTS `dede_member_person` (
 
 INSERT INTO `dede_member_person` (`mid`, `onlynet`, `sex`, `uname`, `qq`, `msn`, `tel`, `mobile`, `place`, `oldplace`, `birthday`, `star`, `income`, `education`, `height`, `bodytype`, `blood`, `vocation`, `smoke`, `marital`, `house`, `drink`, `datingtype`, `language`, `nature`, `lovemsg`, `address`, `uptime`) VALUES
 (1, 2, '男', '', '', '', '', '', 0, 0, '2010-12-16', 0, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, '', '', '', '', 0),
-(2, 2, '男', '', '', '', '', '', 0, 0, '2010-12-16', 0, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, '', '', '', '', 0);
+(2, 2, '男', '', '', '', '', '', 0, 0, '2010-12-16', 0, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, '', '', '', '', 0),
+(3, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(4, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(5, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(6, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(7, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(8, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(9, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(10, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(11, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(12, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(13, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(14, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0);
 
 -- --------------------------------------------------------
 
@@ -1871,7 +1908,19 @@ CREATE TABLE IF NOT EXISTS `dede_member_space` (
 
 INSERT INTO `dede_member_space` (`mid`, `pagesize`, `matt`, `spacename`, `spacelogo`, `spacestyle`, `sign`, `spacenews`) VALUES
 (1, 10, 0, 'admin的空间', '', 'person', '', ''),
-(2, 10, 0, 'test的空间', '', 'person', '', '');
+(2, 10, 0, 'test的空间', '', 'person', '', ''),
+(3, 10, 0, 'test2的空间', '', 'person', '', ''),
+(4, 10, 0, '的空间', '', 'person', '', ''),
+(5, 10, 0, '的空间', '', 'person', '', ''),
+(6, 10, 0, '的空间', '', 'person', '', ''),
+(7, 10, 0, '的空间', '', 'person', '', ''),
+(8, 10, 0, '的空间', '', 'person', '', ''),
+(9, 10, 0, '的空间', '', 'person', '', ''),
+(10, 10, 0, '的空间', '', 'person', '', ''),
+(11, 10, 0, '的空间', '', 'person', '', ''),
+(12, 10, 0, '的空间', '', 'person', '', ''),
+(13, 10, 0, '的空间', '', 'person', '', ''),
+(14, 10, 0, '的空间', '', 'person', '', '');
 
 -- --------------------------------------------------------
 
@@ -1936,15 +1985,27 @@ CREATE TABLE IF NOT EXISTS `dede_member_tj` (
   `info` int(10) NOT NULL DEFAULT '0',
   `shop` int(10) NOT NULL DEFAULT '0',
   PRIMARY KEY (`mid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=3 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=15 ;
 
 --
 -- 转存表中的数据 `dede_member_tj`
 --
 
 INSERT INTO `dede_member_tj` (`mid`, `article`, `album`, `archives`, `homecount`, `pagecount`, `feedback`, `friend`, `stow`, `soft`, `info`, `shop`) VALUES
-(1, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0),
-(2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0);
+(1, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0),
+(2, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0),
+(3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0),
+(4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -1984,12 +2045,15 @@ CREATE TABLE IF NOT EXISTS `dede_member_vhistory` (
   PRIMARY KEY (`id`),
   KEY `vtime` (`vtime`),
   KEY `mid` (`mid`,`vid`)
-) ENGINE=MyISAM DEFAULT CHARSET=gbk AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=3 ;
 
 --
 -- 转存表中的数据 `dede_member_vhistory`
 --
 
+INSERT INTO `dede_member_vhistory` (`id`, `mid`, `loginid`, `vid`, `vloginid`, `count`, `vip`, `vtime`) VALUES
+(1, 3, 'test2', 1, 'admin', 1, '127.0.0.1', 1292918060),
+(2, 2, 'test', 1, 'admin', 1, '127.0.0.1', 1292918071);
 
 -- --------------------------------------------------------
 
@@ -2209,6 +2273,8 @@ CREATE TABLE IF NOT EXISTS `dede_pwd_tmp` (
 -- 转存表中的数据 `dede_pwd_tmp`
 --
 
+INSERT INTO `dede_pwd_tmp` (`mid`, `membername`, `pwd`, `mailtime`) VALUES
+(0, 'test', '9d919b59b2fe2dddb59770d29fdae06a', 1292902905);
 
 -- --------------------------------------------------------
 
@@ -2655,7 +2721,7 @@ INSERT INTO `dede_sysconfig` (`aid`, `varname`, `info`, `groupid`, `type`, `valu
 (746, 'cfg_album_mark', '图集是否使用水印(小图也会受影响)', 3, 'bool', 'N'),
 (747, 'cfg_mb_feedcheck', '会员动态是否需要审核', 4, 'bool', 'N'),
 (748, 'cfg_mb_msgischeck', '会员状态是否需要审核', 4, 'bool', 'N'),
-(749, 'cfg_mb_reginfo', '注册是否需要完成详细资料的填写', 4, 'bool', 'Y'),
+(749, 'cfg_mb_reginfo', '注册是否需要完成详细资料的填写', 4, 'bool', 'N'),
 (750, 'cfg_remote_site', '是否启用远程站点', 2, 'bool', 'N'),
 (751, 'cfg_title_site', '是否发布和编辑文档时远程发布(启用远程站点的前提下)', 2, 'bool', 'N');
 
@@ -2927,7 +2993,7 @@ CREATE TABLE IF NOT EXISTS `dede_uploads` (
   PRIMARY KEY (`aid`),
   KEY `memberid` (`mid`),
   KEY `arcid` (`arcid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=12 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=15 ;
 
 --
 -- 转存表中的数据 `dede_uploads`
@@ -2944,7 +3010,10 @@ INSERT INTO `dede_uploads` (`aid`, `arcid`, `title`, `url`, `mediatype`, `width`
 (8, 5, '特价商品2', '/uploads/allimg/101217/1-10121G440240-L.jpg', 1, '0', '0', '0', 30542, 1292568024, 1),
 (9, 0, '1-10121G446240-L.jpg', '/uploads/allimg/101217/1-10121G446240-L.jpg', 1, '0', '0', '0', 31199, 1292568384, 1),
 (10, 6, '商城首页头条1', '/uploads/allimg/101217/1-10121G44I70-L.jpg', 1, '0', '0', '0', 31199, 1292568457, 1),
-(11, 7, '商城头条2', '/uploads/allimg/101217/1-10121G450180-L.jpg', 1, '0', '0', '0', 30542, 1292568618, 1);
+(11, 7, '商城头条2', '/uploads/allimg/101217/1-10121G450180-L.jpg', 1, '0', '0', '0', 30542, 1292568618, 1),
+(12, 8, '人气商品', '/uploads/allimg/101224/1-101224124P40-L.jpg', 1, '0', '0', '0', 7318, 1293166084, 1),
+(13, 9, '家族成员', '/uploads/allimg/101224/1-101224124T30-L.jpg', 1, '0', '0', '0', 8765, 1293166123, 1),
+(14, 10, '精品造型', '/uploads/allimg/101224/1-101224124Z60-L.jpg', 1, '0', '0', '0', 8168, 1293166146, 1);
 
 -- --------------------------------------------------------
 
