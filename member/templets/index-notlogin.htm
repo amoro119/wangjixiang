@@ -1,10 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang?>" />
 <title><?php echo $cfg_webname; ?>- 会员中心</title>
-<meta name="description" content="{dede:global.cfg_description/}" />
-<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="<?php echo $cfg_description; ?>" />
+<meta name="keywords" content="<?php echo $cfg_kewords; ?>" />
 <link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
 <link rel="stylesheet" href="/templets/default/style/dedecms_skins_0.css" type="text/css" id="cssfile" />
 <script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
@@ -28,15 +28,6 @@ function changeAuthCode() {
 </head>
 <body class="index">
 <div class="header">
-  <script language="javascript" type="text/javascript">
-	var topid=0{dede:type}[field:topid/]{/dede:type};
-	var typeid=0{dede:type}[field:id/]{/dede:type};
-	var navId=topid==0?typeid:topid;
-	$(document).ready(function($){
-		$('#nav'+navId).addClass('current');
-	});
-	
-  </script>
 
 	<!--[if IE 6]>   
 	<script type="text/javascript" src="/templets/default/js/DD_belatedPNG-min.js" ></script>   
@@ -92,7 +83,7 @@ $(window).load(function() {
       	<li><a id="nav2" href='/plus/list.php?tid=2'></a></li>
       	<li><a id="nav3" href='/plus/list.php?tid=3'></a></li>
       	<li><a id="nav4" href='/plus/list.php?tid=4'></a></li>
-      	<li><a id="navv" href='/member/'></a></li>
+      	<li><a id="navv" class="current" href='/member/'></a></li>
       	<li><a id="nav5" href='/plus/list.php?tid=5'></a></li>
     	</ul>
     </div>	

@@ -1,14 +1,4 @@
 <div class="header">
-  <script language="javascript" type="text/javascript">
-	var topid=0{dede:type}[field:topid/]{/dede:type};
-	var typeid=0{dede:type}[field:id/]{/dede:type};
-	var navId=topid==0?typeid:topid;
-	$(document).ready(function($){
-		$('#nav'+navId).addClass('current');
-	});
-	
-  </script>
-
 	<!--[if IE 6]>   
 	<script type="text/javascript" src="/templets/default/js/DD_belatedPNG-min.js" ></script>   
 	<script type="text/javascript">   
@@ -62,7 +52,7 @@ $(window).load(function() {
       	<li><a id="nav2" href='/plus/list.php?tid=2'></a></li>
       	<li><a id="nav3" href='/plus/list.php?tid=3'></a></li>
       	<li><a id="nav4" href='/plus/list.php?tid=4'></a></li>
-      	<li><a id="navv" href='#'></a></li>
+      	<li><a id="navv" class="current" href='#'></a></li>
       	<li><a id="nav5" href='/plus/list.php?tid=5'></a></li>
     	</ul>
     </div>	
