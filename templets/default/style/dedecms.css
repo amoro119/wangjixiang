@@ -685,6 +685,30 @@ button{
 }
 .pmiddle #homelist .list_box{
 	margin-top:6px;
+	background: url('../images/xt_bg_home_list.gif') no-repeat 0 0;
+	width:293px;
+	height:188px;
+	position:relative;
+}
+.list_box ul{
+	margin-left:30px;
+	padding-top:19px;
+}
+.list_box ul li{
+	line-height:22px;
+}
+.list_box ul li a{
+	color:#000;
+}
+.list_box .more{
+	position:absolute;
+	right:11px;
+	bottom:15px;
+}
+.list_box .pic{
+	position:absolute;
+	right:11px;
+	top:9px;
 }
 .home{
 	height:1069px;

@@ -31,4 +31,5 @@ $cfg_Cs[27]=array(2,1,1);
 $cfg_Cs[28]=array(2,1,1);
 $cfg_Cs[29]=array(2,1,1);
 $cfg_Cs[30]=array(0,1,1);
+$cfg_Cs[33]=array(0,1,1);
 ?>
