@@ -1,14 +1,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
-<meta http-equiv="refresh" content="10;url=index.php">
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang?>" />
+<meta name="description" content="<?php echo $cfg_description; ?>" />
+<meta name="keywords" content="<?php echo $cfg_kewords; ?>" />
+<meta http-equiv="refresh" content="1;url=index.php">
 <title><?php echo $cfg_webname; ?>- 注册成功</title>
 <link href="<?php echo $cfg_cmspath; ?>/member/templets/style/login.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
-var time = 10;
+var time = 1;
 function returnUrlByTime() {
-   window.setTimeout('returnUrlByTime()', 1000);
+   window.setTimeout('returnUrlByTime()', 1);
    time = time - 1;
    document.getElementById("loadtime").innerHTML = time;
 }
