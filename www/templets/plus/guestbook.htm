@@ -12,19 +12,6 @@
 <script language="javascript" type="text/javascript" src="/templets/default/js/pic_scroll.js"></script>
 <script language="javascript" type="text/javascript" src="/templets/default/js/jquery.cookie.js"></script>
 <script language="javascript" type="text/javascript" src="/templets/default/js/changeSkin.js"></script>
-<script type="text/javascript">
-function changeAuthCode() {
-	var num = 	new Date().getTime();
-	var rand = Math.round(Math.random() * 10000);
-	num = num + rand;
-	$('#ver_code').css('visibility','visible');
-	if ($("#vdimgck")[0]) {
-		$("#vdimgck")[0].src = "../include/vdimgck.php?tag=" + num;
-	}
-	return false;	
-}
-
-</script>
 </head>
 <body class="index">
 <div class="header">

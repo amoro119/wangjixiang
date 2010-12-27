@@ -15,7 +15,7 @@ if($cfg_ml->IsLogin())
 {
 	$g_isadmin = ($cfg_ml->fields['matt'] >= 10);
 	$g_mid = $cfg_ml->M_ID;
-	$g_name = $cfg_ml->M_UserName;
+	$g_name = $cfg_ml->M_LoginID;
 }
 else
 {
