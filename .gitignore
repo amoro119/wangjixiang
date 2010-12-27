@@ -3,7 +3,9 @@
 /www/data/tplcache/*
 /www/data/sessions/*
 /www/data/cache/*
+!/www/data/cache/inc_catalog_base.inc
 /www/index.html
 /www/uploads/*
 /www/data/cache/*
 /www/data/safe/inc_safe_config.php
+!.gitkeep
