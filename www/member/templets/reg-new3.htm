@@ -54,67 +54,7 @@ $(document).ready(function(){
 </script>
 </head>
 <body class="index">
-<div class="header">
-	<!--[if IE 6]>   
-	<script type="text/javascript" src="/templets/default/js/DD_belatedPNG-min.js" ></script>   
-	<script type="text/javascript">   
-
-	$(document).ready(function($){
-		DD_belatedPNG.fix('#navMenu ul li a');
-	});
-	
-	</script>   
-	<![endif]-->
-
-<link href="/templets/default/style/nivo-slider.css" rel="stylesheet" media="screen" type="text/css" />
-<script type="text/javascript" src="/templets/default/js/jquery.nivo.slider.pack.js" ></script>   
-<script type="text/javascript">
-$(window).load(function() {
-    $('#slider').nivoSlider({
-        effect:'random', //Specify sets like: 'fold,fade,sliceDown'
-        slices:15,
-        animSpeed:500, //Slide transition speed
-        pauseTime:3000,
-        startSlide:0, //Set starting Slide (0 index)
-        directionNav:false, //Next & Prev
-        directionNavHide:true, //Only show on hover
-        controlNav:false, //1,2,3...
-        keyboardNav:false, //Use left & right arrows
-        pauseOnHover:true, //Stop animation while hovering
-        manualAdvance:false, //Force manual transitions
-        captionOpacity:0.8 //Universal caption opacity
-    });
-});
-</script>
-
-    <div class="header_top w998">     
-    <ul class="language">
-       <li><a href="#">中文</a></li>
-       <li>|</li>
-       <li><a href="#">English</a></li>
-    </ul>
-    </div>
-	<div class="banner w998 center" id="slider">
-		<img src="/templets/default/images/xt_banner.jpg" alt="Xt Banner">
-		<img src="/templets/default/images/xt_banner2.jpg" alt="Xt Banner">
-	</div><!-- //top -->
-	<!-- //菜单 -->
-	<div class="module blue mT10 wrapper w998">
-  	<div class="top">
-    	<!-- //如果不使用currentstyle，可以在channel标签加入 cacheid='channeltoplist' 属性提升性能 -->
-    <div id="navMenu">
-    	<ul>
-      	<li><a id="nav0" href='/'></a></li>
-      	<li><a id="nav2" href='/plus/list.php?tid=2'></a></li>
-      	<li><a id="nav3" href='/plus/list.php?tid=3'></a></li>
-      	<li><a id="nav4" href='/plus/list.php?tid=4'></a></li>
-      	<li><a id="navv" class="current" href='/member/'></a></li>
-      	<li><a id="nav5" href='/plus/list.php?tid=5'></a></li>
-    	</ul>
-    </div>	
-		</div>
-	</div>
-</div><!-- //header -->
+<?php include(DEDEMEMBER."/templets/head.htm"); ?>
 <!-- /header -->
 <div class="w998 center clear mt1 huiyuan reg">
   	<div class="pleft">
