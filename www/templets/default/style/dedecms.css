@@ -1393,3 +1393,11 @@ button{
 	left:701px;
     top: 140px;
 }
+#counter{
+	position:relative;
+}
+#counter .number{
+	position:absolute;
+	right:80px;
+	top:25px;
+}

@@ -104,7 +104,25 @@
 					<a href="http://blog.sina.com.cn/wenxinwangjixiang"><img src="{dede:global.cfg_templets_skin/}/images/xt_blog.jpg" width="275" height="96" alt="Xt Blog" /></a> <a href="http://www.wenxindesign.com/"><img src="{dede:global.cfg_templets_skin/}/images/xt_wenxin.jpg" width="275" height="96" alt="Xt Blog" /></a>
 				</div>
 				<div class="clear"></div>
-				<a href="#"><img src="{dede:global.cfg_templets_skin/}/images/xt_a2.gif" width="906" height="69" alt="" /></a><img src="{dede:global.cfg_templets_skin/}/images/xt_a3.jpg" alt="" /><div id="homelist">
+				<div id="counter"><div class="number">{dede:php}
+						$num=0;
+						if($fp=fopen(DEDEDATA."/cache/counter.txt","r")){
+							$num=fgets($fp,10);
+							fclose($fp);	
+						}
+						$num++;
+						if($fp=fopen(DEDEDATA."/cache/counter.txt","c")){
+							fputs($fp,$num);
+							fclose($fp);
+						}
+						$num=str_pad($num,6,"0",STR_PAD_LEFT);
+						$len_str=strlen($num);
+						for($i=(0);$i<$len_str;$i++){
+						$numbers_exploded=substr($num,$i,1);
+						$output_str=$output_str."<img src=\"$cfg_cmspath\\images\\$numbers_exploded.gif\"/>";
+						}
+						echo $output_str;{/dede:php}
+					</div><a href="#"><img src="{dede:global.cfg_templets_skin/}/images/xt_a2.gif" width="906" height="69" alt="" /></a></div><img src="{dede:global.cfg_templets_skin/}/images/xt_a3.jpg" alt="" /><div id="homelist">
 					<div class="list_l">
 						<h1>
 							<img src="{dede:global.cfg_templets_skin/}/images/xt_index_title1.jpg" width="293" height="41" alt="Xt Index Title1" />
