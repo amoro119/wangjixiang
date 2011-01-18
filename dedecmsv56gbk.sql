@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2010 年 12 月 24 日 07:28
+-- 生成日期: 2011 年 01 月 18 日 07:29
 -- 服务器版本: 5.1.41
 -- PHP 版本: 5.3.1
 
@@ -50,7 +50,34 @@ INSERT INTO `dede_addonarticle` (`aid`, `typeid`, `body`, `redirecturl`, `temple
 (7, 22, '', '', '', '127.0.0.1'),
 (8, 33, '', '', '', '127.0.0.1'),
 (9, 33, '', '', '', '127.0.0.1'),
-(10, 33, '', '', '', '127.0.0.1');
+(10, 33, '', '', '', '127.0.0.1'),
+(11, 21, '<p><span style="font-size: larger"><span style="font-family: 宋体"><span class="Apple-style-span">话说，最近朋友们都在谈论元旦假期里去了哪些好玩的地方。</span></span></span></p>\r\n<p><span style="font-size: larger"><span style="font-family: 宋体"><span class="Apple-style-span">当然也有朋友在考虑即将来临的春节长假打算去哪儿。</span></span></span></p>\r\n<p><span style="font-size: larger"><span style="font-family: 宋体"><span class="Apple-style-span">不知道朋友们都打算怎么出游呢？</span></span></span></p>\r\n<p><span style="font-size: larger"><span style="font-family: 宋体"><span class="Apple-style-span">是跟旅游团还是自助游呢？</span></span></span></p>\r\n<p><span style="font-size: larger"><span style="font-family: 宋体"><span class="Apple-style-span">我想了想啊，不管用哪种方式，总得有个相当于领队的角色吧？</span></span></span></p>\r\n<p><span style="font-size: larger"><span style="font-family: 宋体"><span class="Apple-style-span">嘿嘿，其实呢，导游这个职业是我第二个心愿。你想啊，导游多好啊，能到处跑，又能看到各种地域风情。</span></span></span></p>\r\n<p><span style="font-size: larger"><span style="font-family: 宋体"><span class="Apple-style-span">这种自由自在的感觉可是我一直很向往的呢！</span></span></span></p>\r\n<p><span style="font-size: larger"><span style="font-family: 宋体"><span lang="EN-US">My friends are talking about what they went during this New Year&rsquo;s Day holiday recently. </span></span></span></p>\r\n<p class="MsoNormal"><span style="font-size: larger"><span style="font-family: 宋体"><span lang="EN-US">They are also thinking about where are they going in the Spring Festival. </span></span></span></p>\r\n<p class="MsoNormal"><span style="font-size: larger"><span style="font-family: 宋体"><span lang="EN-US">Well, I don&rsquo;t know what kind of method they are going to use.</span></span></span></p>\r\n<p class="MsoNormal"><span style="font-size: larger"><span style="font-family: 宋体"><span lang="EN-US">Travel agency or self-travelling? </span></span></span></p>\r\n<p class="MsoNormal"><span style="font-size: larger"><span style="font-family: 宋体"><span lang="EN-US">I think either way must have a person who can lead other. </span></span></span></p>\r\n<p class="MsoNormal"><span style="font-size: larger"><span style="font-family: 宋体"><span lang="EN-US">Actually, my second wish is to be a tour guide because a tour guide can go to lots of places and see many things from foreign countries. </span></span></span></p>\r\n<p class="MsoNormal"><span style="font-size: larger"><span style="font-family: 宋体"><span lang="EN-US">I love this kind of feeling!</span></span></span></p>\r\n<p><span style="font-size: larger"><span style="font-family: 宋体">&nbsp;</span></span></p>', '', '', '211.161.231.103'),
+(12, 21, '<p>新年就要来咯！</p>\r\n<div>今天是31号了，大家是不是准备和朋友们一起庆祝和迎接即将来到的新年呢？如果不是的话，那我们是不是也该给亲朋好友打个电话送出自己的祝福呢？好了，那就由我现在带个头吧，在这里我要祝福大家新年快乐，吉祥！</div>\r\n<div>&nbsp;嗯！就这样吧！我先带着我的宠物兔兔出去玩一会咯！对了！有兴趣的朋友今晚可一定要来和我旺吉祥一起倒数，期待着新年的到来哦！</div>\r\n<div>&nbsp;</div>\r\n<div align="left"><span style="font-size: 12pt">Today is Dec.31! I think everyone is going to celebrate the New Year''s Day with friends, right? If not, I think we should at least make a phone call to our parents and friends. Ok, I will do the first one. I wish everyone has a happy New year''s Day.</span></div>\r\n<div align="left"><span style="font-size: 12pt">&nbsp;&nbsp;&nbsp; All right! I''m going to play with my little rabbit. Welcome all friends who''s willing to do the countdown with me!</span></div>', '', '', '211.161.231.103'),
+(13, 21, '<p><span style="font-family: 宋体"><span style="font-size: larger">&nbsp;</span></span></p>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">新年就要来咯！</span></span></div>\r\n<div>&nbsp;</div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">今天是31号了，大家是不是准备和朋友们一起庆祝和迎接即将来到的新年呢？</span></span></div>\r\n<div>&nbsp;</div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">如果不是的话，那我们是不是也该给亲朋好友打个电话送出自己的祝福呢？</span></span></div>\r\n<div>&nbsp;</div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">好了，那就由我现在带个头吧，在这里我要祝福大家新年快乐，吉祥！</span></span></div>\r\n<div>&nbsp;</div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">嗯！就这样吧！</span></span></div>\r\n<div>&nbsp;</div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">我先带着我的宠物兔兔出去玩一会咯！</span></span></div>\r\n<div>&nbsp;</div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">对了！</span></span></div>\r\n<div>&nbsp;</div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">有兴趣的朋友今晚可一定要来和我旺吉祥一起倒数，期待着新年的到来哦！</span></span></div>\r\n<div>&nbsp;</div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">Today is Dec.31!</span></span></div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">&nbsp;</span></span></div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">I think everyone is going to celebrate the New Year''s Day with friends, right? </span></span></div>\r\n<div>&nbsp;</div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">If not, I think we should at least make a phone call to our parents and friends. </span></span></div>\r\n<div>&nbsp;</div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">Ok, I will do the first one. </span></span></div>\r\n<div>&nbsp;</div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">I wish everyone has a happy New year''s Day.</span></span></div>\r\n<div>&nbsp;</div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">All right! </span></span><span style="font-family: 宋体"><span style="font-size: larger">I''m going to play with my little rabbit.</span></span></div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">&nbsp;</span></span></div>\r\n<div><span style="font-family: 宋体"><span style="font-size: larger">Welcome all friends who''s willing to do the countdown with me!</span></span></div>', '', '', '115.174.109.122'),
+(14, 21, '<p><span style="color: #464646"><font size="3"><font face="宋体">又是一个星期天，到中午喽！好饿哦<span lang="EN-US">~~~</span></font></font></span></p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体"><span lang="EN-US">10</span>分钟前妈妈打电话回来说，她还在外面办事，一时间回不来呢。</font></font></span></p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体"><span lang="EN-US">&ldquo;</span>唉。。。咋办捏？<span lang="EN-US">&rdquo;</span>我想着想着，走到了厨房。<span lang="EN-US">&ldquo;</span>对了！我自己来做饭！</font></font></span><span style="color: #464646"><font size="3"><font face="宋体">一来我还能实践实践做饭做菜，二来等到妈妈回来了，看到我做的饭菜以后，她一定会很高兴的！<span lang="EN-US">&rdquo;<o:p></o:p></span></font></font></span></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646">嗯！说干就干，我穿起围裙，拿起锅铲，搞得热火朝天。希望妈妈喜欢我做的饭哦！<span lang="EN-US"><o:p></o:p></span></span></font></font></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">&nbsp;<o:p></o:p></font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">&nbsp;<o:p></o:p></font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Sunday again! I&rsquo;m so starving&hellip;</font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Mama phoned me 10 minutes earlier. She said that she was busy outside, so she would come back home as soon as possible. </font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">&ldquo;So&hellip;&hellip; What am I going to do?&rdquo; I was walking around the house while I was thinking. &ldquo;Right! Let me do the cooking! So I can practise my cooking skill and I think Mama will be so happy after she come back!&rdquo; </font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">OK! Less talking more working. I wore apron and took the pot. HoHo, I was working so hard! I hope Mama would love me cooking!<o:p></o:p></font></font></span></p>\r\n<p>&nbsp;</p>', '', '', '124.14.62.12'),
+(15, 21, '<p><span style="color: #464646"><font size="3"><font face="宋体">今天我问如意：<span lang="EN-US">&ldquo;</span>你的梦想是什么呀？<span lang="EN-US">&rdquo;</span></font></font></span></p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">如意笑眯眯地告诉我：<span lang="EN-US">&ldquo;</span>我这么漂亮，当然是当明星咯<span lang="EN-US">~</span>，你呢？<span lang="EN-US">&rdquo;</span></font></font></span></p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">我想了一会儿，说：<span lang="EN-US">&ldquo;</span>既然你相当明星，那我就做导演给你拍电影电视剧啥的好了！<span lang="EN-US">&rdquo;</span></font></font></span></p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">此时此刻，我脑海中浮现出我是个导演的画面。</font></font></span></p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体"><span lang="EN-US">&ldquo;</span>灯光，道具，演员准备！<span lang="EN-US"> 3</span>！<span lang="EN-US">2</span>！<span lang="EN-US">1</span>！ 开拍！<span lang="EN-US">&rdquo;</span>你看我手中拿着大喇叭指挥，太专业了！<span lang="EN-US"><o:p></o:p></span></font></font></span></p>\r\n<p><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">Today</span><span style="color: #464646">，<span lang="EN-US">I asked Ru-yi a question about her dream. </span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">She said that she wanted to be a famous star since she was so cute. </span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">Then she asked what my dream was. </span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">I thought for a while, then answered:&ldquo; since you want to be a famous star, then I will be a director to make movie for TV show for you!.&rdquo; </span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">At that time, the vision of I being a director appeared in my mind. </span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">&ldquo; Lights, Camera, Actors, standby! 3! 2! 1! Action!&rdquo; </span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">I directed the movie by using the loudspeaker. Just like a Pro.!<o:p></o:p></span></span></font></font></p>\r\n<p>&nbsp;</p>', '', '', '124.14.62.12'),
+(16, 21, '<p style="text-indent: 21.75pt"><span style="color: #464646"><font size="3"><font face="宋体">今天我约了如意一起吃午饭。<span lang="EN-US"><o:p></o:p></span></font></font></span></p>\r\n<p style="text-indent: 21.75pt"><span style="color: #464646"><font size="3"><font face="宋体">看时间快到中午，她该来了吧，我要给她一个意外和惊喜，是什么呢？嘻嘻。<span lang="EN-US"><o:p></o:p></span></font></font></span></p>\r\n<p style="text-indent: 21.75pt"><span style="color: #464646"><font size="3"><font face="宋体">看，我像变魔术一样转身换了套餐厅服务员的制服，帅不帅啊？恩，自己照了照镜子，感觉还是蛮不错的，心，砰砰跳，但还故作镇定，趁如意还没到，我先练习一下，托个盘，这个动作专业哇？<span lang="EN-US"><o:p></o:p></span></font></font></span></p>\r\n<p style="text-indent: 21.75pt"><span style="color: #464646"><font size="3"><font face="宋体">我在想，如意见了我会是怎样的表情啊？<span lang="EN-US"><o:p></o:p></span></font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">&nbsp;&nbsp;&nbsp;<o:p></o:p></font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">&nbsp;&nbsp;&nbsp; I am going to have lunch with Ri-yi today.<o:p></o:p></font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">&nbsp;&nbsp;&nbsp; It''s almost the time for lunch, I think she will be coming soon. Let''s see...... Maybe I can give her a little surprise!<o:p></o:p></font></font></span></p>\r\n<p><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">&nbsp;&nbsp;&nbsp; Look! I use my &quot;mgaic&quot;(changing clothes using a high speed) to change my outfits into a waiter! Am I looking good</span><span style="color: #464646">？<span lang="EN-US">I look at me by the mirror, fantastic! My heart is beating because I''m little nervous. Well, let me do some practise, like using the pallet. So professional!<o:p></o:p></span></span></font></font></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">&nbsp;&nbsp; I am imagining Ri-yi is reaction after she sees me~<o:p></o:p></font></font></span></p>\r\n<p>&nbsp;</p>', '', '', '124.14.62.12'),
+(17, 21, '<p><span style="color: #464646"><font size="3"><font face="宋体">今天的天气好好哦，正好赶上放假，做些什么让自己快乐的事呢？玩？当然没多大意思，对了！种花！<span lang="EN-US"><o:p></o:p></span></font></font></span></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646">这段时间妈妈因为太忙了，没什么时间打理她的花园，那么我来帮她吧。</span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646">我穿上围裙，拿起水壶，忙得不亦乐乎，原来打理花园这么辛苦哦<span lang="EN-US">&hellip;&hellip;</span>晚上妈妈回来后，看到我的劳动成果，她一定很开心的<span lang="EN-US">~<o:p></o:p></span></span></font></font></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">&nbsp;<o:p></o:p></font></font></span></p>\r\n<p><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">Nice weather today! No school! So, what am I going to do today? Play around the house? No! I must do something meaningful! </span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">Let me think&hellip;&hellip; Right</span><span style="color: #464646">！<span lang="EN-US">Planting some flowers! </span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">Recently Mama is pretty busy, so she doesn&rsquo;t have time to do the garden works. </span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">All right! Let&rsquo;s do this! </span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">I dress an apron and take Kettle and do the job. Wow&hellip;&hellip;So tired! </span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">I never think this is a hard job! </span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">Well, as long as Mama feels happy after she sees what I&rsquo;ve done, I feel happy, too!<o:p></o:p></span></span></font></font></p>\r\n<p>&nbsp;</p>', '', '', '124.14.62.12'),
+(18, 21, '<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">期末摸底考试结果下来了，全班同学都考得不好。</span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger">&nbsp;</span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">唉</span><span lang="EN-US"><font face="Times New Roman">&hellip;&hellip;</font></span><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">大家都挺后悔的，轻敌了嘛</span><span lang="EN-US"><font face="Times New Roman">&hellip;&hellip;</font></span><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">老师安慰我们说：&ldquo;别后悔啦，天底下没有后悔药的。这次只不过是摸底考试而已，吸取教训，下次在正式考中取得好成绩就行了</span><span lang="EN-US"><font face="Times New Roman">!</font></span><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">&rdquo;</span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger">&nbsp;</span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">我旺吉祥想啊，是啊，没有后悔药的，别想啦</span><span lang="EN-US"><font face="Times New Roman">&hellip;&hellip;</font></span><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">等等，后悔药！</span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger">&nbsp;</span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">要是我长大以后能够成为一名化学药剂师，伴随着日益发达的科技，说不定我能发明真正的后悔药呢！</span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger">&nbsp;</span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">于是，我就开始遐想，穿着白大褂，胸前夹着我的工作证，左手一个试管，右手一个烧杯，努力攻关研发</span><span lang="EN-US"><font face="Times New Roman">&hellip;&hellip;</font></span><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">祝我成功吧！</span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span lang="EN-US"><o:p><font face="Times New Roman">&nbsp;</font></o:p></span></span><span lang="EN-US"><o:p></o:p></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span lang="EN-US"><o:p><font face="Times New Roman">&nbsp;</font></o:p></span></span><span lang="EN-US"><o:p></o:p></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">The result of simulative final examination was out. We almost failed the test&hellip;&hellip; </font></span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger">&nbsp;</span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">We regretted deadly because we thought the test should be very easy&hellip;&hellip; </font></span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger">&nbsp;</span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">Our teacher said: &ldquo; It&rsquo;s OK. There is no use crying over spilt milk. This is just a simulative test. So do your best on the real Finals.&rdquo; </font></span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger">&nbsp;</span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">Well, I knew we couldn&rsquo;t regret for the results&hellip;&hellip; </font></span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger">&nbsp;</span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">Wait a minute, what about inventing medicines for regret in the future? </font></span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger">&nbsp;</span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">The science technology is developing very fast. Maybe I can invent this kind of medicines in the future! </font></span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger">&nbsp;</span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">HoHo! A chemistry scientist, huh? Wearing a white coat with my working license on my chest, test tube in my left hand, glass beaker in my right hand&hellip;&hellip; </font></span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger">&nbsp;</span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">Trying my best to achieve my goal&hellip;&hellip;Wish me luck!</font></span></span></p>', '', '', '124.14.62.12'),
+(19, 21, '<p><span style="color: #464646"><font size="3"><font face="宋体">今天天气真好，太阳高高照，小鸟在天空中自由的飞翔。</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">我呢？嘿嘿，当然是搬着我的工具到大自然中写生！</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">我今天非常高兴因为如意也陪我去呢！</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">嗯，我决定一会儿画一张画给她！</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">你看，我又是铅笔打草稿，然后用颜料调色，再上色。</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">是不是很专业呢？<span lang="EN-US"><o:p></o:p></span></font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">&nbsp;<o:p></o:p></font></font></span></p>\r\n<p><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">What a good day! </span></font></font></p>\r\n<p>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">The sunshine, the birds are flying in the sky.</span></font></font></p>\r\n<p>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">How about me? Of course, I am going to draw something outside! </span></font></font></p>\r\n<p>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">I''m so happy because Ri-yi is coming with me, too! </span></font></font></p>\r\n<p>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">So&nbsp;I decide to draw a picture for her! </span></font></font></p>\r\n<p>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">Look, I use the pencil to do the drafting first, then use the paint to mix the color up, and finally put the color on the paper</span><span style="color: #464646">！<span lang="EN-US"> </span></span></font></font></p>\r\n<p>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">Am I professinal? HOHO!<o:p></o:p></span></span></font></font></p>\r\n<p>&nbsp;</p>', '', '', '124.14.62.12'),
+(20, 21, '<p><span style="color: #464646"><font size="3"><font face="宋体">这两天如意不理我了<span lang="EN-US">&hellip;&hellip;</span>她说我这段时间都不哄她开心。</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">唉<span lang="EN-US">&hellip;</span>我也没办法呀<span lang="EN-US">&hellip;&hellip;</span>这几个礼拜学校又是是音乐节，家里又要帮着妈妈做家务，好忙啊！</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">一时间疏忽了如意，怎么办呢？</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">哦对了！我去学跳街舞！又酷又有型！</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">说不定如意看了会很开心呢！<span lang="EN-US"><o:p></o:p></span></font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">&nbsp;<o:p></o:p></font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Ru-yi doesn&rsquo;t want to talk with me recently&hellip;&hellip; </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">She says that I haven&rsquo;t made her happy for a long time&hellip;&hellip; </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Well, I was so busy these weeks, music festival at school, house working with Mama at home&hellip;&hellip; </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">So, what can I do? Right! I&rsquo;m going to learn Hip-Hop! I know it&rsquo;s so cool! </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Ru-yi must be happy after she sees my dancing!<o:p></o:p></font></font></span></p>\r\n<p>&nbsp;</p>', '', '', '124.14.62.12'),
+(21, 21, '<p><span style="color: #464646"><font size="3"><font face="宋体">今天是我第一次当小老师哦！</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">当老师是我梦寐以求的愿望，可是我没经验啊，心里不免紧张起来。</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">妈妈昨晚对我说：<span lang="EN-US">&ldquo;</span>吉祥啊，明天不要紧张哦<span lang="EN-US">~</span>做任何事都有第一次，<span lang="EN-US">&lsquo;</span>万事开头难<span lang="EN-US">&rsquo;</span>嘛！<span lang="EN-US">&rdquo;</span></font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">我想，我要对自己有信心，要抓住这次机会，试试看！</font></font></span></p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体"><span lang="EN-US"><o:p></o:p></span></font></font></span>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646">想到这里，我也心里也就稍微放松了一点。<span lang="EN-US">&nbsp;</span></span></font></font></p>\r\n<p>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US">&ldquo;</span>上课！今天英文课的题目是自我介绍。首先，老师我来做个示范！<span lang="EN-US"> Hello everyone</span>！<span lang="EN-US">My name is Wang Ji-Xiang.&rdquo;<o:p></o:p></span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646">嘿嘿！你们看我当小老师还是有模有样的吧？<span lang="EN-US"><o:p></o:p></span></span></font></font></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Today is my first time to be a teacher! You know, being a teacher is the greatest dream in my live! </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">But, I don&rsquo;t have any experiences&hellip;&hellip; I am so nervous. </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Last night, Mama said: &ldquo;you don&rsquo;t have to nervous. You know everything has its first time. Everything is always difficult at the beginning.&rdquo; </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">I think I need to use this good chance to try it.&rdquo;<o:p></o:p></font></font></span></p>\r\n<p><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">Now I feel relaxed a bit. </span></font></font><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">&ldquo; Ok class! Let&rsquo;s learn something! </span></font></font></p>\r\n<p>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span lang="EN-US" style="color: #464646">Today we are going to learn how to introduce ourselves to others. First, let me do a demonstration.&nbsp; Hello everyone</span><span style="color: #464646">！<span lang="EN-US"> My name is Wang Ji-Xiang.&rdquo;</span></span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US"><o:p></o:p></span></span></font></font></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">HoHo! Am I looking good like a teacher?<o:p></o:p></font></font></span></p>\r\n<p>&nbsp;</p>', '', '', '124.14.62.12'),
+(22, 21, '<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt"><span style="font-size: larger"><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">圣诞节过去了，元旦即将来临。</span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt"><span style="font-size: larger"><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">我呢，想带如意去海边看看风景。</span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt"><span style="font-size: larger"><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">可是这么远，公交车也没有到海边的，怎么办呢？</span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt"><span style="font-size: larger"><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">前两天我试探如意，她看上去还是非常想去的，难道就没有什么更好的办法了么？</span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt"><span style="font-size: larger"><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">我想想</span><span lang="EN-US"><font face="Times New Roman">&hellip;&hellip;</font></span><span style="font-family: 宋体; mso-ascii-font-family: ''Times New Roman''; mso-hansi-font-family: ''Times New Roman''">对啊，开车去不就搞定了嘛！真是个好办法，到时候我开着车到如意家门口，不知道她会不会感到惊喜呢？</span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt"><span style="font-size: larger"><span lang="EN-US"><o:p><font face="Times New Roman">&nbsp;</font></o:p></span></span><span lang="EN-US"><o:p></o:p></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">Christmas has passed away, New Year&rsquo;s Day is coming soon! </font></span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">I think I should take Ru-yi to the beach to see the nice view. </font></span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">But it&rsquo;s &hellip;&hellip; a little bit far away from the city, and there&rsquo;s no bus there. </font></span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">So&hellip;&hellip; how can we get there? Ru-yi thought that she really wants to go. But right now, I have no idea. </font></span></span></p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt">&nbsp;</p>\r\n<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 21.75pt"><span style="font-size: larger"><span lang="EN-US"><font face="Times New Roman">Let me think&hellip;&hellip; Right! I will drive a car! What a good idea! Ru-yi must feel surprise when I drive a car to her home!</font></span></span></p>\r\n<p><span style="font-size: larger">&nbsp;</span></p>', '', '', '124.14.62.12'),
+(24, 21, '<p><span style="color: #464646"><font size="3"><font face="宋体">今天上语文课，老师让我们写作文，题目是《我的梦想》。</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">哎呀<span lang="EN-US">&hellip;&hellip;</span>平时聊天啊，谈话的时候，不管什么我的能夸夸其谈，怎么今天这作文就难倒我了呢<span lang="EN-US">&hellip;&hellip;</span></font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">想着想着，我就睡着了<span lang="EN-US">&hellip;&hellip;</span>我梦见我身穿身穿迷彩，头带钢盔，手持<span lang="EN-US">AK-47</span>，整个一又帅又酷的特种兵战士啊！</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">等等<span lang="EN-US">&hellip;&hellip;</span>难道这就是日有所思夜有所梦？对啊！也许这就是我的梦想啊！！！</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">于是乎，我马上醒来了！三下五除二，写完了这作文，心里还挺高兴的呢！<span lang="EN-US"><o:p></o:p></span></font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">&nbsp;<o:p></o:p></font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Today, our teacher wanted us to write an easy about &ldquo;our dreams&rdquo;. </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Err&hellip;&hellip;I can talk as much as possible when I was talking with others. But, how come I can&rsquo;t write this simple easy? </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Then, I felt asleep&hellip;&hellip; </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">WoW! I wore Battle Dress Uniform and steel helmet, and carried an AK-47! I&rsquo;m a cool Special Force Warrior! </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Hold on&hellip;&hellip; Isn&rsquo;t this dreaming in the night means thinking in the day time&rdquo;? </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Right! Maybe this was my dream! I woke up quickly and wrote down the easy. HaHa, it felt so good!<o:p></o:p></font></font></span></p>\r\n<p>&nbsp;</p>', '', '', '124.14.62.12'),
+(25, 21, '<p><span style="color: #464646"><font size="3"><font face="宋体">今天在学校，我们今天要学习医疗知识，好兴奋啊！</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">以</font></font></span><span style="color: #464646"><font size="3"><font face="宋体">后要是碰到什么不舒服的情况，我吉祥也能自己解决咯！妈妈一定会很高兴的！</font></font></span></p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体"><span lang="EN-US"><o:p></o:p></span></font></font></span></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646">老师说，要在小朋友中间选一个来扮演医生。</span></font></font></p>\r\n<p>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646">于是乎，我自告奋勇，第一个举起了手。</span></font></font></p>\r\n<p>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646">嘿嘿<span lang="EN-US">~</span>我穿上了老师带来的小号白大褂，戴上红十字帽子，脖子上挂着听诊器。是不是很帅啊？</span></font></font></p>\r\n<p>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646">我马上就要帮小朋友们<span lang="EN-US">&ldquo;</span>看病<span lang="EN-US">&rdquo;</span>喽！</span></font></font></p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646"><span lang="EN-US"><o:p></o:p></span></span></font></font></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Today, we are going to learn some medical knowledge at school. </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">WoW! I''m so excited! </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">After today, I can solve many easy problems by myself! Mama will be proud of me, too!<o:p></o:p></font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Our Teacher says that she will pick one student to pretending doctor. I raise my hand ASAP! </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">HOHO! I put on the small size white coat, wear the Red-Cross hat and take the stethoscope! </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Am I cool enough to attract you? All right, I''m off to &quot;cure&quot; my classmates. See you!<o:p></o:p></font></font></span></p>\r\n<p>&nbsp;</p>', '', '', '124.14.62.12'),
+(26, 21, '<p><span style="color: #464646"><font size="3"><font face="宋体">学校要举行艺术节喽！</font></font></span><span style="color: #464646"><font size="3"><font face="宋体">老师说，我们小班也得准备个节目。</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">我旺吉祥想啊想，那就搞个音乐会吧。</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">嗯！就这么愉快的决定了！老师也同意了我的想法。</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">当确定好所有人的位置以后，咦，竟发现少了个指挥。于是啊，我就推荐自己说，那我来做指挥吧！</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style="color: #464646"><font size="3"><font face="宋体">嘿嘿，又能出风头咯！<span lang="EN-US"><o:p></o:p></span></font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><font size="3"><font face="宋体"><span style="color: #464646">你们看，我排练的时候也够帅吧？<span lang="EN-US"><o:p></o:p></span></span></font></font></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">&nbsp;<o:p></o:p></font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Our school is preparing a Art Festival! Our teacher says that our class must have an art show. </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">So I think we may prepare for a music concert. </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">All right! Let&rsquo;s do this! Our teacher agrees my idea, tool. </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">After we get everyone a job, I find out that we don&rsquo;t have a music director! Ok, I will do this! </font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">HoHo, it&rsquo;s good to be on the front!</font></font></span></p>\r\n<p>&nbsp;</p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体"><o:p></o:p></font></font></span></p>\r\n<p><span lang="EN-US" style="color: #464646"><font size="3"><font face="宋体">Hmmmm&hellip;..I think I am so cool. Don&rsquo;t you agree?<o:p></o:p></font></font></span></p>\r\n<p>&nbsp;</p>', '', '', '124.14.62.12'),
+(27, 20, '', '', '', '115.174.109.122'),
+(28, 20, '', '', '', '115.174.109.122'),
+(29, 23, '', '', '', '115.174.109.122'),
+(30, 23, '', '', '', '115.174.109.122'),
+(31, 23, '', '', '', '115.174.109.122'),
+(32, 23, '', '', '', '115.174.109.122'),
+(33, 23, '', '', '', '115.174.109.122'),
+(34, 23, '', '', '', '115.174.109.122'),
+(35, 23, '', '', '', '115.174.109.122'),
+(36, 23, '', '', '', '115.174.109.122'),
+(37, 22, '', '', '', '115.174.109.122'),
+(38, 33, '', '', '', '127.0.0.1');
 
 -- --------------------------------------------------------
 
@@ -229,7 +256,7 @@ CREATE TABLE IF NOT EXISTS `dede_admin` (
 --
 
 INSERT INTO `dede_admin` (`id`, `usertype`, `userid`, `pwd`, `uname`, `tname`, `email`, `typeid`, `logintime`, `loginip`) VALUES
-(1, 10, 'admin', 'f297a57a5a743894a0e4', 'admin', '', '', '0', 1293164532, '127.0.0.1');
+(1, 10, 'admin', 'f297a57a5a743894a0e4', 'admin', '', '', '0', 1295335428, '127.0.0.1');
 
 -- --------------------------------------------------------
 
@@ -321,23 +348,24 @@ CREATE TABLE IF NOT EXISTS `dede_arccache` (
 --
 
 INSERT INTO `dede_arccache` (`md5hash`, `uptime`, `cachedata`) VALUES
-('bf96e46538c3fe03b2176ba7ad22f9b8', 1293097761, '1'),
-('6431937732418688af3e9be8942471d2', 1293097761, '1'),
-('78639b4f5716ba08a5ce328e0c92f314', 1293098128, '1'),
-('3b98fc29ab4d9e270e93e14581691806', 1293098128, '1'),
-('53d1e0d3463523d01d6171b766c84afc', 1293098137, '1'),
-('d8ae4913be47ca4b8f56258d90a2099a', 1293098137, '1'),
-('d1ac86dcd89420e26a15d99722ceee33', 1293098394, '1'),
-('1d53bb6b3bcdcfb2444ed937cd72826d', 1293098445, '1'),
-('f391e453ddc3b89855b552a3bd21a300', 1293098452, '1'),
-('f95eb401599f9c91b1bf6a8f7e5651d3', 1293165814, '7,6'),
-('2c8090ffa1365b2ea824496b12b17a37', 1293166152, '0'),
-('ce7ffb7d493d8402645275410b90fd2b', 1293166152, '10,9,8'),
-('54a3611fa2d1d03b56757b9140d6b97e', 1293166368, '7,6'),
-('e8470d9513c4fab5d3deb94bf62931dc', 1293166611, '1'),
-('cf74d4bf8c2d00b9b70417da80ebfac2', 1293166644, '1'),
-('9d83a489c4e0108b56ce2bc92fb98e80', 1293166668, '1'),
-('8a87130e345e9621e2b7ac468457232d', 1293166670, '1');
+('a455f1ec6deab651259c0515d491ebf3', 1295333922, '37,3'),
+('37589da23a09c85b60780819d80f2ebe', 1295333922, '37,3'),
+('b3d390d25400362fa87e7522b3500861', 1295333922, '5,4'),
+('5ec339fb91032d2603844bb6248f197b', 1295333935, '36,34,33,31'),
+('564298c09ad4c243aaf92b2047dc796c', 1295333935, '36,35,34,33,32,31'),
+('a98d7c08c76af08a523763147040b126', 1295333935, '0'),
+('cf997d52d2e589463d8be974cf731ff7', 1295334279, '28'),
+('121ea386c72c7b9bd8c09283f846f947', 1295334279, '28,26,25,24,22'),
+('2f777ce4c85e4c874d590abb5b147935', 1295334342, '26,25,24,22,21'),
+('64d2d081f33a54fdc48c42ed051e67e3', 1295334380, '7,6'),
+('478379d9c187605ad9f3c8752af08a8b', 1295334484, '26,25,24,22,21,20,19,18,17,16,15,14,13,11,1'),
+('76cb029367b32782db91406f68515b41', 1295334484, '28,26,25,24,22'),
+('38905ef20fcbc04d70723190e8fca5ab', 1295335413, '28,26,25,24,22'),
+('0ad47c447227a2f9f80739a1e37e3763', 1295335644, '0'),
+('bb1a8a7d0a5a6644891dab25ef1bc686', 1295335644, '10,9,8,38'),
+('2c8090ffa1365b2ea824496b12b17a37', 1295335644, '0'),
+('ce7ffb7d493d8402645275410b90fd2b', 1295335644, '10,9,8,38'),
+('0fdd8e6ef16c6f740c30eebb6305bfc7', 1295335752, '28,26,25,24,22');
 
 -- --------------------------------------------------------
 
@@ -390,14 +418,41 @@ CREATE TABLE IF NOT EXISTS `dede_archives` (
 INSERT INTO `dede_archives` (`id`, `typeid`, `typeid2`, `sortrank`, `flag`, `ismake`, `channel`, `arcrank`, `click`, `money`, `title`, `shorttitle`, `color`, `writer`, `source`, `litpic`, `pubdate`, `senddate`, `mid`, `keywords`, `lastpost`, `scores`, `goodpost`, `badpost`, `notpost`, `description`, `filename`, `dutyadmin`, `tackid`, `mtype`, `weight`) VALUES
 (1, 21, '0', 1291862840, 'p', -1, 1, 0, 114, 0, '旺·吉祥美国行', '', '', 'admin', '未知', '/uploads/101210/1-101210115A11A.jpg', 1291862840, 1291862875, 1, '行,美国,吉祥,旺,', 0, 0, 0, 0, 0, '旺吉祥太贪玩啦在韩国和日本真的玩得流连忘返，都舍不得走了。 不过。我要环游世界九十天，所以要加快脚步啦！ 这回呀，吉祥还要去次美国。 关心我的朋友们应该知道，我去过次美国。不过那次去的都是纽约啊华盛顿啊这些大城市。这次，我换上牛仔服，去美国的', '', 1, 0, 0, 0),
 (2, 30, '0', 1292297824, 'p', -1, 1, 0, 145, 0, '最热商品', '', '', 'admin', '未知', '/uploads/101214/1-101214121U3F0.png', 1292297824, 1292297926, 1, '商品,最热,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 1),
-(3, 22, '0', 1292314665, 'c,p', 1, 1, 0, 145, 0, '旺吉祥公仔（吉祥款）：进口绒布制作，内含高性能竹炭。', '￥商城价：89.00元', '', 'admin', '未知', '/uploads/101214/1-101214163112312.jpg', 1292314665, 1292315334, 1, '吉祥,内含,高性能,竹炭,制作,进口,公仔,款,旺,绒布,', 0, 0, 0, 0, 0, 'http://www.taobao.com', '', 1, 0, 0, 2),
+(3, 22, '0', 1292314665, 'c,p', 1, 1, 0, 146, 0, '旺吉祥公仔（吉祥款）：进口绒布制作，内含高性能竹炭。', '￥商城价：89.00元', '', 'admin', '未知', '/uploads/101214/1-101214163112312.jpg', 1292314665, 1292315334, 1, '吉祥,内含,高性能,竹炭,制作,进口,公仔,款,旺,绒布,', 0, 0, 0, 0, 0, 'http://www.taobao.com', '', 1, 0, 0, 2),
 (4, 22, '0', 1292567957, 'p,a', -1, 1, 0, 129, 0, '特价商品1', '', '', 'admin', '未知', '/uploads/allimg/101217/1-10121G439520-L.jpg', 1292567957, 1292568009, 1, '1,商品,特价,', 0, 0, 0, 0, 0, 'http://www.taobao.com', '', 1, 0, 0, 3),
 (5, 22, '0', 1292568015, 'p,a', -1, 1, 0, 190, 0, '特价商品2', '', '', 'admin', '未知', '/uploads/allimg/101217/1-10121G440240-L.jpg', 1292568015, 1292568034, 1, '2,商品,特价,', 0, 0, 0, 0, 0, 'http://www.taobao.com', '', 1, 0, 0, 4),
 (6, 22, '0', 1292568427, 'h,p', -1, 1, 0, 161, 0, '商城首页头条1', '', '', 'admin', '未知', '/uploads/allimg/101217/1-10121G44I70-L.jpg', 1292568427, 1292568470, 1, '1,头条,首页,商城,', 0, 0, 0, 0, 0, 'http://www.taobao.com', '', 1, 0, 0, 5),
 (7, 22, '0', 1292568609, 'h,p', -1, 1, 0, 74, 0, '商城头条2', '', '', 'admin', '未知', '/uploads/allimg/101217/1-10121G450180-L.jpg', 1292568609, 1292568632, 1, '2,头条,商城,', 0, 0, 0, 0, 0, 'http://www.taobao.com', '', 1, 0, 0, 6),
 (8, 33, '0', 1293166050, 'p', 1, 1, 0, 69, 0, '人气商品', '', '', 'admin', '未知', '/uploads/allimg/101224/1-101224124P40-L.jpg', 1293166050, 1293166098, 1, '商品,人气,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 7),
-(9, 33, '0', 1293166102, 'p', 1, 1, 0, 107, 0, '家族成员', '', '', 'admin', '未知', '/uploads/allimg/101224/1-101224124T30-L.jpg', 1293166102, 1293166132, 1, '成员,家族,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 8),
-(10, 33, '0', 1293166134, 'p', 1, 1, 0, 188, 0, '精品造型', '', '', 'admin', '未知', '/uploads/allimg/101224/1-101224124Z60-L.jpg', 1293166134, 1293166151, 1, '造型,精品,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 9);
+(9, 33, '0', 1293166102, 'p', 1, 1, 0, 108, 0, '家族成员', '', '', 'admin', '未知', '/uploads/allimg/101224/1-101224124T30-L.jpg', 1293166102, 1293166132, 1, '成员,家族,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 8),
+(10, 33, '0', 1293166134, 'p', 1, 1, 0, 189, 0, '精品造型', '', '', 'admin', '未知', '/uploads/allimg/101224/1-101224124Z60-L.jpg', 1293166134, 1293166151, 1, '造型,精品,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 9),
+(11, 21, '0', 1294627388, 'p', 1, 1, 0, 161, 0, '旺吉祥72变导游', '', '', 'admin', '未知', '/uploads/110110/1-110110123Z0100.jpg', 1294627388, 1294627590, 1, '祥,', 0, 0, 0, 0, 0, '话说，最近朋友们都在谈论元旦假期里去了哪些好玩的地方，当然也有朋友在考虑即将来临的春节长假打算去哪儿。不知道朋友们都打算怎么出游呢？是跟旅游团还是自助游呢？我想了想啊，不管用哪种方式，总得有个相当于领队的角色吧？嘿嘿，其实呢，导游这个职业', '', 1, 0, 0, 0),
+(12, 21, '0', 1294642410, 'p', -1, 1, -2, 90, 0, '新年就要来咯！', '', '', 'admin', '未知', '/uploads/110110/1-110110153H2M2.jpg', 1294642410, 1294644664, 1, '咯,新年,', 0, 0, 0, 0, 0, '新年就要来咯！ 今天是31号了，大家是不是准备和朋友们一起庆祝和迎接即将来到的新年呢？如果不是的话，那我们是不是也该给亲朋好友打个电话送出自己的祝福呢？好了，那就由我现在带个头吧，在这里我要祝福大家新年快乐，吉祥！ 嗯！就这样吧！我先带着我的', '', 1, 0, 0, 11),
+(13, 21, '0', 1294645558, 'p', -1, 1, 0, 194, 0, '新年就要来咯！', '', '', 'admin', '未知', '/uploads/110118/1-11011P952442F.jpg', 1294645558, 1294645712, 1, '咯,新年,', 0, 0, 0, 0, 0, '新年就要来咯！ 今天是31号了，大家是不是准备和朋友们一起庆祝和迎接即将来到的新年呢？如果不是的话，那我们是不是也该给亲朋好友打个电话送出自己的祝福呢？好了，那就由我现在带个头吧，在这里我要祝福大家新年快乐，吉祥！ 嗯！就这样吧！我先带着我的', '', 1, 0, 0, 12),
+(14, 21, '0', 1294712794, 'p', 1, 1, 0, 189, 0, '旺吉祥72变厨师', '', '', 'admin', '未知', '/uploads/110111/1-110111103520F2.jpg', 1294712794, 1294713025, 1, '祥,', 0, 0, 0, 0, 0, '又是一个星期天，到中午喽！好饿哦 ~~~ 10 分钟前妈妈打电话回来说，她还在外面办事，一时间回不来呢。 唉。。。咋办捏？ 我想着想着，走到了厨房。 对了！我自己来做饭！ 一来我还能实践实践做饭做菜，二来等到妈妈回来了，看到我做的饭菜以后，她一定会很', '', 1, 0, 0, 0),
+(15, 21, '0', 1294713721, 'p', 1, 1, 0, 198, 0, '旺吉祥72变导演', '', '', 'admin', '未知', '/uploads/110111/1-110111104531150.jpg', 1294713721, 1294713842, 1, '祥,', 0, 0, 0, 0, 0, '今天我问如意： 你的梦想是什么呀？ 如意笑眯眯地告诉我： 我这么漂亮，当然是当明星咯 ~ ，你呢？ 我想了一会儿，说： 既然你相当明星，那我就做导演给你拍电影电视剧啥的好了！ 此时此刻，我脑海中浮现出我是个导演的画面。 灯光，道具，演员准备！ 3 ！ 2', '', 1, 0, 0, 0),
+(16, 21, '0', 1294713988, 'p', 1, 1, 0, 130, 0, '旺吉祥72变服务员', '', '', 'admin', '未知', '/uploads/110111/1-110111104Q2555.jpg', 1294713988, 1294714043, 1, '员,祥,', 0, 0, 0, 0, 0, '今天我约了如意一起吃午饭。 看时间快到中午，她该来了吧，我要给她一个意外和惊喜，是什么呢？嘻嘻。 看，我像变魔术一样转身换了套餐厅服务员的制服，帅不帅啊？恩，自己照了照镜子，感觉还是蛮不错的，心，砰砰跳，但还故作镇定，趁如意还没到，我先练习', '', 1, 0, 0, 0),
+(17, 21, '0', 1294714118, 'p', 1, 1, 0, 78, 0, '旺吉祥72变花匠', '', '', 'admin', '未知', '/uploads/110111/1-110111105042Q1.jpg', 1294714118, 1294714208, 1, '花,祥,', 0, 0, 0, 0, 0, '今天的天气好好哦，正好赶上放假，做些什么让自己快乐的事呢？玩？当然没多大意思，对了！种花！ 这段时间妈妈因为太忙了，没什么时间打理她的花园，那么我来帮她吧。 我穿上围裙，拿起水壶，忙得不亦乐乎，原来打理花园这么辛苦哦 晚上妈妈回来后，看到我的', '', 1, 0, 0, 0),
+(18, 21, '0', 1294714262, 'p', 1, 1, 0, 97, 0, '旺吉祥72变化学药剂师', '', '', 'admin', '未知', '/uploads/110111/1-11011110540H11.jpg', 1294714262, 1294714394, 1, '剂,学药剂,祥,', 0, 0, 0, 0, 0, '期末摸底考试结果下来了，全班同学都考得不好。 唉 大家都挺后悔的，轻敌了嘛 老师安慰我们说：别后悔啦，天底下没有后悔药的。这次只不过是摸底考试而已，吸取教训，下次在正式考中取得好成绩就行了 ! 我旺吉祥想啊，是啊，没有后悔药的，别想啦 等等，后悔', '', 1, 0, 0, 0),
+(19, 21, '0', 1294714477, 'p', 1, 1, 0, 200, 0, '旺吉祥72变画家', '', '', 'admin', '未知', '/uploads/110111/1-110111105623931.jpg', 1294714477, 1294714546, 1, '家,祥,', 0, 0, 0, 0, 0, '今天天气真好，太阳高高照，小鸟在天空中自由的飞翔。 我呢？嘿嘿，当然是搬着我的工具到大自然中写生！ 我今天非常高兴因为如意也陪我去呢！ 嗯，我决定一会儿画一张画给她！ 你看，我又是铅笔打草稿，然后用颜料调色，再上色。 是不是很专业呢？ What a go', '', 1, 0, 0, 0),
+(20, 21, '0', 1294714632, 'p', 1, 1, 0, 106, 0, '旺吉祥72变街头舞者', '', '', 'admin', '未知', '/uploads/110111/1-1101111101455E.jpg', 1294714632, 1294714734, 1, '街,祥,', 0, 0, 0, 0, 0, '这两天如意不理我了 她说我这段时间都不哄她开心。 唉 我也没办法呀 这几个礼拜学校又是是音乐节，家里又要帮着妈妈做家务，好忙啊！ 一时间疏忽了如意，怎么办呢？ 哦对了！我去学跳街舞！又酷又有型！ 说不定如意看了会很开心呢！ Ru-yi doesnt want to ta', '', 1, 0, 0, 0),
+(21, 21, '0', 1294714923, 'p', 1, 1, 0, 81, 0, '旺吉祥72变教师', '', '', 'admin', '未知', '/uploads/110111/1-110111110426407.jpg', 1294714923, 1294715029, 1, '教,祥,', 0, 0, 0, 0, 0, '今天是我第一次当小老师哦！ 当老师是我梦寐以求的愿望，可是我没经验啊，心里不免紧张起来。 妈妈昨晚对我说： 吉祥啊，明天不要紧张哦 ~ 做任何事都有第一次， 万事开头难 嘛！ 我想，我要对自己有信心，要抓住这次机会，试试看！ 想到这里，我也心里也就', '', 1, 0, 0, 0),
+(22, 21, '0', 1294715084, 'p', 1, 1, 0, 183, 0, '旺吉祥72变司机', '', '', 'admin', '未知', '/uploads/110111/1-110111110A9251.jpg', 1294715084, 1294715185, 1, '祥,', 0, 0, 0, 0, 0, '圣诞节过去了，元旦即将来临。 我呢，想带如意去海边看看风景。 可是这么远，公交车也没有到海边的，怎么办呢？ 前两天我试探如意，她看上去还是非常想去的，难道就没有什么更好的办法了么？ 我想想 对啊，开车去不就搞定了嘛！真是个好办法，到时候我开着车', '', 1, 0, 0, 0),
+(24, 21, '0', 1294715411, 'p', 1, 1, 0, 151, 0, '旺吉祥72变特种兵', '', '', 'admin', '未知', '/uploads/110111/1-110111111150F1.jpg', 1294715411, 1294715480, 1, '兵,特种,祥,', 0, 0, 0, 0, 0, '今天上语文课，老师让我们写作文，题目是《我的梦想》。 哎呀 平时聊天啊，谈话的时候，不管什么我的能夸夸其谈，怎么今天这作文就难倒我了呢 想着想着，我就睡着了 我梦见我身穿身穿迷彩，头带钢盔，手持 AK-47 ，整个一又帅又酷的特种兵战士啊！ 等等 难道', '', 1, 0, 0, 0),
+(25, 21, '0', 1294715528, 'p', 1, 1, 0, 86, 0, '旺吉祥72变医生', '', '', 'admin', '未知', '/uploads/110111/1-110111111400249.jpg', 1294715528, 1294715609, 1, '祥,', 0, 0, 0, 0, 0, '今天在学校，我们今天要学习医疗知识，好兴奋啊！ 以 后要是碰到什么不舒服的情况，我吉祥也能自己解决咯！妈妈一定会很高兴的！ 老师说，要在小朋友中间选一个来扮演医生。 于是乎，我自告奋勇，第一个举起了手。 嘿嘿 ~ 我穿上了老师带来的小号白大褂，戴', '', 1, 0, 0, 0),
+(26, 21, '0', 1294715658, 'p,a', 1, 1, 0, 68, 0, '旺吉祥72变音乐家', '', '', 'admin', '未知', '/uploads/110111/1-11011111162Y40.jpg', 1294715658, 1294715747, 1, '乐家,祥,', 0, 0, 0, 0, 0, '学校要举行艺术节喽！ 老师说，我们小班也得准备个节目。 我旺吉祥想啊想，那就搞个音乐会吧。 嗯！就这么愉快的决定了！老师也同意了我的想法。 当确定好所有人的位置以后，咦，竟发现少了个指挥。于是啊，我就推荐自己说，那我来做指挥吧！ 嘿嘿，又能出风', '', 1, 0, 0, 0),
+(27, 20, '0', 1295314310, 'p', 1, 1, -2, 94, 0, '菜包记', '', '', 'admin', '未知', '/uploads/110118/1-11011P93513335.jpg', 1295314310, 1295314567, 1, '记,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 25),
+(28, 20, '0', 1295315672, 'p', -1, 1, 0, 163, 0, '菜包记', '', '', 'admin', '未知', '/uploads/110118/1-11011P95F3613.jpg', 1295315672, 1295315884, 1, '记,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 26),
+(29, 23, '0', 1295332333, 'c', 1, 1, -2, 110, 0, '旺吉祥马克杯', '￥商城价：19.00元', '', 'admin', '未知', '', 1295332333, 1295332518, 1, '杯,克,祥马克,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 27),
+(30, 23, '0', 1295332333, 'c', 1, 1, -2, 110, 0, '旺吉祥马克杯', '￥商城价：19.00元', '', 'admin', '未知', '', 1295332333, 1295332539, 1, '杯,克,祥马克,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 27),
+(31, 23, '0', 1295332831, 'c,p', 1, 1, 0, 152, 0, '旺吉祥马克杯（爱心款）', '￥商城价：19.00元', '', 'admin', '未知', '/uploads/110118/110118/1-11011Q44145O5.jpg', 1295332831, 1295332984, 1, '杯,克,祥马克,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 29),
+(32, 23, '0', 1295333085, 'p', 1, 1, 0, 78, 0, '旺吉祥马克杯（捉迷藏）', '￥商城价：19.00元', '', 'admin', '未知', '/uploads/110118/1-11011Q44615N6.jpg', 1295333085, 1295333245, 1, '杯,克,祥马克,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 30),
+(33, 23, '0', 1295333322, 'c,p', 1, 1, 0, 51, 0, '旺吉祥马克杯（糖葫芦）', '￥商城价：19.00元', '', 'admin', '未知', '/uploads/110118/1-11011Q4491I14.jpg', 1295333322, 1295333392, 1, '糖葫,杯,克,祥马克,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 31),
+(34, 23, '0', 1295333454, 'c,p', 1, 1, 0, 93, 0, '旺吉祥马克杯（喝酸奶）', '￥商城价：19.00元', '', 'admin', '未知', '/uploads/110118/1-11011Q4512b02.jpg', 1295333454, 1295333513, 1, '奶,喝酸,杯,克,祥马克,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 32),
+(35, 23, '0', 1295333516, 'p', 1, 1, 0, 69, 0, '旺吉祥马克杯（放学）', '￥商城价：19.00元', '', 'admin', '未知', '/uploads/110118/1-11011Q45222E1.jpg', 1295333516, 1295333558, 1, '杯,克,祥马克,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 33),
+(36, 23, '0', 1295333563, 'c,p', 1, 1, 0, 54, 0, '旺吉祥马克杯（捉蝴蝶）', '￥商城价：19.00元', '', 'admin', '未知', '/uploads/110118/1-11011Q4531M59.jpg', 1295333563, 1295333607, 1, '蝶,捉蝴,杯,克,祥马克,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 34),
+(37, 22, '0', 1295333781, 'c,p', 1, 1, 0, 113, 0, '旺吉祥公仔（时尚款）：进口绒布制作，内含高性能竹炭。', '￥商城价：89.00元', '', 'admin', '未知', '/uploads/110118/1-11011Q45I0b2.jpg', 1295333781, 1295333869, 1, '内,竹炭,作,绒,仔,祥公,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 35),
+(38, 33, '0', 1295335618, 'p', 1, 1, 0, 61, 0, '中部banner', '', '', 'admin', '未知', '/uploads/allimg/110118/1-11011Q52G40-L.jpg', 1295335618, 1295335644, 1, 'banner,中部,', 0, 0, 0, 0, 0, '', '', 1, 0, 0, 36);
 
 -- --------------------------------------------------------
 
@@ -469,7 +524,7 @@ CREATE TABLE IF NOT EXISTS `dede_arctiny` (
   `mid` mediumint(8) unsigned NOT NULL,
   PRIMARY KEY (`id`),
   KEY `sortrank` (`sortrank`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=11 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=39 ;
 
 --
 -- 转存表中的数据 `dede_arctiny`
@@ -485,7 +540,34 @@ INSERT INTO `dede_arctiny` (`id`, `typeid`, `typeid2`, `arcrank`, `channel`, `se
 (7, 22, '0', 0, 1, 1292568632, 1292568609, 1),
 (8, 33, '0', 0, 1, 1293166098, 1293166050, 1),
 (9, 33, '0', 0, 1, 1293166132, 1293166102, 1),
-(10, 33, '0', 0, 1, 1293166151, 1293166134, 1);
+(10, 33, '0', 0, 1, 1293166151, 1293166134, 1),
+(11, 21, '0', 0, 1, 1294627590, 1294627388, 1),
+(12, 21, '0', -2, 1, 1294644664, 1294642410, 1),
+(13, 21, '0', 0, 1, 1294645712, 1294645558, 1),
+(14, 21, '0', 0, 1, 1294713025, 1294712794, 1),
+(15, 21, '0', 0, 1, 1294713842, 1294713721, 1),
+(16, 21, '0', 0, 1, 1294714043, 1294713988, 1),
+(17, 21, '0', 0, 1, 1294714208, 1294714118, 1),
+(18, 21, '0', 0, 1, 1294714394, 1294714262, 1),
+(19, 21, '0', 0, 1, 1294714546, 1294714477, 1),
+(20, 21, '0', 0, 1, 1294714734, 1294714632, 1),
+(21, 21, '0', 0, 1, 1294715029, 1294714923, 1),
+(22, 21, '0', 0, 1, 1294715185, 1294715084, 1),
+(24, 21, '0', 0, 1, 1294715480, 1294715411, 1),
+(25, 21, '0', 0, 1, 1294715609, 1294715528, 1),
+(26, 21, '0', 0, 1, 1294715747, 1294715658, 1),
+(27, 20, '0', -2, 1, 1295314567, 1295314310, 1),
+(28, 20, '0', 0, 1, 1295315884, 1295315672, 1),
+(29, 23, '0', -2, 1, 1295332518, 1295332333, 1),
+(30, 23, '0', -2, 1, 1295332539, 1295332333, 1),
+(31, 23, '0', 0, 1, 1295332984, 1295332831, 1),
+(32, 23, '0', 0, 1, 1295333245, 1295333085, 1),
+(33, 23, '0', 0, 1, 1295333392, 1295333322, 1),
+(34, 23, '0', 0, 1, 1295333513, 1295333454, 1),
+(35, 23, '0', 0, 1, 1295333558, 1295333516, 1),
+(36, 23, '0', 0, 1, 1295333607, 1295333563, 1),
+(37, 22, '0', 0, 1, 1295333869, 1295333781, 1),
+(38, 33, '0', 0, 1, 1295335644, 1295335618, 1);
 
 -- --------------------------------------------------------
 
@@ -539,16 +621,16 @@ INSERT INTO `dede_arctype` (`id`, `reid`, `topid`, `sortrank`, `typename`, `type
 (3, 0, 0, 50, '吉祥故事', '{cmspath}/a/jixianggushi', -1, 'index.html', 1, 1, -1, 1, 0, '{style}/jixianggushi1.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
 (4, 0, 0, 50, '吉祥家族', '{cmspath}/a/jixiangjiazu', -1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
 (5, 0, 0, 50, '联系我们', '{cmspath}/a/lianxiwomen', -1, 'index.html', 1, 1, -1, 1, 0, '{style}/contact.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/lianxiwomen', '', 0, 0, '', '<ul>\r\n    <li>公司地址</li>\r\n    <li>地址：上海市零陵路585号爱邦大厦29楼C座</li>\r\n    <li>电话：86-21-64396277（总机）</li>\r\n    <li style="padding-left: 36px;">86-21-64399255（直线）</li>\r\n    <li>传真：86-21-64399255</li>\r\n    <li>邮箱：wenxindesign@126.com</li>\r\n</ul>', ''),
-(6, 4, 4, 50, '旺吉祥', '{cmspath}/a/jixiangjiazu/wangjixiang', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
-(7, 4, 4, 50, '木呆呆', '{cmspath}/a/jixiangjiazu/mudaidai', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
-(8, 4, 4, 50, '肥牛', '{cmspath}/a/jixiangjiazu/feiniu', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
-(9, 4, 4, 50, '啡啡', '{cmspath}/a/jixiangjiazu/feifei', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
-(10, 4, 4, 50, '鼻涕虫', '{cmspath}/a/jixiangjiazu/bitichong', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
-(11, 4, 4, 50, '玉如意', '{cmspath}/a/jixiangjiazu/yuruyi', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
-(12, 4, 4, 50, '顿牛', '{cmspath}/a/jixiangjiazu/dunniu', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(6, 4, 4, 50, '旺吉祥', '{cmspath}/a/jixiangjiazu/wangjixiang', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '<div>&nbsp;</div>\r\n<div>&nbsp;</div>\r\n<div>&nbsp;</div>\r\n<h1><img style="cursor: pointer" border="0" alt="" width="881" height="471" onclick="window.open(''/uploads/allimg/110111/1_110111141642_1.png'')" src="http://www.wangjixiang.com/uploads/allimg/110111/1_110111141642_1.png" /></h1>', ''),
+(7, 4, 4, 50, '木呆呆', '{cmspath}/a/jixiangjiazu/mudaidai', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '<div>&nbsp;</div>\r\n<div>&nbsp;</div>\r\n<div>&nbsp;</div>\r\n<p><img style="cursor: pointer" onclick="window.open(''/uploads/allimg/110117/1_110117135205_1.png'')" border="0" alt="" src="http://www.wangjixiang.com/uploads/allimg/110117/1_110117135205_1.png" width="881" height="444" /></p>', ''),
+(8, 4, 4, 50, '肥牛', '{cmspath}/a/jixiangjiazu/feiniu', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '<div>&nbsp;</div>\r\n<div>&nbsp;</div>\r\n<div><br />\r\n&nbsp;</div>\r\n<p>&nbsp;<img style="cursor: pointer" onclick="window.open(''/uploads/allimg/110117/1_110117135313_1.png'')" border="0" alt="" src="http://www.wangjixiang.com/uploads/allimg/110117/1_110117135313_1.png" width="881" height="448" /></p>', ''),
+(9, 4, 4, 50, '啡啡', '{cmspath}/a/jixiangjiazu/feifei', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '<p><br />\r\n&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;<img style="cursor: pointer" onclick="window.open(''/uploads/allimg/110111/1_110111154518_1.png'')" border="0" alt="" src="http://www.wangjixiang.com/uploads/allimg/110111/1_110111154518_1.png" width="881" height="487" /></p>', ''),
+(10, 4, 4, 50, '鼻涕虫', '{cmspath}/a/jixiangjiazu/bitichong', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<div><img style="cursor: pointer" onclick="window.open(''/uploads/allimg/110117/1_110117135115_1.png'')" border="0" alt="" src="http://www.wangjixiang.com/uploads/allimg/110117/1_110117135115_1.png" width="881" height="523" /><br />\r\n&nbsp;</div>\r\n<p>&nbsp;</p>', ''),
+(11, 4, 4, 50, '玉如意', '{cmspath}/a/jixiangjiazu/yuruyi', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<div><img style="cursor: pointer" onclick="window.open(''/uploads/allimg/110111/1_110111173510_1.png'')" border="0" alt="" src="http://www.wangjixiang.com/uploads/allimg/110111/1_110111173510_1.png" width="881" height="458" /><br />\r\n&nbsp;</div>\r\n<p>&nbsp;</p>', ''),
+(12, 4, 4, 50, '顿牛', '{cmspath}/a/jixiangjiazu/dunniu', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<div><img style="cursor: pointer" onclick="window.open(''/uploads/allimg/110111/1_110111143940_1.png'')" border="0" alt="" src="http://www.wangjixiang.com/uploads/allimg/110111/1_110111143940_1.png" width="881" height="466" /><br />\r\n&nbsp;</div>', ''),
 (13, 4, 4, 50, '粘宝宝', '{cmspath}/a/jixiangjiazu/zhanbaobao', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '<div><img width="882" height="560" border="0" alt="" src="/uploads/allimg/101208/1_101208170341_1.jpg" /></div>\r\n<p>&nbsp;</p>', ''),
-(14, 4, 4, 50, '呗呗', '{cmspath}/a/jixiangjiazu/beibei', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
-(15, 4, 4, 50, '鼻涕弟弟', '{cmspath}/a/jixiangjiazu/bitididi', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '', ''),
+(14, 4, 4, 50, '呗呗', '{cmspath}/a/jixiangjiazu/beibei', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<div><img style="cursor: pointer" onclick="window.open(''/uploads/allimg/110111/1_110111150750_1.png'')" border="0" alt="" src="http://www.wangjixiang.com/uploads/allimg/110111/1_110111150750_1.png" width="881" height="473" /></div>', ''),
+(15, 4, 4, 50, '鼻涕弟弟', '{cmspath}/a/jixiangjiazu/bitididi', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jiazu_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangjiazu', '', 0, 0, '', '<div><br />\r\n&nbsp;</div>\r\n<div>&nbsp;</div>\r\n<div>&nbsp;</div>\r\n<p>&nbsp;<img style="cursor: pointer" onclick="window.open(''/uploads/allimg/110118/1_110118111814_1.png'')" border="0" alt="" src="http://www.wangjixiang.com/uploads/allimg/110118/1_110118111814_1.png" width="881" height="444" /></p>', ''),
 (16, 3, 3, 50, '吉祥SHOW', '{cmspath}/a/jixianggushi/jixiangSHOW', 1, 'index.html', 1, 1, -1, 1, 0, '{style}/jixianggushi2.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
 (17, 3, 3, 50, '吉祥乐闻', '{cmspath}/a/jixianggushi/jixianglewen', -1, 'index.html', 1, 1, -1, 1, 0, '{style}/jixianggushi2.htm', '{style}/list_article.htm', '{style}/jixianggushi3.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
 (18, 3, 3, 50, '旺旺三格半', '{cmspath}/a/jixianggushi/wangwangsangeban', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
@@ -556,12 +638,12 @@ INSERT INTO `dede_arctype` (`id`, `reid`, `topid`, `sortrank`, `typename`, `type
 (20, 18, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/wangwangsangeban/gushiliebiao', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
 (21, 17, 3, 50, '故事列表', '{cmspath}/a/jixianggushi/jixianglewen/gushiliebiao', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/jixianggushi3.htm', '{style}/jixianggushi4.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixianggushi', '', 0, 0, '', '', ''),
 (22, 2, 2, 50, '毛绒公仔', '{cmspath}/a/jixiangshangcheng/maoronggongzi', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
-(23, 2, 2, 50, '马克杯', '{cmspath}/a/jixiangshangcheng/makebei', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(23, 2, 2, 50, '马克杯', '{cmspath}/a/jixiangshangcheng/makebei', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
 (24, 2, 2, 50, '一次性纸杯', '{cmspath}/a/jixiangshangcheng/yicixingzhibei', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
 (25, 2, 2, 50, '杯垫系列', '{cmspath}/a/jixiangshangcheng/beidianxilie', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
 (26, 2, 2, 50, '竹炭系列', '{cmspath}/a/jixiangshangcheng/zhutanxilie', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
 (27, 2, 2, 50, '包袋系列', '{cmspath}/a/jixiangshangcheng/baodaixilie', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
-(28, 2, 2, 50, '纸巾系列', '{cmspath}/a/jixiangshangcheng/zhijinxilie', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
+(28, 2, 2, 50, '明信片系列', '{cmspath}/a/jixiangshangcheng/zhijinxilie', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
 (29, 2, 2, 50, '特种订购', '{cmspath}/a/jixiangshangcheng/tezhongdinggou', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/shangcheng2.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '{cmspath}/a/jixiangshangcheng', '', 0, 0, '', '', ''),
 (30, 0, 0, 50, '首页', '{cmspath}/a/shouye', 1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '', '', 0, 0, '', '', ''),
 (33, 0, 0, 50, '首页图片', '{cmspath}/a/shouyetupian', -1, 'index.html', 1, 1, -1, 0, 0, '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', 0, '', '', 1, 0, '', '', '');
@@ -1429,7 +1511,7 @@ CREATE TABLE IF NOT EXISTS `dede_guestbook` (
   `msg` text,
   PRIMARY KEY (`id`),
   KEY `ischeck` (`ischeck`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=3 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=8 ;
 
 --
 -- 转存表中的数据 `dede_guestbook`
@@ -1437,7 +1519,12 @@ CREATE TABLE IF NOT EXISTS `dede_guestbook` (
 
 INSERT INTO `dede_guestbook` (`id`, `title`, `tid`, `mid`, `posttime`, `uname`, `email`, `homepage`, `qq`, `face`, `ip`, `dtime`, `ischeck`, `msg`) VALUES
 (1, '无标题', 0, 1, 0, 'admin', '', '', '', '', '127.0.0.1', 1292904884, 1, '222'),
-(2, '无标题', 0, 1, 0, 'admin', '', '', '', '', '127.0.0.1', 1292905507, 1, '222');
+(2, '无标题', 0, 1, 0, 'admin', '', '', '', '', '127.0.0.1', 1292905507, 1, '222'),
+(3, '无标题', 0, 1, 0, 'admin', '', '', '', '', '112.65.132.162', 1293434611, 1, '测试'),
+(4, '无标题', 0, 16, 0, 'lind', '', '', '', '', '211.161.219.102', 1293440552, 1, 'HI'),
+(5, '无标题', 0, 16, 0, 'lind', '', '', '', '', '211.161.219.102', 1293440580, 1, '你好 旺吉祥'),
+(6, '无标题', 0, 17, 0, 'JoJoChow', '', '', '', '', '221.137.116.107', 1293717593, 1, '我是第一个吗？'),
+(7, '无标题', 0, 17, 0, 'JoJoChow', '', '', '', '', '221.137.116.107', 1294146365, 1, '我没看到我的留言');
 
 -- --------------------------------------------------------
 
@@ -1531,14 +1618,20 @@ CREATE TABLE IF NOT EXISTS `dede_member` (
   PRIMARY KEY (`mid`),
   KEY `userid` (`userid`,`sex`),
   KEY `logintime` (`logintime`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=15 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=21 ;
 
 --
 -- 转存表中的数据 `dede_member`
 --
 
 INSERT INTO `dede_member` (`mid`, `mtype`, `userid`, `pwd`, `uname`, `sex`, `rank`, `uptime`, `exptime`, `money`, `email`, `scores`, `matt`, `spacesta`, `face`, `safequestion`, `safeanswer`, `jointime`, `joinip`, `logintime`, `loginip`) VALUES
-(1, '个人', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', '男', 100, 0, 0, 0, '', 10000, 10, 2, '', 0, '', 1291180264, '', 1293170523, '127.0.0.1');
+(1, '个人', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', '男', 100, 0, 0, 0, '', 10000, 10, 2, '', 0, '', 1291180264, '', 1295335428, '127.0.0.1'),
+(15, '个人', 'yoyo', '65f97e37b0cb8c6c14575355874df70b', '', '女', 10, 0, 0, 0, '346145894@qq.com', 100, 0, 0, '', 0, '', 1293371156, '114.92.124.245', 1293371156, '114.92.124.245'),
+(16, '个人', 'lind', '65f97e37b0cb8c6c14575355874df70b', '', '男', 10, 0, 0, 0, '430128061@qq.com', 106, 0, 0, '/uploads/userup/16/myface.jpg', 0, '', 1293372020, '114.92.124.245', 1293507072, '211.161.228.237'),
+(17, '个人', 'JoJoChow', '0cbe7c7c99deaaeb375bb24c62122698', '', '男', 10, 0, 0, 0, 'jojo_zhow@hotmail.com', 104, 0, 0, '', 0, '', 1293717211, '221.137.116.107', 1295192679, '58.24.95.132'),
+(18, '个人', 'dxh20030601', '93d77219e0c24af305209824362c1aa1', '', '女', 10, 0, 0, 0, 'dxh20030601@163.com', 100, 0, 0, '', 0, '', 1294894796, '58.246.80.230', 1294894796, '58.246.80.230'),
+(19, '个人', 'Candy', '216a4e7bbcd38eac28e69edcccda12b8', '', '女', 10, 0, 0, 0, 'candy213@gmail.com', 102, 0, 0, '', 0, '', 1295007075, '114.86.90.126', 1295007075, '114.86.90.126'),
+(20, '个人', '国际正于', 'e516b2800a183f32f0c9b225ec6d6d9b', '', '男', 10, 0, 0, 0, '546502800@qq.com', 100, 0, 0, '/uploads/userup/20/myface.jpg', 0, '', 1295331752, '114.92.19.90', 1295331752, '114.92.19.90');
 
 -- --------------------------------------------------------
 
@@ -1609,7 +1702,7 @@ CREATE TABLE IF NOT EXISTS `dede_member_flink` (
   `title` varchar(30) NOT NULL DEFAULT '',
   `url` varchar(100) NOT NULL DEFAULT '',
   PRIMARY KEY (`aid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=14 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=20 ;
 
 --
 -- 转存表中的数据 `dede_member_flink`
@@ -1628,7 +1721,13 @@ INSERT INTO `dede_member_flink` (`aid`, `mid`, `title`, `url`) VALUES
 (10, 11, '织梦内容管理系统', 'http://www.dedecms.com'),
 (11, 12, '织梦内容管理系统', 'http://www.dedecms.com'),
 (12, 13, '织梦内容管理系统', 'http://www.dedecms.com'),
-(13, 14, '织梦内容管理系统', 'http://www.dedecms.com');
+(13, 14, '织梦内容管理系统', 'http://www.dedecms.com'),
+(14, 15, '织梦内容管理系统', 'http://www.dedecms.com'),
+(15, 16, '织梦内容管理系统', 'http://www.dedecms.com'),
+(16, 17, '织梦内容管理系统', 'http://www.dedecms.com'),
+(17, 18, '织梦内容管理系统', 'http://www.dedecms.com'),
+(18, 19, '织梦内容管理系统', 'http://www.dedecms.com'),
+(19, 20, '织梦内容管理系统', 'http://www.dedecms.com');
 
 -- --------------------------------------------------------
 
@@ -1834,7 +1933,13 @@ INSERT INTO `dede_member_person` (`mid`, `onlynet`, `sex`, `uname`, `qq`, `msn`,
 (11, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
 (12, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
 (13, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
-(14, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0);
+(14, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(15, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(16, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(17, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(18, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(19, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0),
+(20, 1, '男', '', '', '', '', '', 0, 0, '1980-01-01', 1, 0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, '', '', 0);
 
 -- --------------------------------------------------------
 
@@ -1920,7 +2025,13 @@ INSERT INTO `dede_member_space` (`mid`, `pagesize`, `matt`, `spacename`, `spacel
 (11, 10, 0, '的空间', '', 'person', '', ''),
 (12, 10, 0, '的空间', '', 'person', '', ''),
 (13, 10, 0, '的空间', '', 'person', '', ''),
-(14, 10, 0, '的空间', '', 'person', '', '');
+(14, 10, 0, '的空间', '', 'person', '', ''),
+(15, 10, 0, '的空间', '', 'person', '', ''),
+(16, 10, 0, '的空间', '', 'person', '', ''),
+(17, 10, 0, '的空间', '', 'person', '', ''),
+(18, 10, 0, '的空间', '', 'person', '', ''),
+(19, 10, 0, '的空间', '', 'person', '', ''),
+(20, 10, 0, '的空间', '', 'person', '', '');
 
 -- --------------------------------------------------------
 
@@ -1985,14 +2096,14 @@ CREATE TABLE IF NOT EXISTS `dede_member_tj` (
   `info` int(10) NOT NULL DEFAULT '0',
   `shop` int(10) NOT NULL DEFAULT '0',
   PRIMARY KEY (`mid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=15 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=21 ;
 
 --
 -- 转存表中的数据 `dede_member_tj`
 --
 
 INSERT INTO `dede_member_tj` (`mid`, `article`, `album`, `archives`, `homecount`, `pagecount`, `feedback`, `friend`, `stow`, `soft`, `info`, `shop`) VALUES
-(1, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0),
+(1, 0, 0, 0, 1, 10, 0, 0, 0, 0, 0, 0),
 (2, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0),
 (3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0),
 (4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
@@ -2005,7 +2116,13 @@ INSERT INTO `dede_member_tj` (`mid`, `article`, `album`, `archives`, `homecount`
 (11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 (12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 (13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
-(14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+(14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(15, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0),
+(16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+(20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -2045,7 +2162,7 @@ CREATE TABLE IF NOT EXISTS `dede_member_vhistory` (
   PRIMARY KEY (`id`),
   KEY `vtime` (`vtime`),
   KEY `mid` (`mid`,`vid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=3 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=4 ;
 
 --
 -- 转存表中的数据 `dede_member_vhistory`
@@ -2053,7 +2170,8 @@ CREATE TABLE IF NOT EXISTS `dede_member_vhistory` (
 
 INSERT INTO `dede_member_vhistory` (`id`, `mid`, `loginid`, `vid`, `vloginid`, `count`, `vip`, `vtime`) VALUES
 (1, 3, 'test2', 1, 'admin', 1, '127.0.0.1', 1292918060),
-(2, 2, 'test', 1, 'admin', 1, '127.0.0.1', 1292918071);
+(2, 2, 'test', 1, 'admin', 1, '127.0.0.1', 1292918071),
+(3, 15, 'yoyo', 1, 'admin', 1, '112.65.132.162', 1293427066);
 
 -- --------------------------------------------------------
 
@@ -2212,7 +2330,7 @@ CREATE TABLE IF NOT EXISTS `dede_payment` (
   `cod` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `online` tinyint(1) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
-  UNIQUE KEY `code` (`code`) USING BTREE
+  UNIQUE KEY `code` (`code`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=7 ;
 
 --
@@ -2693,7 +2811,7 @@ INSERT INTO `dede_sysconfig` (`aid`, `varname`, `info`, `groupid`, `type`, `valu
 (713, 'cfg_need_typeid2', '是否启用副栏目', 6, 'bool', 'Y'),
 (72, 'cfg_mb_pwdtype', '前台密码验证类型：默认32 — 32位md5，可选：<br />l16 — 前16位， r16 — 后16位， m16 — 中间16位', 4, 'string', '32'),
 (716, 'cfg_cache_type', 'id 文档ID，content 标签最终内容<br />(修改此变量后必须更新系统缓存)', 6, 'string', 'id'),
-(717, 'cfg_max_face', '会员上传头像大小限制(单位：KB)', 3, 'number', '50'),
+(717, 'cfg_max_face', '会员上传头像大小限制(单位：KB)', 3, 'number', '1024'),
 (718, 'cfg_typedir_df', '栏目网址使用目录名（不显示默认页，即是 /a/abc/ 形式）', 2, 'bool', 'Y'),
 (719, 'cfg_make_andcat', '发表文章后马上更新相关栏目', 6, 'bool', 'N'),
 (720, 'cfg_make_prenext', '发表文章后马上更新上下篇', 6, 'bool', 'Y'),
@@ -2993,7 +3111,7 @@ CREATE TABLE IF NOT EXISTS `dede_uploads` (
   PRIMARY KEY (`aid`),
   KEY `memberid` (`mid`),
   KEY `arcid` (`arcid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=15 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=gbk AUTO_INCREMENT=67 ;
 
 --
 -- 转存表中的数据 `dede_uploads`
@@ -3013,7 +3131,54 @@ INSERT INTO `dede_uploads` (`aid`, `arcid`, `title`, `url`, `mediatype`, `width`
 (11, 7, '商城头条2', '/uploads/allimg/101217/1-10121G450180-L.jpg', 1, '0', '0', '0', 30542, 1292568618, 1),
 (12, 8, '人气商品', '/uploads/allimg/101224/1-101224124P40-L.jpg', 1, '0', '0', '0', 7318, 1293166084, 1),
 (13, 9, '家族成员', '/uploads/allimg/101224/1-101224124T30-L.jpg', 1, '0', '0', '0', 8765, 1293166123, 1),
-(14, 10, '精品造型', '/uploads/allimg/101224/1-101224124Z60-L.jpg', 1, '0', '0', '0', 8168, 1293166146, 1);
+(14, 10, '精品造型', '/uploads/allimg/101224/1-101224124Z60-L.jpg', 1, '0', '0', '0', 8168, 1293166146, 1),
+(17, 11, '旺吉祥72变——导游', '/uploads/110110/1-110110115109564.jpg', 1, '1767', '1242', '0', 785688, 1294631469, 1),
+(18, 11, '旺吉祥72变——导游', '/uploads/110110/1-110110115109564-lp.jpg', 1, '0', '0', '0', 15410, 1294631767, 1),
+(19, 11, '旺吉祥72变——导游', '/uploads/110110/1-110110115109564-lp.jpg', 1, '0', '0', '0', 14428, 1294631839, 1),
+(20, 11, '旺吉祥72变——导游', '/uploads/110110/1-110110123Z0100.jpg', 1, '580', '408', '0', 213344, 1294634340, 1),
+(42, 0, '1_110111141642_1.png', '/uploads/allimg/110111/1_110111141642_1.png', 1, '881', '471', '0', 84110, 1294726602, 1),
+(41, 0, '1_110111141341_1.png', '/uploads/allimg/110111/1_110111141341_1.png', 1, '881', '471', '0', 84110, 1294726421, 1),
+(40, 0, '1_110111141218_1.jpg', '/uploads/allimg/110111/1_110111141218_1.jpg', 1, '882', '560', '0', 249131, 1294726338, 1),
+(24, 13, '新年就要来咯！', '/uploads/allimg/110110/1-110110154F50-L.jpg', 1, '0', '0', '0', 130091, 1294645625, 1),
+(25, 14, '旺吉祥72变厨师', '/uploads/110111/1-110111103343958.jpg', 1, '850', '602', '0', 394296, 1294713223, 1),
+(26, 14, '旺吉祥72变厨师', '/uploads/110111/1-110111103520F2.jpg', 1, '580', '411', '0', 206194, 1294713320, 1),
+(27, 15, '旺吉祥72变导演', '/uploads/110111/1-110111104446255.jpg', 1, '580', '411', '0', 206194, 1294713886, 1),
+(28, 15, '旺吉祥72变导演', '/uploads/110111/1-110111104531150.jpg', 1, '580', '411', '0', 210563, 1294713931, 1),
+(29, 16, '旺吉祥72变服务员', '/uploads/110111/1-110111104Q2555.jpg', 1, '580', '415', '0', 200125, 1294714092, 1),
+(30, 17, '旺吉祥72变花匠', '/uploads/110111/1-110111105042Q1.jpg', 1, '580', '434', '0', 217507, 1294714242, 1),
+(31, 18, '旺吉祥72变化学药剂师', '/uploads/110111/1-11011110540H11.jpg', 1, '580', '456', '0', 237673, 1294714447, 1),
+(32, 19, '旺吉祥72变画家', '/uploads/110111/1-110111105623931.jpg', 1, '580', '417', '0', 195079, 1294714583, 1),
+(33, 20, '旺吉祥72变街头舞者', '/uploads/110111/1-1101111101455E.jpg', 1, '580', '410', '0', 261959, 1294714905, 1),
+(34, 21, '旺吉祥72变教师', '/uploads/110111/1-110111110426407.jpg', 1, '580', '439', '0', 185147, 1294715066, 1),
+(35, 22, '旺吉祥72变司机', '/uploads/110111/1-110111110A9251.jpg', 1, '580', '415', '0', 201248, 1294715219, 1),
+(36, 23, '旺吉祥72变饲养员', '/uploads/110111/1-110111110951S7.jpg', 1, '580', '414', '0', 207538, 1294715391, 1),
+(37, 24, '旺吉祥72变特种兵', '/uploads/110111/1-110111111150F1.jpg', 1, '580', '415', '0', 192690, 1294715510, 1),
+(38, 25, '旺吉祥72变医生', '/uploads/110111/1-110111111400249.jpg', 1, '580', '399', '0', 191485, 1294715640, 1),
+(39, 26, '旺吉祥72变音乐家', '/uploads/110111/1-11011111162Y40.jpg', 1, '580', '391', '0', 182962, 1294715788, 1),
+(43, 0, '1_110111143940_1.png', '/uploads/allimg/110111/1_110111143940_1.png', 1, '881', '466', '0', 77023, 1294727980, 1),
+(44, 0, '1_110111150750_1.png', '/uploads/allimg/110111/1_110111150750_1.png', 1, '881', '473', '0', 79298, 1294729670, 1),
+(45, 0, '1_110111154518_1.png', '/uploads/allimg/110111/1_110111154518_1.png', 1, '881', '487', '0', 93127, 1294731918, 1),
+(46, 0, '1_110111173510_1.png', '/uploads/allimg/110111/1_110111173510_1.png', 1, '881', '458', '0', 68522, 1294738510, 1),
+(47, 0, '1_110117135115_1.png', '/uploads/allimg/110117/1_110117135115_1.png', 1, '881', '523', '0', 99506, 1295243475, 1),
+(48, 0, '1_110117135205_1.png', '/uploads/allimg/110117/1_110117135205_1.png', 1, '881', '444', '0', 72010, 1295243525, 1),
+(49, 0, '1_110117135313_1.png', '/uploads/allimg/110117/1_110117135313_1.png', 1, '881', '448', '0', 67136, 1295243593, 1),
+(50, 27, '菜包记', '/uploads/allimg/110118/1-11011P932350-L.jpg', 1, '0', '0', '0', 256005, 1295314355, 1),
+(51, 27, '菜包记', '/uploads/110118/1-11011P93513335.jpg', 1, '500', '2036', '0', 256005, 1295314513, 1),
+(52, 13, '新年就要来咯！', '/uploads/110118/1-11011P952442F.jpg', 1, '540', '255', '0', 130091, 1295315564, 1),
+(53, 28, '菜包记', '/uploads/allimg/110118/1-11011P955070-L.jpg', 1, '0', '0', '0', 168485, 1295315707, 1),
+(54, 28, '菜包记', '/uploads/110118/1-11011P95F3613.jpg', 1, '600', '600', '0', 168485, 1295315823, 1),
+(55, 0, '1_110118111814_1.png', '/uploads/allimg/110118/1_110118111814_1.png', 1, '881', '444', '0', 73654, 1295320694, 1),
+(56, 29, '旺吉祥马克杯', '/uploads/allimg/110118/1-11011Q435030-L.jpg', 1, '0', '0', '0', 24817, 1295332503, 1),
+(57, 31, '旺吉祥马克杯', '/uploads/allimg/110118/1-11011Q441070-L.jpg', 1, '0', '0', '0', 24855, 1295332867, 1),
+(58, 31, '旺吉祥马克杯', '/uploads/110118/110118/1-11011Q44145O5.jpg', 1, '127', '122', '0', 24855, 1295332905, 1),
+(59, 32, '旺吉祥马克杯（）', '/uploads/110118/1-11011Q44615N6.jpg', 1, '127', '122', '0', 32723, 1295333175, 1),
+(60, 33, '旺吉祥马克杯（糖葫芦）', '/uploads/110118/1-11011Q4491I14.jpg', 1, '127', '122', '0', 24817, 1295333357, 1),
+(61, 34, '旺吉祥马克杯（喝酸奶）', '/uploads/110118/1-11011Q4512b02.jpg', 1, '127', '122', '0', 25823, 1295333489, 1),
+(62, 35, '旺吉祥马克杯（）', '/uploads/110118/1-11011Q45222E1.jpg', 1, '127', '122', '0', 29472, 1295333542, 1),
+(63, 36, '旺吉祥马克杯（捉蝴蝶）', '/uploads/110118/1-11011Q4531M59.jpg', 1, '127', '122', '0', 26839, 1295333597, 1),
+(64, 37, '旺吉祥公仔（时尚款）：进口绒布制作，内含高性能竹炭。', '/uploads/110118/1-11011Q45I0b2.jpg', 1, '127', '122', '0', 42753, 1295333850, 1),
+(65, 0, '1-11011Q526410-L.jpg', '/uploads/allimg/110118/1-11011Q526410-L.jpg', 1, '0', '0', '0', 110903, 1295335601, 1),
+(66, 38, '中部banner', '/uploads/allimg/110118/1-11011Q52G40-L.jpg', 1, '0', '0', '0', 110903, 1295335634, 1);
 
 -- --------------------------------------------------------
 
