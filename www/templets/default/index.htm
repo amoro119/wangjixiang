@@ -1,183 +1,121 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
-		<title>
-			{dede:global.cfg_webname/}
-		</title>
-		<meta name="description" content="{dede:global.cfg_description/}" />
-		<meta name="keywords" content="{dede:global.cfg_keywords/}" />
-		<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
-		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/dedecms_skins_0.css" type="text/css" id="cssfile" />
-<script language="javascript" type="text/javascript" src="{dede:global.cfg_cmsurl/}/include/dedeajax2.js">
-</script>
-<script language="javascript" type="text/javascript" src="{dede:global.cfg_cmspath/}/images/js/j.js">
-</script>
-<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/pic_scroll.js">
-</script>
-<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.cookie.js">
-</script>
-<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/changeSkin.js">
-</script>
-<script language="javascript" type="text/javascript">
-//<![CDATA[
-	// $(function(){
-	// 	$("dl.tbox dt span.label a[_for]").mouseover(function(){
-	// 		$(this).parents("span.label").children("a[_for]").removeClass("thisclass").parents("dl.tbox").children("dd").hide();
-	// 		$(this).addClass("thisclass").blur();
-	// 		$("#"+$(this).attr("_for")).show();
-	// 	});
-	// 	$("a[_for=uc_member]").mouseover();
-	// });
-	// 
-	// function CheckLogin(){
-	//   var taget_obj = document.getElementById('_userlogin');
-	//   myajax = new DedeAjax(taget_obj,false,false,'','','');
-	//   myajax.SendGet2("{dede:global.cfg_cmspath/}/member/ajax_loginsta.php");
-	//   DedeXHTTP = null;
-	// }
-	// 
-	// function multi(pagenum,tagid)
-	// {
-	//   var taget_obj = document.getElementById(tagid);
-	//   var taget_obj_page = document.getElementById("page_"+tagid);
-	//   myajax = new DedeAjax(taget_obj,false,false,'','','');
-	//   myajax.SendGet2("/plus/arcmulti.php?mtype=0&pnum="+pagenum+'&tagid='+tagid);
-	//   myajax = new DedeAjax(taget_obj_page,false,false,'','','');
-	//   myajax.SendGet2("/plus/arcmulti.php?mtype=1&pnum="+pagenum+'&tagid='+tagid);
-	//   DedeXHTTP = null;
-	// }
-	// 
-	// function check(){
-	// 	if(document.formsearch.searchtype.value=="")
-	// 	document.formsearch.action="http://www.google.cn/custom"
-	// 	else
-	// 	document.formsearch.action="{dede:field name='phpurl'/}/search.php"
-	// } 
-//]]>
-</script>
-	</head>
-	<body class="index">
-		<p>
-			{dede:include filename="head.htm"/} <!-- /header -->
-		</p>
-		<div class="w998 center clear mt1 home">
-			<div class="pleft"></div>
-			<div class="pmiddle">
-				<div id="ad1">
-					<img src="{dede:global.cfg_templets_skin/}/images/xt_index_a1.jpg" width="229" height="221" alt="Xt Index Ad1" />
-				</div>
-				<div id="board">
-					<object id="bcastr4" data="{dede:global.cfg_templets_skin/}/images/bcastr4.swf?xml=/uploads/cimgs/index_pic/bcastr.xml" type="application/x-shockwave-flash" width="427" height="215">
-						<param name="movie" value="{dede:global.cfg_templets_skin/}/images/bcastr4.swf?xml=/uploads/cimgs/index_pic/bcastr.xml" />
-					</object>
-				</div>
-				<div id="login">
-					<form name='form1' method='post' action='../member/index_do.php' id="form1">
-						<input type="hidden" name="fmdo" value="login" /><input type="hidden" name="dopost" value="login" /><input type="hidden" name="gourl" value="<?php if(!empty($gourl)) echo $gourl;?>" />
-						<ul>
-							<li>
-								<input id="txtUsername" class="text login_from" type="text" name="userid" />
-							</li>
-							<li>
-								<input id="txtPassword" class="text login_from2" type="password" name="pwd" />
-							</li>
-						</ul>
-							<button id="btnSignCheck" class="button2" type="submit"></button>
-							<a href="/member/resetpassword.php">Íü¼ÇÃÜÂë£¿</a>|
-							<a title="×¢²á" href="/member/index_do.php?fmdo=user&dopost=regnew">×¢²áÐÂ»áÔ±</a>
-							<div class="clear"></div>
-							<input type="checkbox" value="2592000" name="keeptime" id="ra1"/>
-          					<label for="ra1">¼Ç×¡ÎÒµÄµÇÂ¼×´Ì¬</label>
-					</form>
-				</div>
-				<div class="clear"></div>
-				<div id="hot">
-					<div class="hotpic">
-						<a href="/plus/list.php?tid=2">{dede:arclist idlist='2' imgwidth='362' imgheight='200'}[field:image /]{/dede:arclist}</a>
-					</div>
-					<div class="hotico">
-						<img src="{dede:global.cfg_templets_skin/}/images/xt_ico_hot.png" width="75" height="77" alt="Xt Ico Hot" />
-					</div>
-				</div>
-				<div id="hotright">
-					<a href="http://blog.sina.com.cn/wenxinwangjixiang"><img src="{dede:global.cfg_templets_skin/}/images/xt_blog.jpg" width="275" height="96" alt="Xt Blog" /></a> <a href="http://www.wenxindesign.com/"><img src="{dede:global.cfg_templets_skin/}/images/xt_wenxin.jpg" width="275" height="96" alt="Xt Blog" /></a>
-				</div>
-				<div class="clear"></div>
-				<div id="counter"><div class="number">{dede:php}
-						$num=0;
-						if($fp=fopen(DEDEDATA."/cache/counter.txt","r")){
-							$num=fgets($fp,10);
-							fclose($fp);	
-						}
-						$num++;
-						if($fp=fopen(DEDEDATA."/cache/counter.txt","c")){
-							fputs($fp,$num);
-							fclose($fp);
-						}
-						$num=str_pad($num,6,"0",STR_PAD_LEFT);
-						$len_str=strlen($num);
-						for($i=(0);$i<$len_str;$i++){
-						$numbers_exploded=substr($num,$i,1);
-						$output_str=$output_str."<img src=\"$cfg_cmspath/images/$numbers_exploded.gif\"/>";
-						}
-						echo $output_str;{/dede:php}
-					</div><a href="#"><img src="{dede:global.cfg_templets_skin/}/images/xt_a2.gif" width="906" height="69" alt="" /></a></div>{dede:arclist idlist='38' imgwidth='904' imgheight='278'}[field:image /]{/dede:arclist}<div id="homelist">
-					<div class="list_l">
-						<h1>
-							<img src="{dede:global.cfg_templets_skin/}/images/xt_index_title1.jpg" width="293" height="41" alt="Xt Index Title1" />
-						</h1>
-						<div class="list_box">
-						<ul>
-		{dede:channel type='son' row='5' typeid='2'}
- 		<li><a href='[field:typelink/]'>[field:typename/]</a></li>
-		{/dede:channel}
-					</ul>
-					<div class="pic">
-						{dede:arclist idlist='8' imgwidth='98' imgheight='98'}[field:image /]{/dede:arclist}
-					</div>
-					<a class="more" href="/plus/list.php?tid=2"><img src="{dede:global.cfg_templets_skin/}/images/xt_btn_index_more.gif" width="43" height="43" alt="More"></a>
-						</div>
-					</div>
-					<div class="list_m">
-						<h1>
-							<img src="{dede:global.cfg_templets_skin/}/images/xt_index_title2.jpg" width="293" height="41" alt="Xt Index Title1" />
-						</h1>
-						<div class="list_box">
-													<ul>
-		{dede:channel type='son' row='5' typeid='4'}
- 		<li><a href='[field:typelink/]'>[field:typename/]</a></li>
-		{/dede:channel}
-					</ul>
-					<div class="pic">
-						{dede:arclist idlist='9' imgwidth='98' imgheight='98'}[field:image /]{/dede:arclist}
-					</div>
-					<a class="more" href="/plus/list.php?tid=4"><img src="{dede:global.cfg_templets_skin/}/images/xt_btn_index_more.gif" width="43" height="43" alt="More"></a>
-						</div>
-					</div>
-					<div class="list_r">
-						<h1>
-							<img src="{dede:global.cfg_templets_skin/}/images/xt_index_title3.jpg" width="293" height="41" alt="Xt Index Title1" />
-						</h1>
-						<div class="list_box">
-													<ul>
-						{dede:arclist titlelen='15' row='5' typeid='3'}
-						<li><a href="[field:arcurl/]">[field:title/]</a></li>
-						{/dede:arclist}
-					</ul>
-					<div class="pic">
-						{dede:arclist idlist='10' imgwidth='98' imgheight='98'}[field:image /]{/dede:arclist}
-					</div>
-					<a class="more" href="/plus/list.php?tid=3"><img src="{dede:global.cfg_templets_skin/}/images/xt_btn_index_more.gif" width="43" height="43" alt="More"></a>
-						</div>
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<div class="pright"></div>
-		</div>
-		<p>
-			{dede:include filename="footer.htm"/} <!-- /footer -->
-		</p>
-	</body>
+<head>
+<title>new.gif</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">td img {display: block;}</style>
+<!--Fireworks CS3 Dreamweaver CS3 target.  Created Fri Apr 22 14:41:15 GMT+0800 2011-->
+</head>
+<body bgcolor="#ffffff">
+<table border="0" cellpadding="0" cellspacing="0" width="903">
+<!-- fwtable fwsrc="new.png" fwpage="é¡µé¢ 1" fwbase="new.gif" fwstyle="Dreamweaver" fwdocid = "654139589" fwnested="0" -->
+  <tr>
+   <td><img src="images/spacer.gif" width="228" height="1" border="0" alt="" /></td>
+   <td><img src="images/spacer.gif" width="11" height="1" border="0" alt="" /></td>
+   <td><img src="images/spacer.gif" width="47" height="1" border="0" alt="" /></td>
+   <td><img src="images/spacer.gif" width="26" height="1" border="0" alt="" /></td>
+   <td><img src="images/spacer.gif" width="28" height="1" border="0" alt="" /></td>
+   <td><img src="images/spacer.gif" width="30" height="1" border="0" alt="" /></td>
+   <td><img src="images/spacer.gif" width="12" height="1" border="0" alt="" /></td>
+   <td><img src="images/spacer.gif" width="54" height="1" border="0" alt="" /></td>
+   <td><img src="images/spacer.gif" width="219" height="1" border="0" alt="" /></td>
+   <td><img src="images/spacer.gif" width="6" height="1" border="0" alt="" /></td>
+   <td><img src="images/spacer.gif" width="13" height="1" border="0" alt="" /></td>
+   <td><img src="images/spacer.gif" width="229" height="1" border="0" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></td>
+  </tr>
+
+  <tr>
+   <td><img name="new_r1_c1" src="images/new_r1_c1.gif" width="228" height="201" border="0" id="new_r1_c1" alt="" /></td>
+   <td rowspan="3"><img name="new_r1_c2" src="images/new_r1_c2.gif" width="11" height="214" border="0" id="new_r1_c2" alt="" /></td>
+   <td rowspan="2" colspan="8"><img name="new_r1_c3" src="images/new_r1_c3.gif" width="422" height="208" border="0" id="new_r1_c3" alt="" /></td>
+   <td rowspan="8"><img name="new_r1_c11" src="images/new_r1_c11.gif" width="13" height="459" border="0" id="new_r1_c11" alt="" /></td>
+   <td><img name="new_r1_c12" src="images/new_r1_c12.gif" width="229" height="201" border="0" id="new_r1_c12" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="201" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td rowspan="2"><img name="new_r2_c1" src="images/new_r2_c1.gif" width="228" height="13" border="0" id="new_r2_c1" alt="" /></td>
+   <td rowspan="3"><img name="new_r2_c12" src="images/new_r2_c12.gif" width="229" height="41" border="0" id="new_r2_c12" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="7" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="8"><img name="new_r3_c3" src="images/new_r3_c3.gif" width="422" height="6" border="0" id="new_r3_c3" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="6" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td rowspan="4" colspan="6"><img name="new_r4_c1" src="images/new_r4_c1.gif" width="370" height="233" border="0" id="new_r4_c1" alt="" /></td>
+   <td rowspan="5"><img name="new_r4_c7" src="images/new_r4_c7.gif" width="12" height="245" border="0" id="new_r4_c7" alt="" /></td>
+   <td rowspan="4" colspan="2"><img name="new_r4_c8" src="images/new_r4_c8.gif" width="273" height="233" border="0" id="new_r4_c8" alt="" /></td>
+   <td rowspan="5"><img name="new_r4_c10" src="images/new_r4_c10.gif" width="6" height="245" border="0" id="new_r4_c10" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="28" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td><img name="new_r5_c12" src="images/new_r5_c12.gif" width="229" height="129" border="0" id="new_r5_c12" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="129" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td><img name="new_r6_c12" src="images/new_r6_c12.gif" width="229" height="12" border="0" id="new_r6_c12" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="12" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td><a href="javascript:;" target="http://blog.sina.com.cn/wenxinwangjixiang"><img name="new_r7_c12" src="images/new_r7_c12.gif" width="229" height="64" border="0" id="new_r7_c12" alt="" /></a></td>
+   <td><img src="images/spacer.gif" width="1" height="64" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="6"><img name="new_r8_c1" src="images/new_r8_c1.gif" width="370" height="12" border="0" id="new_r8_c1" alt="" /></td>
+   <td colspan="2"><img name="new_r8_c8" src="images/new_r8_c8.gif" width="273" height="12" border="0" id="new_r8_c8" alt="" /></td>
+   <td><img name="new_r8_c12" src="images/new_r8_c12.gif" width="229" height="12" border="0" id="new_r8_c12" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="12" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="new_r9_c1" src="images/new_r9_c1.gif" width="286" height="219" border="0" id="new_r9_c1" alt="" /></td>
+   <td rowspan="6"><img name="new_r9_c4" src="images/new_r9_c4.gif" width="26" height="473" border="0" id="new_r9_c4" alt="" /></td>
+   <td colspan="8"><img name="new_r9_c5" src="images/new_r9_c5.gif" width="591" height="219" border="0" id="new_r9_c5" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="219" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="new_r10_c1" src="images/new_r10_c1.gif" width="286" height="13" border="0" id="new_r10_c1" alt="" /></td>
+   <td colspan="8"><img name="new_r10_c5" src="images/new_r10_c5.gif" width="591" height="13" border="0" id="new_r10_c5" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="13" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td rowspan="3" colspan="3"><img name="new_r11_c1" src="images/new_r11_c1.gif" width="286" height="220" border="0" id="new_r11_c1" alt="" /></td>
+   <td colspan="8"><img name="new_r11_c5" src="images/new_r11_c5.gif" width="591" height="181" border="0" id="new_r11_c5" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="181" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td rowspan="2"><img name="new_r12_c5" src="images/new_r12_c5.gif" width="28" height="39" border="0" id="new_r12_c5" alt="" /></td>
+   <td colspan="3"><a href="javascript:;" target="http://www.wangjixiang.com/member/index_do.php?fmdo=user&dopost=regnew"><img name="new_r12_c6" src="images/new_r12_c6.gif" width="96" height="25" border="0" id="new_r12_c6" alt="" /></a></td>
+   <td rowspan="2" colspan="4"><img name="new_r12_c9" src="images/new_r12_c9.gif" width="467" height="39" border="0" id="new_r12_c9" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="25" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="new_r13_c6" src="images/new_r13_c6.gif" width="96" height="14" border="0" id="new_r13_c6" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="14" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="new_r14_c1" src="images/new_r14_c1.gif" width="286" height="21" border="0" id="new_r14_c1" alt="" /></td>
+   <td colspan="8"><img name="new_r14_c5" src="images/new_r14_c5.gif" width="591" height="21" border="0" id="new_r14_c5" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="21" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="12"><img name="new_r15_c1" src="images/new_r15_c1.gif" width="903" height="235" border="0" id="new_r15_c1" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="235" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="12"><img name="new_r16_c1" src="images/new_r16_c1.gif" width="903" height="7" border="0" id="new_r16_c1" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="7" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="12"><img name="new_r17_c1" src="images/new_r17_c1.gif" width="903" height="265" border="0" id="new_r17_c1" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="265" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="12"><img name="new_r18_c1" src="images/new_r18_c1.gif" width="903" height="1" border="0" id="new_r18_c1" alt="" /></td>
+   <td><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></td>
+  </tr>
+</table>
+</body>
 </html>
