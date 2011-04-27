@@ -32,4 +32,13 @@ $cfg_Cs[28]=array(2,1,1);
 $cfg_Cs[29]=array(2,1,1);
 $cfg_Cs[30]=array(0,1,0);
 $cfg_Cs[33]=array(0,1,0);
+$cfg_Cs[34]=array(0,1,0);
+$cfg_Cs[35]=array(0,1,1);
+$cfg_Cs[36]=array(0,1,1);
+$cfg_Cs[37]=array(0,1,1);
+$cfg_Cs[38]=array(0,1,0);
+$cfg_Cs[39]=array(0,1,1);
+$cfg_Cs[40]=array(36,1,0);
+$cfg_Cs[41]=array(36,1,1);
+$cfg_Cs[42]=array(36,1,0);
 ?>
