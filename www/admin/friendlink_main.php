@@ -26,7 +26,7 @@ $dlist->display();
 function GetPic($pic)
 {
 	if($pic=='') return 'ÎÞÍ¼±ê';
-	else return "<img src='$pic' width='88' height='31' border='0' />";
+	else return "<img src='$pic' width='159' height='52' border='0' />";
 }
 
 function GetSta($sta)

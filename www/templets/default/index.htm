@@ -302,7 +302,13 @@
    <td><img src="/images2/spacer.gif" width="1" height="34" border="0" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="23"><img name="new_r30_c1" src="/images2/new_r30_c1.jpg" width="903" height="161" border="0" id="new_r30_c1" alt="" /></td>
+   <td colspan="23">
+   					<ul class="gushiyulan">
+						{dede:arclist titlelen='30' row='5' typeid='30' imgwidth='172' imgheight='114'}
+						<li><a href="[field:arcurl/]">[field:image /]</a><p><a href="[field:arcurl/]">[field:title/]</a></p></li>
+						{/dede:arclist}
+					</ul>
+   </td>
    <td><img src="/images2/spacer.gif" width="1" height="161" border="0" alt="" /></td>
   </tr>
   <tr>
@@ -310,7 +316,11 @@
    <td><img src="/images2/spacer.gif" width="1" height="18" border="0" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="23"><img name="new_r32_c1" src="/images2/new_r32_c1.jpg" width="903" height="53" border="0" id="new_r32_c1" alt="" /></td>
+   <td colspan="23">
+   	<ul class="friendlink">
+   		{dede:flink row='5' type='image' /}
+   	</ul>
+   </td>
    <td><img src="/images2/spacer.gif" width="1" height="53" border="0" alt="" /></td>
   </tr> 
   <div class="newstory pa">
@@ -320,7 +330,7 @@
   </div>
   <div class="pa" style="right:0">
   	 <div id="login">
-					<form name='form1' method='post' action='../member/index_do.php' id="form1">
+					<form name='form1' method='post' class="pr" action='../member/index_do.php' id="form1">
 						<input type="hidden" name="fmdo" value="login" /><input type="hidden" name="dopost" value="login" /><input type="hidden" name="gourl" value="<?php if(!empty($gourl)) echo $gourl;?>" />
 						<ul>
 							<li>

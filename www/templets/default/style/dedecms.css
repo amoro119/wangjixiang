@@ -46,6 +46,9 @@ button{
 .center{
 	margin:0px auto;
 }
+.pr{
+	position:relative;
+}
 .w998{
 	width:998px;
 	/*position:relative;*/
@@ -1592,4 +1595,22 @@ button{
 	bottom:64px;
 	width:114px;
 	height:28px;
+}
+.gushiyulan{
+	
+}
+.gushiyulan li{
+	float:left;
+	padding-right:9px;
+}
+.gushiyulan li a{
+	color:#000;
+}
+.gushiyulan li p{
+	text-align:center;
+	padding-top:13px;
+}
+.friendlink li{
+	float:left;
+	padding-right:22px;
 }
