@@ -1,7 +1,11 @@
 <div class="header">
   <script language="javascript" type="text/javascript">
-	var topid=0{dede:type}[field:topid/]{/dede:type};
-	var typeid=0{dede:type}[field:id/]{/dede:type};
+	var topid={dede:type}[field:topid/]{/dede:type};
+	var typeid={dede:type}[field:id/]{/dede:type};
+	
+	
+	//!!!!!!!!!!!!
+	
 	var navId=topid==0?typeid:topid;
 	$(document).ready(function($){
 		$('#nav'+navId).addClass('current');
@@ -65,8 +69,8 @@ $(window).load(function() {
       	<li><a id="nav3" href='{dede:type typeid="3"}[field:typelink /]{/dede:type}'></a></li>
       	<li><a id="nav4" href='{dede:type typeid="4"}[field:typelink /]{/dede:type}'></a></li>
       	<li><a id="navv" href='/member/'></a></li>
-      	<li><a id="nav5" href='{dede:type typeid="34"}[field:typelink /]{/dede:type}'></a></li>
-      	<li><a id="nav6" href='{dede:type typeid="5"}[field:typelink /]{/dede:type}'></a></li>
+      	<li><a id="nav34" href='{dede:type typeid="34"}[field:typelink /]{/dede:type}'></a></li>
+      	<li><a id="nav5" href='{dede:type typeid="5"}[field:typelink /]{/dede:type}'></a></li>
     	</ul>
     </div>	
 		</div>

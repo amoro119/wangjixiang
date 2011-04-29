@@ -58,9 +58,72 @@
 </script>
 	</head>
 	<body class="index">
-		<p>
-			{dede:include filename="head.htm"/} <!-- /header -->
-		</p>
+<div class="header">
+ 	<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/swfobject.js" ></script> 
+
+	<!--[if IE 6]>   
+	<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/DD_belatedPNG-min.js" ></script>   
+	<script type="text/javascript">   
+
+	$(document).ready(function($){
+		DD_belatedPNG.fix('#navMenu ul li a,.hotico img,#mycarousel li a img,.hotpic a img');
+	});
+	
+	</script>   
+	<![endif]-->
+
+<link href="{dede:global.cfg_templets_skin/}/style/nivo-slider.css" rel="stylesheet" media="screen" type="text/css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.nivo.slider.pack.js" ></script>   
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect:'random', //Specify sets like: 'fold,fade,sliceDown'
+        slices:15,
+        animSpeed:500, //Slide transition speed
+        pauseTime:6000,
+        startSlide:0, //Set starting Slide (0 index)
+        directionNav:false, //Next & Prev
+        directionNavHide:true, //Only show on hover
+        controlNav:false, //1,2,3...
+        keyboardNav:false, //Use left & right arrows
+        pauseOnHover:true, //Stop animation while hovering
+        manualAdvance:false, //Force manual transitions
+        captionOpacity:0.8 //Universal caption opacity
+    });
+});
+</script>
+    <div class="header_top w998">     
+    <ul class="language">
+       <li><a href="#">中文</a></li>
+       <li>|</li>
+       <li><a href="#">English</a></li>
+    </ul>
+    </div>
+	<div class="banner w998 center" id="slider">
+		<img src="/images/1.jpg" alt="Xt Banner">
+		<img src="/images/2.jpg" alt="Xt Banner">
+		<img src="/images/3.jpg" alt="Xt Banner">
+
+	</div><!-- //top -->
+	<!-- //菜单 -->
+	<div class="module blue mT10 wrapper w998">
+  	<div class="top">
+    	<!-- //如果不使用currentstyle，可以在channel标签加入 cacheid='channeltoplist' 属性提升性能 -->
+    <div id="navMenu">
+    	<ul>
+      	<li><a class="current" id="nav0" href='{dede:global.cfg_cmsurl/}/'></a></li>
+      	<li><a id="nav2" href='{dede:type typeid="2"}[field:typelink /]{/dede:type}'></a></li>
+      	<li><a id="nav3" href='{dede:type typeid="3"}[field:typelink /]{/dede:type}'></a></li>
+      	<li><a id="nav4" href='{dede:type typeid="4"}[field:typelink /]{/dede:type}'></a></li>
+      	<li><a id="navv" href='/member/'></a></li>
+      	<li><a id="nav34" href='{dede:type typeid="34"}[field:typelink /]{/dede:type}'></a></li>
+      	<li><a id="nav5" href='{dede:type typeid="5"}[field:typelink /]{/dede:type}'></a></li>
+    	</ul>
+    </div>	
+		</div>
+	</div>
+</div><!-- //header -->
+
 		<div class="w998 center clear mt1 home">
 			<div class="pleft"></div>
 			<div class="pmiddle">
@@ -83,8 +146,8 @@
    <td><img src="/images2/spacer.gif" width="101" height="1" border="0" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="8" height="1" border="0" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="93" height="1" border="0" alt="" /></td>
-   <td><img src="/images2/spacer.gif" width="6" height="1" border="0" alt="" /></td>
-   <td><img src="/images2/spacer.gif" width="10" height="1" border="0" alt="" /></td>
+   <td><img src="/images2/spacer.gif" width="8" height="1" border="0" alt="" /></td>
+   <td><img src="/images2/spacer.gif" width="8" height="1" border="0" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="3" height="1" border="0" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="97" height="1" border="0" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="9" height="1" border="0" alt="" /></td>
@@ -96,10 +159,12 @@
   <tr>
    <td colspan="4"><img name="new_r1_c1" src="/images2/new_r1_c1.jpg" width="228" height="122" border="0" id="new_r1_c1" alt="" /></td>
    <td rowspan="7"><img name="new_r1_c5" src="/images2/new_r1_c5.jpg" width="11" height="214" border="0" id="new_r1_c5" alt="" /></td>
-   <td rowspan="6" colspan="12"><object id="bcastr4" data="{dede:global.cfg_templets_skin/}/images/bcastr4.swf?xml=/uploads/cimgs/index_pic/bcastr.xml" type="application/x-shockwave-flash" width="427" height="190">
+   <td rowspan="6" colspan="12">
+   	<object id="bcastr4" data="{dede:global.cfg_templets_skin/}/images/bcastr4.swf?xml=/uploads/cimgs/index_pic/bcastr.xml" type="application/x-shockwave-flash" width="427" height="190">
 						<param name="movie" value="{dede:global.cfg_templets_skin/}/images/bcastr4.swf?xml=/uploads/cimgs/index_pic/bcastr.xml" />
-					</object></td>
-   <td rowspan="15" colspan="2"><img name="new_r1_c18" src="/images2/new_r1_c18.jpg" width="13" height="459" border="0" id="new_r1_c18" alt="" /></td>
+					</object>
+   </td>
+   <td rowspan="15" colspan="2"><img name="new_r1_c18" src="/images2/new_r1_c18.jpg" width="11" height="459" border="0" id="new_r1_c18" alt="" /></td>
    <td rowspan="5" colspan="4"><img name="new_r1_c20" src="/images2/new_r1_c20.jpg" width="229" height="201" border="0" id="new_r1_c20" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="1" height="122" border="0" alt="" /></td>
   </tr>
@@ -128,25 +193,27 @@
    <td><img src="/images2/spacer.gif" width="1" height="7" border="0" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="12"><img name="new_r7_c6" src="/images2/new_r7_c6.jpg" width="422" height="6" border="0" id="new_r7_c6" alt="" /></td>
+   <td colspan="12"><img name="new_r7_c6" src="/images2/new_r7_c6.jpg" width="424" height="6" border="0" id="new_r7_c6" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="1" height="6" border="0" alt="" /></td>
   </tr>
   <tr>
-   <td rowspan="7" colspan="10"><div id="hot">
+   <td rowspan="7" colspan="10">
+   	<div id="hot">
 					<div class="hotpic">
 						<a href="/plus/list.php?tid=2">{dede:arclist idlist='2' imgwidth='362' imgheight='200'}[field:image /]{/dede:arclist}</a>
 					</div>
 					<div class="hotico">
 						<img src="{dede:global.cfg_templets_skin/}/images/xt_ico_hot.png" width="75" height="77" alt="Xt Ico Hot" />
 					</div>
-				</div></td>
-   <td colspan="7"><img name="new_r8_c11" src="/images2/new_r8_c11.jpg" width="291" height="28" border="0" id="new_r8_c11" alt="" /></td>
+				</div>
+   </td>
+   <td colspan="7"><img name="new_r8_c11" src="/images2/new_r8_c11.jpg" width="293" height="28" border="0" id="new_r8_c11" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="1" height="28" border="0" alt="" /></td>
   </tr>
   <tr>
    <td rowspan="7"><img name="new_r9_c11" src="/images2/new_r9_c11.jpg" width="12" height="217" border="0" id="new_r9_c11" alt="" /></td>
    <td rowspan="6" colspan="5"><img name="new_r9_c12" src="/images2/new_r9_c12.jpg" width="273" height="205" border="0" id="new_r9_c12" alt="" /></td>
-   <td rowspan="7"><img name="new_r9_c17" src="/images2/new_r9_c17.jpg" width="6" height="217" border="0" id="new_r9_c17" alt="" /></td>
+   <td rowspan="7"><img name="new_r9_c17" src="/images2/new_r9_c17.jpg" width="8" height="217" border="0" id="new_r9_c17" alt="" /></td>
    <td colspan="4"><img name="new_r9_c20" src="/images2/new_r9_c20.gif" width="229" height="21" border="0" id="new_r9_c20" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="1" height="21" border="0" alt="" /></td>
   </tr>
@@ -177,71 +244,77 @@
    <td><img src="/images2/spacer.gif" width="1" height="12" border="0" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="7"><img name="new_r16_c1" src="/images2/new_r16_c1.jpg" width="286" height="166" border="0" id="new_r16_c1" alt="" /></td>
-   <td rowspan="11"><img name="new_r16_c8" src="/images2/new_r16_c8.jpg" width="26" height="473" border="0" id="new_r16_c8" alt="" /></td>
-   <td rowspan="3" colspan="15"><img name="new_r16_c9" src="/images2/new_r16_c9.jpg" width="591" height="219" border="0" id="new_r16_c9" alt="" /></td>
-   <td><img src="/images2/spacer.gif" width="1" height="166" border="0" alt="" /></td>
-  </tr>
-  <tr>
-   <td rowspan="2" colspan="4"><img name="new_r17_c1" src="/images2/new_r17_c1.jpg" width="228" height="53" border="0" id="new_r17_c1" alt="" /></td>
-   <td colspan="2"><a href="/plus/list.php?tid=35"><img name="new_r17_c5" src="/images2/new_r17_c5.gif" width="45" height="43" border="0" id="new_r17_c5" alt="" /></a></td>
-   <td rowspan="2"><img name="new_r17_c7" src="/images2/new_r17_c7.jpg" width="13" height="53" border="0" id="new_r17_c7" alt="" /></td>
-   <td><img src="/images2/spacer.gif" width="1" height="43" border="0" alt="" /></td>
-  </tr>
-  <tr>
-   <td colspan="2"><img name="new_r18_c5" src="/images2/new_r18_c5.jpg" width="45" height="10" border="0" id="new_r18_c5" alt="" /></td>
-   <td><img src="/images2/spacer.gif" width="1" height="10" border="0" alt="" /></td>
-  </tr>
-  <tr>
-   <td colspan="7"><img name="new_r19_c1" src="/images2/new_r19_c1.jpg" width="286" height="13" border="0" id="new_r19_c1" alt="" /></td>
-   <td colspan="15"><img name="new_r19_c9" src="/images2/new_r19_c9.jpg" width="591" height="13" border="0" id="new_r19_c9" alt="" /></td>
-   <td><img src="/images2/spacer.gif" width="1" height="13" border="0" alt="" /></td>
-  </tr>
-  <tr>
-   <td rowspan="2" colspan="7"><img name="new_r20_c1" src="/images2/new_r20_c1.jpg" width="286" height="167" border="0" id="new_r20_c1" alt="" /></td>
-   <td colspan="15"><img name="new_r20_c9" src="/images2/new_r20_c9.jpg" width="591" height="32" border="0" id="new_r20_c9" alt="" /></td>
+   <td rowspan="2" colspan="7"><img name="new_r16_c1" src="/images2/new_r16_c1.jpg" width="286" height="166" border="0" id="new_r16_c1" alt="" /></td>
+   <td rowspan="12"><img name="new_r16_c8" src="/images2/new_r16_c8.jpg" width="26" height="473" border="0" id="new_r16_c8" alt="" /></td>
+   <td colspan="15"><img name="new_r16_c9" src="/images2/new_r16_c9.jpg" width="591" height="32" border="0" id="new_r16_c9" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="1" height="32" border="0" alt="" /></td>
   </tr>
   <tr>
-   <td rowspan="2" colspan="5"><img name="new_r21_c9" src="/images2/new_r21_c9.jpg" width="141" height="149" border="0" id="new_r21_c9" alt="" /></td>
-   <td rowspan="5"><a href="#"><img name="new_r21_c14" src="/images2/new_r21_c14.jpg" width="101" height="188" border="0" id="new_r21_c14" alt="" /></a></td>
-   <td rowspan="5"><img name="new_r21_c15" src="/images2/new_r21_c15.jpg" width="8" height="188" border="0" id="new_r21_c15" alt="" /></td>
-   <td rowspan="5" colspan="2"><a href="#"><img name="new_r21_c16" src="/images2/new_r21_c16.jpg" width="99" height="188" border="0" id="new_r21_c16" alt="" /></a></td>
-   <td rowspan="5"><img name="new_r21_c18" src="/images2/new_r21_c18.jpg" width="10" height="188" border="0" id="new_r21_c18" alt="" /></td>
-   <td rowspan="5" colspan="2"><a href="#"><img name="new_r21_c19" src="/images2/new_r21_c19.jpg" width="100" height="188" border="0" id="new_r21_c19" alt="" /></a></td>
-   <td rowspan="5"><img name="new_r21_c21" src="/images2/new_r21_c21.jpg" width="9" height="188" border="0" id="new_r21_c21" alt="" /></td>
-   <td rowspan="5"><a href="#"><img name="new_r21_c22" src="/images2/new_r21_c22.jpg" width="101" height="188" border="0" id="new_r21_c22" alt="" /></a></td>
-   <td rowspan="5"><img name="new_r21_c23" src="/images2/new_r21_c23.jpg" width="22" height="188" border="0" id="new_r21_c23" alt="" /></td>
-   <td><img src="/images2/spacer.gif" width="1" height="135" border="0" alt="" /></td>
+   <td rowspan="3" colspan="15"
+   <a href="/plus/view.php?aid=92">{dede:arclist idlist='92' imgwidth='591' imgheight='187'}[field:image /]{/dede:arclist}</a>
+   </td>
+   <td><img src="/images2/spacer.gif" width="1" height="134" border="0" alt="" /></td>
   </tr>
   <tr>
-   <td rowspan="4" colspan="4"><img name="new_r22_c1" src="/images2/new_r22_c1.jpg" width="228" height="53" border="0" id="new_r22_c1" alt="" /></td>
-   <td rowspan="3" colspan="2"><a href="/plus/list.php?tid=36"><img name="new_r22_c5" src="/images2/new_r22_c5.jpg" width="45" height="43" border="0" id="new_r22_c5" alt="" /></a></td>
-   <td rowspan="4"><img name="new_r22_c7" src="/images2/new_r22_c7.jpg" width="13" height="53" border="0" id="new_r22_c7" alt="" /></td>
-   <td><img src="/images2/spacer.gif" width="1" height="14" border="0" alt="" /></td>
+   <td rowspan="2" colspan="4"><img name="new_r18_c1" src="/images2/new_r18_c1.jpg" width="228" height="53" border="0" id="new_r18_c1" alt="" /></td>
+   <td colspan="2"><a href="/plus/list.php?tid=35"><img name="new_r18_c5" src="/images2/new_r18_c5.gif" width="45" height="43" border="0" id="new_r18_c5" alt="" /></a></td>
+   <td rowspan="2"><img name="new_r18_c7" src="/images2/new_r18_c7.jpg" width="13" height="53" border="0" id="new_r18_c7" alt="" /></td>
+   <td><img src="/images2/spacer.gif" width="1" height="43" border="0" alt="" /></td>
   </tr>
   <tr>
-   <td rowspan="3"><img name="new_r23_c9" src="/images2/new_r23_c9.jpg" width="28" height="39" border="0" id="new_r23_c9" alt="" /></td>
-   <td colspan="3"><a href="/member/index_do.php?fmdo=user&amp;dopost=regnew"><img name="new_r23_c10" src="/images2/new_r23_c10.jpg" width="96" height="25" border="0" id="new_r23_c10" alt="" /></a></td>
-   <td rowspan="3"><img name="new_r23_c13" src="/images2/new_r23_c13.jpg" width="17" height="39" border="0" id="new_r23_c13" alt="" /></td>
-   <td><img src="/images2/spacer.gif" width="1" height="25" border="0" alt="" /></td>
-  </tr>
-  <tr>
-   <td rowspan="2" colspan="3"><img name="new_r24_c10" src="/images2/new_r24_c10.jpg" width="96" height="14" border="0" id="new_r24_c10" alt="" /></td>
-   <td><img src="/images2/spacer.gif" width="1" height="4" border="0" alt="" /></td>
-  </tr>
-  <tr>
-   <td colspan="2"><img name="new_r25_c5" src="/images2/new_r25_c5.jpg" width="45" height="10" border="0" id="new_r25_c5" alt="" /></td>
+   <td colspan="2"><img name="new_r19_c5" src="/images2/new_r19_c5.jpg" width="45" height="10" border="0" id="new_r19_c5" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="1" height="10" border="0" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="7"><img name="new_r26_c1" src="/images2/new_r26_c1.jpg" width="286" height="21" border="0" id="new_r26_c1" alt="" /></td>
-   <td colspan="15"><img name="new_r26_c9" src="/images2/new_r26_c9.jpg" width="591" height="21" border="0" id="new_r26_c9" alt="" /></td>
+   <td colspan="7"><img name="new_r20_c1" src="/images2/new_r20_c1.jpg" width="286" height="13" border="0" id="new_r20_c1" alt="" /></td>
+   <td colspan="15"><img name="new_r20_c9" src="/images2/new_r20_c9.jpg" width="591" height="13" border="0" id="new_r20_c9" alt="" /></td>
+   <td><img src="/images2/spacer.gif" width="1" height="13" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td rowspan="2" colspan="7"><img name="new_r21_c1" src="/images2/new_r21_c1.jpg" width="286" height="167" border="0" id="new_r21_c1" alt="" /></td>
+   <td colspan="15"><img name="new_r21_c9" src="/images2/new_r21_c9.jpg" width="591" height="32" border="0" id="new_r21_c9" alt="" /></td>
+   <td><img src="/images2/spacer.gif" width="1" height="32" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td rowspan="2" colspan="5"><img name="new_r22_c9" src="/images2/new_r22_c9.jpg" width="141" height="149" border="0" id="new_r22_c9" alt="" /></td>
+   <td rowspan="5"><a href="#"><img name="new_r22_c14" src="/images2/new_r22_c14.jpg" width="101" height="188" border="0" id="new_r22_c14" alt="" /></a></td>
+   <td rowspan="5"><img name="new_r22_c15" src="/images2/new_r22_c15.jpg" width="8" height="188" border="0" id="new_r22_c15" alt="" /></td>
+   <td rowspan="5" colspan="2"><a href="#"><img name="new_r22_c16" src="/images2/new_r22_c16.jpg" width="101" height="188" border="0" id="new_r22_c16" alt="" /></a></td>
+   <td rowspan="5"><img name="new_r22_c18" src="/images2/new_r22_c18.jpg" width="8" height="188" border="0" id="new_r22_c18" alt="" /></td>
+   <td rowspan="5" colspan="2"><a href="#"><img name="new_r22_c19" src="/images2/new_r22_c19.jpg" width="100" height="188" border="0" id="new_r22_c19" alt="" /></a></td>
+   <td rowspan="5"><img name="new_r22_c21" src="/images2/new_r22_c21.jpg" width="9" height="188" border="0" id="new_r22_c21" alt="" /></td>
+   <td rowspan="5"><a href="#"><img name="new_r22_c22" src="/images2/new_r22_c22.jpg" width="101" height="188" border="0" id="new_r22_c22" alt="" /></a></td>
+   <td rowspan="5"><img name="new_r22_c23" src="/images2/new_r22_c23.jpg" width="22" height="188" border="0" id="new_r22_c23" alt="" /></td>
+   <td><img src="/images2/spacer.gif" width="1" height="135" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td rowspan="4" colspan="4"><img name="new_r23_c1" src="/images2/new_r23_c1.jpg" width="228" height="53" border="0" id="new_r23_c1" alt="" /></td>
+   <td rowspan="3" colspan="2"><a href="/plus/list.php?tid=36"><img name="new_r23_c5" src="/images2/new_r23_c5.jpg" width="45" height="43" border="0" id="new_r23_c5" alt="" /></a></td>
+   <td rowspan="4"><img name="new_r23_c7" src="/images2/new_r23_c7.jpg" width="13" height="53" border="0" id="new_r23_c7" alt="" /></td>
+   <td><img src="/images2/spacer.gif" width="1" height="14" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td rowspan="3"><img name="new_r24_c9" src="/images2/new_r24_c9.jpg" width="28" height="39" border="0" id="new_r24_c9" alt="" /></td>
+   <td colspan="3"><a href="/member/index_do.php?fmdo=user&amp;dopost=regnew"><img name="new_r24_c10" src="/images2/new_r24_c10.jpg" width="96" height="25" border="0" id="new_r24_c10" alt="" /></a></td>
+   <td rowspan="3"><img name="new_r24_c13" src="/images2/new_r24_c13.jpg" width="17" height="39" border="0" id="new_r24_c13" alt="" /></td>
+   <td><img src="/images2/spacer.gif" width="1" height="25" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td rowspan="2" colspan="3"><img name="new_r25_c10" src="/images2/new_r25_c10.jpg" width="96" height="14" border="0" id="new_r25_c10" alt="" /></td>
+   <td><img src="/images2/spacer.gif" width="1" height="4" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="2"><img name="new_r26_c5" src="/images2/new_r26_c5.jpg" width="45" height="10" border="0" id="new_r26_c5" alt="" /></td>
+   <td><img src="/images2/spacer.gif" width="1" height="10" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="7"><img name="new_r27_c1" src="/images2/new_r27_c1.jpg" width="286" height="21" border="0" id="new_r27_c1" alt="" /></td>
+   <td colspan="15"><img name="new_r27_c9" src="/images2/new_r27_c9.jpg" width="591" height="21" border="0" id="new_r27_c9" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="1" height="21" border="0" alt="" /></td>
   </tr>
   <tr>
    <td colspan="23">
-   		<div id="homelist">
+   	<div id="homelist">
 					<div class="list_l">
 						<h1>
 							<img src="{dede:global.cfg_templets_skin/}/images/xt_index_title1.jpg" width="293" height="41" alt="Xt Index Title1" />
@@ -294,17 +367,17 @@
    <td><img src="/images2/spacer.gif" width="1" height="235" border="0" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="23"><img name="new_r28_c1" src="/images2/new_r28_c1.jpg" width="903" height="7" border="0" id="new_r28_c1" alt="" /></td>
+   <td colspan="23"><img name="new_r29_c1" src="/images2/new_r29_c1.jpg" width="903" height="7" border="0" id="new_r29_c1" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="1" height="7" border="0" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="23"><a href="/plus/list.php?tid=3"><img name="new_r29_c1" src="/images2/new_r29_c1.jpg" width="903" height="34" border="0" id="new_r29_c1" alt="" /></a></td>
+   <td colspan="23"><a href="/plus/list.php?tid=3"><img name="new_r30_c1" src="/images2/new_r30_c1.jpg" width="903" height="34" border="0" id="new_r30_c1" alt="" /></a></td>
    <td><img src="/images2/spacer.gif" width="1" height="34" border="0" alt="" /></td>
   </tr>
   <tr>
    <td colspan="23">
-   					<ul class="gushiyulan">
-						{dede:arclist titlelen='30' row='5' typeid='30' imgwidth='172' imgheight='114'}
+   		<ul class="gushiyulan">
+						{dede:arclist titlelen='30' row='5' typeid='30' imgwidth='172' imgheight='114' flag='h'}
 						<li><a href="[field:arcurl/]">[field:image /]</a><p><a href="[field:arcurl/]">[field:title/]</a></p></li>
 						{/dede:arclist}
 					</ul>
@@ -312,7 +385,7 @@
    <td><img src="/images2/spacer.gif" width="1" height="161" border="0" alt="" /></td>
   </tr>
   <tr>
-   <td colspan="23"><img name="new_r31_c1" src="/images2/new_r31_c1.jpg" width="903" height="18" border="0" id="new_r31_c1" alt="" /></td>
+   <td colspan="23"><img name="new_r32_c1" src="/images2/new_r32_c1.jpg" width="903" height="18" border="0" id="new_r32_c1" alt="" /></td>
    <td><img src="/images2/spacer.gif" width="1" height="18" border="0" alt="" /></td>
   </tr>
   <tr>
@@ -322,8 +395,8 @@
    	</ul>
    </td>
    <td><img src="/images2/spacer.gif" width="1" height="53" border="0" alt="" /></td>
-  </tr> 
-  <div class="newstory pa">
+  </tr>
+    <div class="newstory pa">
   	{dede:arclist limit='0,1' infolen='20' typeid='21'}
 [field:infos/]
 {/dede:arclist}

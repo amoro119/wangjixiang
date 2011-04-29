@@ -760,8 +760,8 @@ button{
 #nav3{background-image:url('../images/xt_nav3.png');}
 #nav4{background-image:url('../images/xt_nav4.png');}
 #navv{background-image:url('../images/xt_nav5.png');}
-#nav5{background-image:url('../images/xt_nav6.png');}
-#nav6{background-image:url('../images/xt_nav7.png');}
+#nav34{background-image:url('../images/xt_nav6.png');}
+#nav5{background-image:url('../images/xt_nav7.png');}
 #slider {
     position:relative;
     background:url(../images/loading.gif) no-repeat 50% 50%;
@@ -856,6 +856,7 @@ button{
 }
 .gushiblock ul li{
 	line-height:21px;
+	width:241px;
 }
 .gushiblock ul li a{
 	color:#000;
@@ -952,7 +953,8 @@ button{
 	background: url('../images/xt_bg_gushi_content.gif') no-repeat 0 0;
 	width:900px;
 	height:338px;
-	margin:16px 0 0 7px;
+	left:7px;
+	top:650px;
 	position:relative;
 }
 .jixianggushi4 .gushiwarp .gushicontent{
