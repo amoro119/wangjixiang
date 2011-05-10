@@ -36,10 +36,13 @@ function check(){
 		<h1><img src="{dede:global.cfg_templets_skin/}/images/xt_title_gushiliebiao.gif" width="915" height="70" alt="Xt Title Gushiliebiao"></h1>
 		<div class="newslist">
 				<ul>
-						{dede:arclist titlelen='15' row='20'}
+						{dede:list titlelen='15' pagesize='20'}
 						<li><a href="[field:arcurl/]">[field:title/]</a><span>[field:stime/]</span></li>
-						{/dede:arclist}
-				</ul>	
+						{/dede:list}
+				</ul>
+				<ul class="fenye">
+					{dede:pagelist listitem="pre,next,pageno" listsize="5"/}				
+				</ul>
 		</div>
 		<div class="rightpart">
 			<div class="gushiblock10">
