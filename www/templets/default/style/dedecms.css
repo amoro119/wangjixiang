@@ -954,8 +954,8 @@ button{
 	width:900px;
 	height:338px;
 	left:7px;
-	top:650px;
-	position:relative;
+	bottom:80px;
+	position:absolute;
 }
 .jixianggushi4 .gushiwarp .gushicontent{
 	position:absolute;
