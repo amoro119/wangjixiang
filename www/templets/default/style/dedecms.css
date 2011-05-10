@@ -1447,10 +1447,10 @@ button{
 	top:560px;
 	left:280px;
 }
-.hotnewslist .fenye li.thisclass{
+.fenye li.thisclass{
 	background:#f7b52c;
 }
-.hotnewslist .fenye li{
+.fenye li{
 	float:left;
 	padding:0 4px;
 }
