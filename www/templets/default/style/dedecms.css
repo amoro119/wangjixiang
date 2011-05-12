@@ -1213,6 +1213,7 @@ button{
 }
 .gushiblock10 ul li{
 	width:205px;
+	height:15px;
 }
 .gushiblock10 ul li a{
 	color:#000;
@@ -1453,7 +1454,7 @@ button{
 .fenye li.thisclass{
 	background:#f7b52c;
 }
-.hotnewslist .fenye li{
+.fenye li{
 	float:left;
 	padding:0 4px;
 }
