@@ -964,6 +964,7 @@ button{
 	top:24px;
 	left:47px;
 	width:844px;
+	line-height:22px;
 }
 .shangcheng1{
 	height:1388px;
@@ -1454,7 +1455,7 @@ button{
 .fenye li.thisclass{
 	background:#f7b52c;
 }
-.hotnewslist .fenye li{
+.fenye li{
 	float:left;
 	padding:0 4px;
 }
