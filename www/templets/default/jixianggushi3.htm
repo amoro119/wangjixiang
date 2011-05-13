@@ -37,11 +37,12 @@ function check(){
 		<div class="newslist">
 				<ul>
 						{dede:list titlelen='15' pagesize='20'}
-						<li><a href="[field:arcurl/]">[field:title/]</a><span>[field:stime/]</span></li>
+						<li><a href="[field:arcurl/]">[field:title/]</a><span>[field:stime/]</span>
+							<div class="clear"></div>
+						</li>
 						{/dede:list}
 				</ul>
-				<div class="clear">				
-				</div>
+
 				<ul class="fenye">
 					{dede:pagelist listitem="pre,next,pageno" listsize="5"/}				
 				</ul>
