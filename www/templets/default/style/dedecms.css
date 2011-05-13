@@ -1202,6 +1202,7 @@ button{
 }
 .newslist ul li a{
 	color:#000;
+	float:left;
 }
 .newslist ul li a:hover{
 	background:#aeddf2;
