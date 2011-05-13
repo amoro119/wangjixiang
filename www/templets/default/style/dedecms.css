@@ -1460,6 +1460,9 @@ button{
 	float:left;
 	padding:0 4px;
 }
+.fenye li span{
+	float:none !important;
+}
 .hotnewscontent{
 	background: url('../images/hotnews_bg.gif') no-repeat 0 0;
 	width:843px;
