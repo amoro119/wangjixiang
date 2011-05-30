@@ -1624,3 +1624,18 @@ button{
 	float:left;
 	padding-right:21px;
 }
+.homebizhi{
+	top:727px;
+	left:457px;
+}
+.homebizhi li{
+	float:left;
+	padding-right:8px;
+}
+.homeliuyan{
+	display:block;
+	width:97px;
+	height:24px;
+	top:877px;
+	left:340px;
+}
