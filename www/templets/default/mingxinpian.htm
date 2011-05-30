@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/dedecms_skins_0.css" type="text/css" id="cssfile" />
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_cmspath/}/images/js/j.js" ></script>
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.cookie.js"></script>
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/changeSkin.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function check(){
+		if(document.formsearch.searchtype.value=="")
+		document.formsearch.action="http://www.google.cn/custom"
+		else
+		document.formsearch.action="{dede:field name='phpurl'/}/search.php"
+	} 
+-->
+</script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.jcarousel.min.js" ></script> 
+<script type="text/javascript">
+function mycarousel_initCallback(carousel)
+{
+    // Disable autoscrolling if the user clicks the prev or next button.
+    carousel.buttonNext.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    carousel.buttonPrev.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    // Pause autoscrolling if the user moves with the cursor over the clip.
+    carousel.clip.hover(function() {
+        carousel.stopAuto();
+    }, function() {
+        carousel.startAuto();
+    });
+};
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+        auto: 5,
+        wrap: 'last',
+        initCallback: mycarousel_initCallback
+    });
+});
+</script>
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/shangcheng.css" /> 
+</head>
+<body class="channel">
+{dede:include filename="head.htm"/}
+<!-- /header -->
+<div class="w998 center clear mt1 shangcheng2">
+  	<div class="pleft">
+	</div>
+	<div class="pmiddle">
+		<div class="leftnav">
+			<img src="{dede:global.cfg_templets_skin/}/images/xt_ico_shangcheng_nav.gif" width="174" height="41" alt="Xt Ico Shangcheng Nav"><ul>
+				{dede:channel type='self' currentstyle="<li><a href='~typelink~' class='thisclass'>~typename~</a> </li>"}
+				<li><a href="[field:typelink /]">[field:typename /]</a></li>
+				{/dede:channel}		   
+			</ul>
+		</div>
+		<div class="rightpart">
+			<img src="{dede:global.cfg_templets_skin/}/images/xt_shangchang_title.gif" width="724" height="41" alt="Xt Shangchang Title"><div style="border:2px solid #8e9ba3;border-top:0px;margin-left:1px">
+							<object id="bcastr4" data="{dede:global.cfg_templets_skin/}/images/bcastr4.swf?xml=/uploads/cimgs/shangcheng/mingxinpian.xml" type="application/x-shockwave-flash" width="719" height="305">
+            <param name="movie" value="{dede:global.cfg_templets_skin/}/images/bcastr4.swf?xml=/uploads/cimgs/shangcheng/mingxinpian.xml" />  
+        	</object>
+			</div>
+			<img style="padding-top:4px;" src="{dede:global.cfg_templets_skin/}/images/xt_title_jinrituijian.gif" width="724" height="41" alt="Xt Title Jinrituijian">
+			<ul>
+				{dede:arclist flag='c' imgwidth='127' imgheight='122' titlelen='60'}
+			   <li>[field:image /]<a href="[field:description/]">[field:title/]</a><p>[field:shorttitle/]</p></li>
+			   {/dede:arclist}
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="xinpindaohuo">
+			<img src="{dede:global.cfg_templets_skin/}/images/xt_title_xinpindaohuo.gif" width="904" height="41" alt="Xt Title Xinpindaohuo">
+			<ul id="mycarousel" class="jcarousel-skin-tango">
+			{dede:arclist imgwidth='127' imgheight='122' titlelen='60' noflag='a,h'}
+			   <li>[field:image /]<a href="[field:description/]">[field:title/]</a><p>[field:shorttitle/]</p></li>
+			   {/dede:arclist}
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="tejiashangpin">
+			<img src="{dede:global.cfg_templets_skin/}/images/xt_title_tejia.gif" width="904" height="42" alt="Xt Title Tejia">
+			<div class="onsale">
+				<img src="{dede:global.cfg_templets_skin/}/images/xt_onsale.jpg" width="171" height="239" alt="Xt Onsale">
+			</div>
+			<div class="feature">
+				{dede:arclist imgwidth='361' imgheight='236' flag='a'}
+			   	<a href="[field:description/]">[field:image /]</a>
+			   	{/dede:arclist}	
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="pright">
+	</div>
+	<div class="clear"></div>
+</div>
+{dede:include filename="footer.htm"/}
+<!-- /footer -->
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/dedecms_skins_0.css" type="text/css" id="cssfile" />
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_cmspath/}/images/js/j.js" ></script>
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.cookie.js"></script>
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/changeSkin.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function check(){
+		if(document.formsearch.searchtype.value=="")
+		document.formsearch.action="http://www.google.cn/custom"
+		else
+		document.formsearch.action="{dede:field name='phpurl'/}/search.php"
+	} 
+-->
+</script>
+</head>
+<body class="channel">
+{dede:include filename="head.htm"/}
+<!-- /header -->
+<div class="w998 center clear mt1 jixianggushi2">
+  	<div class="pleft">
+	</div>
+	<div class="pmiddle">
+			<div id="cover-flow"></div>
+			<script type="text/javascript">
+				var flashvars = {};
+				flashvars.xmlPath = "/uploads/cimgs/coverflow/sangeban.xml";
+				flashvars.backgroundColor = "0xFFFFFF";
+				flashvars.labelColor = "0xFFFFFF"
+				var params = {};
+				params.loop = "false";
+				params.wmode = "transparent"
+				params.menu = "false";
+				params.quality = "best";
+				params.scale = "noscale";
+				params.salign = "tl";
+				var attributes = {};
+				swfobject.embedSWF("{dede:global.cfg_templets_skin/}/images/cover-flow.swf", "cover-flow", "904", "405", "10.0.0", "swf/expressInstall.swf", flashvars, params, attributes);
+			</script>
+			<div class="gushiblock">
+				<div class="gushiblock1">
+					<ul>
+						{dede:arclist titlelen='15' row='5'}
+						<li><a href="[field:arcurl/]">[field:title/]</a><span>[field:stime/]</span></li>
+						<div class="clear"></div>
+						{/dede:arclist}
+					</ul>
+					{dede:sonchannel}				
+					<a class="more" href="[field:typeurl/]"><img src="/templets/default/images/xt_btn_more.gif" width="30" height="14" alt="Xt Btn More"></a>
+					{/dede:sonchannel}
+				</div>
+				<div class="gushiblock2">
+					<ul>
+						{dede:arclist titlelen='15' row='5' typeid='19,20,21'}
+						<li><a href="[field:arcurl/]">[field:title/]</a><span>[field:stime/]</span></li>
+						<div class="clear"></div>
+						{/dede:arclist}
+					</ul>
+				</div>
+				<div class="gushiblock3">
+					<a style="left:24px;top:48px;position:absolute;" href="#"><img src="{dede:global.cfg_templets_skin/}/images/xt_btn_sangeban.gif" width="145" height="29" alt="Xt Btn Sangeban"></a>
+					<a style="left:73px;top:91px;position:absolute;" href="#"><img src="{dede:global.cfg_templets_skin/}/images/xt_btn_show.gif" width="204" height="41" alt="Xt Btn Show"></a>
+					<a style="left:48px;top:144px;position:absolute;" href="#"><img src="{dede:global.cfg_templets_skin/}/images/xt_btn_lewen.gif" width="133" height="33" alt="Xt Btn Lewen"></a>
+				</div>
+				<div class="clear"></div>
+			</div>
+	</div>
+	<div class="pright">
+	</div>
+	<div class="clear"></div>
+</div>
+{dede:include filename="footer.htm"/}
+<!-- /footer -->
+</body>
+</html>
