@@ -38,10 +38,16 @@ function check(){
 			<img src="{dede:field.litpic /}">
 		</div>
 		<div class="btn_next">
-			<img src="{dede:global.cfg_templets_skin/}/images/xt_btn_next.gif" width="42" height="51" alt="Xt Btn Next">
+			<a href="{dede:prenext get='next' runphp="yes"}
+preg_match_all('/<a.*?(?: |\\t|\\r|\\n)?href=[\'"]?(.+?)[\'"]?(?:(?: |\\t|\\r|\\n)+.*?)?>(.+?)<\/a.*?>/sim', @me, $strResult, PREG_PATTERN_ORDER);
+@me=$strResult[1][0];
+{/dede:prenext}"><img src="{dede:global.cfg_templets_skin/}/images/xt_btn_next.gif" width="42" height="51" alt="Xt Btn Next"></a>			
 		</div>
 		<div class="btn_pre">
-			<img src="{dede:global.cfg_templets_skin/}/images/xt_btn_pre.gif" width="40" height="51" alt="Xt Btn Pre">
+			<a href="{dede:prenext get='pro' runphp="yes"}
+preg_match_all('/<a.*?(?: |\\t|\\r|\\n)?href=[\'"]?(.+?)[\'"]?(?:(?: |\\t|\\r|\\n)+.*?)?>(.+?)<\/a.*?>/sim', @me, $strResult, PREG_PATTERN_ORDER);
+@me=$strResult[1][0];
+{/dede:prenext}"><img src="{dede:global.cfg_templets_skin/}/images/xt_btn_pre.gif" width="40" height="51" alt="Xt Btn Pre"> </a>
 		</div>
 		<div class="gushiwarp">
 			<div class="gushicontent">
